@@ -1,2 +1,2 @@
 # GEENOME
-GEENOME is a 16S rRNA metagenomic analysis tool that encompasses nearly all steps of downstream analysis. 
+GEENOME is a 16S rRNA metagenomic analysis tool that encompasses nearly all steps of downstream analysis. These steps include preprocessing to filter zero-inflated and low abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. The results of all the aforementioned steps are compiled into a single, detailed PDF file within a well-organized folder structure.
