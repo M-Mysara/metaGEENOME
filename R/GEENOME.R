@@ -142,6 +142,146 @@ feature_table_pre_process = function(feature_table, meta_data, sample_var, group
   res = list(feature_table = feature_table, meta_data = meta_data, structure_zeros = struc_zero)
   return(res)
 }
+###################################################################################################################
+###################################################################################################################
+#  pairwise.adonis2
+#'@title Pairwise multilevel comparison using adonis accepting strata
+#'
+#'@description This is a wrapper function for multilevel pairwise comparison
+#' using adonis() from package 'vegan'. The function accepts interaction between factors and strata.
+#'
+#'@param x Model formula. The LHS is either community matrix or dissimilarity matrix (eg. from vegdist or dist)
+#' See adonis() for details. The RHS are factors that nmust be column names of a data.frame specified with argument data.
+#'
+#'@param data The data frame of indipendent varibles having as column names the factors specified in formula.
+#'
+#'@param strata String. The name of the column with factors to be used as strata.
+#'
+#'@param nperm The number of permutations.
+#'
+#'@param ... Any other parameter passed to adonis
+#'
+#'@return List. Elements are the summary returned by adonis for each unique pairwise combination of factors.
+#'
+#'@author Pedro Martinez Arbizu
+#'
+#'@examples
+#' data(iris)
+#' pairwise.adonis2(iris[,1:4]~Species,data=iris)
+#'
+#' #For strata (blocks), Jari Oksanen recommends in the help of adonis2 to define the
+#' #permutation matrix outside the adonis2 call
+#' #In this example I have adapted the adonis2 example to have 3 factors in NO3
+#'
+#' dat <- expand.grid(rep=gl(2,1), NO3=factor(c(0,10,30)),field=gl(3,1) )
+#' Agropyron <- with(dat, as.numeric(field) + as.numeric(NO3)+2) +rnorm(18)/2
+#' Schizachyrium <- with(dat, as.numeric(field) - as.numeric(NO3)+2) +rnorm(18)/2
+#' Y <- data.frame(Agropyron, Schizachyrium)
+#' perm <- how(nperm = 199)
+#' setBlocks(perm) <- with(dat, field)
+#' adonis2(Y ~ NO3, data = dat, permutations = perm)
+#'
+#'
+#' # pairwise comparison
+#' pairwise.adonis2(Y ~ NO3, data = dat, strata = 'field')
+#' #notice the apostrophes in strata = 'field' !
+#'
+#' #this will give same results a doing adonis2 pairwise one by one
+#'
+#' #for factors '0' and '10'
+#' dat2 <- dat[dat$NO3 %in% c('0','10'),]
+#' Y2 <- Y[dat$NO3 %in% c('0','10'),]
+#' setBlocks(perm) <- with(dat2, field)
+#' adonis2(Y2 ~ NO3, data = dat2, permutations = perm)
+#' # and so on...
+#'
+#'@export pairwise.adonis2
+#'@importFrom utils combn
+#'@importFrom vegan adonis2 vegdist
+#'@import permute
+#'@importFrom stats as.dist as.formula model.frame
+
+
+pairwise.adonis2 <- function(x, data, strata = NULL, nperm=999, ... ) {
+  
+  #describe parent call function
+  ststri <- ifelse(is.null(strata),'Null',strata)
+  fostri <- as.character(x)
+  #list to store results
+  
+  #copy model formula
+  x1 <- x
+  # extract left hand side of formula
+  lhs <- eval(x1[[2]], environment(x1), globalenv())
+  environment(x1) <- environment()
+  # extract factors on right hand side of formula
+  rhs <- x1[[3]]
+  # create model.frame matrix
+  x1[[2]] <- NULL
+  rhs.frame <- model.frame(x1, data, drop.unused.levels = TRUE)
+  
+  # create unique pairwise combination of factors
+  co <- combn(unique(as.character(rhs.frame[,1])),2)
+  
+  # create names vector
+  nameres <- c('parent_call')
+  for (elem in 1:ncol(co)){
+    nameres <- c(nameres,paste(co[1,elem],co[2,elem],sep='_vs_'))
+  }
+  #create results list
+  res <- vector(mode="list", length=length(nameres))
+  names(res) <- nameres
+  
+  #add parent call to res
+  res['parent_call'] <- list(paste(fostri[2],fostri[1],fostri[3],', strata =',ststri, ', permutations',nperm ))
+  
+  
+  #start iteration trough pairwise combination of factors
+  for(elem in 1:ncol(co)){
+    
+    #reduce model elements
+    if(inherits(eval(lhs),'dist')){
+      xred <- as.dist(as.matrix(eval(lhs))[rhs.frame[,1] %in% c(co[1,elem],co[2,elem]),
+                                           rhs.frame[,1] %in% c(co[1,elem],co[2,elem])])
+    }else{
+      xred <- eval(lhs)[rhs.frame[,1] %in% c(co[1,elem],co[2,elem]),]
+    }
+    
+    mdat1 <-  data[rhs.frame[,1] %in% c(co[1,elem],co[2,elem]),]
+    
+    # redefine formula
+    if(length(rhs) == 1){
+      xnew <- as.formula(paste('xred',as.character(rhs),sep='~'))
+    }else{
+      xnew <- as.formula(paste('xred' ,
+                               paste(rhs[-1],collapse= as.character(rhs[1])),
+                               sep='~'))}
+    
+    #pass new formula to adonis
+    if(is.null(strata)){
+      ad <- adonis2(xnew,data=mdat1, ... )
+    }else{
+      perm <- how(nperm = nperm)
+      setBlocks(perm) <- with(mdat1, mdat1[,ststri])
+      ad <- adonis2(xnew,data=mdat1,permutations = perm, ... )}
+    
+    res[nameres[elem+1]] <- list(ad[1:5])
+  }
+  #names(res) <- names
+  class(res) <- c("pwadstrata", "list")
+  return(res)
+}
+
+
+### Method summary
+summary.pwadstrata = function(object, ...) {
+  cat("Result of pairwise.adonis2:\n")
+  cat("\n")
+  print(object[1], ...)
+  cat("\n")
+  
+  cat("Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n")
+}
 ####################################################################################################################
 ######################################## 2. preprocessing ##########################################################
 Pre_GEECLR = function(physeq, variables, id){
@@ -312,9 +452,9 @@ local_Post_GEECLR <-  function(geepack_mis){
 #' @param lib_cut Numeric. Samples with library size less than lib_cut are not included in the analysis.
 #' @param neg_lb Logical. TRUE indicates a taxon would be classified as a structural zero.
 #' @param model_form Character. Just detect the variables you need to enter in the formula.
-#' @param alpha
-#' @param n_cl
-#' @param prv_cut
+#' @param alpha Numeric. alpha cutoff 
+#' @param n_cl Numeric.
+#' @param prv_cut Numeric.
 #' @param AlphaBetaDiversity Logical. If you need to apply alpha and beta diversity steps or not. (the phyloseq must have tax_table)
 #' @param color_label Character. the variable or co-founder that used in coloring the plots. in the interested variable & in RCM
 #' @param BetaDiversity.distance Character. choose from "distanceMethodList" function
@@ -325,18 +465,64 @@ local_Post_GEECLR <-  function(geepack_mis){
 #' @param permanova.permutation_number Numeric. The number of permutation.
 #' @param adj_pvalue Character. The choosen method in adjust p-value. choose from c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")
 #' @param GEE_analysis Logical. Apply GEE downstream optionality if you don't need to re-analysis your data.
+#' @param fill_Alpha Character. choose your interested taxonomic level (Please make sure tax_table() in physeq has that's level) 
 #'
 #' @return A PDF file in the same directory called "GEENOME_plots.pdf"
 #' @export
 #'
 #' @examples
-#' res <- GEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut,
-#' lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
-#' color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,permanova.strata,permanova.permutation_number,adj_pvalue,GEE_analysis)
+#' library(phyloseq)
+#' 
+#' # load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
+#' data(dietswap, package = "microbiome")
+#' 
+#' phyloseq_data <- dietswap
+#' 
+#' # call library GEENOME
+#' library(GEENOME)
+#' 
+#' # detect various parameters
+#' # enter your phyloseq_data variable to be named "physeq"
+#' physeq = phyloseq_data 
+#' 
+#' # make sure from the column names in sample_data(physeq)
+#' variables <- c("bmi_group","timepoint.within.group") # variables & cofounders for RCM
+#' color_label <- c("timepoint") # is the interested variable & in RCM
+#' shape_label <- c("sex") # in RCM only
+#' id = "subject" # individual id (personal id for each participant even if repeated measures in time series)
+#' sample_var = "sample" # sample ID (equal to rownames of physeq@sam_data)
+#' 
+#' # Apply GEE downstream optionality if you don't need to re-analysis your data. 
+#' GEE_analysis <- TRUE 
+#' model_form <- c("bmi_group","timepoint.within.group")
+#' 
+#' # your need to make sure that phyloseq contain tax_table() before applying alpha & beta diversity
+#' AlphaBetaDiversity = TRUE
+#' BetaDiversity.distance <- "bray" # choose from these distances => distanceMethodList https://joey711.github.io/phyloseq/distance.html
+#' fill_Alpha = "Family" # choose your interested taxonomic level (Please make sure tax_table() in physeq has that's level) 
+#' axes = c(1,2) # You need to detect the axes before plotting the ordination after scree plot
+#' permanova.distance <- c("bray") # https://rdrr.io/bioc/phyloseq/man/distanceMethodList.html
+#' Permanova.strata = NULL # add strata if you need
+#' permanova.permutation_number <- 9999
+#' 
+#' # Preprocessing parameters
+#' group_var = NULL
+#' out_cut = 0.05
+#' zero_cut = 0.9
+#' lib_cut = 1000
+#' neg_lb = FALSE
+#' 
+#' adj_pvalue <- "BH" # choose from these => c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")
+#' 
+#' # Run GEENOME
+#' res <- GEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut, 
+#'               lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
+#'               color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,
+#'               permanova.strata,permanova.permutation_number,adj_pvalue,GEE_analysis,fill_Alpha)
 GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_cut,
                     lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
                     color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,permanova.strata,
-                    permanova.permutation_number,adj_pvalue,GEE_analysis){
+                    permanova.permutation_number,adj_pvalue,GEE_analysis,fill_Alpha){
 
 	  # The required package list:
 	list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
@@ -454,7 +640,7 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     # scaling the mouse data to the smallest samples. Note: rngseed is similar to set.seed
     phyloseq_scaled <- rarefy_even_depth(physeq,sample.size=2400, replace=FALSE, rngseed = 1)
     # Make a data frame with a column for the read counts of each sample
-    plot3 <- plot_bar(phyloseq_scaled, fill="Class")
+    plot3 <- plot_bar(phyloseq_scaled, fill=fill_Alpha)
     print(plot3)
 
     # Calculate alpha diversity with all available methods in Phyloseq separated in boxplots.
@@ -592,12 +778,12 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     phyloseq_data.ord <- ordinate(physeq, "NMDS", "bray")
 
     # you can change color or lablel for "Phylum"
-    p1 = plot_ordination(physeq, phyloseq_data.ord, type="taxa", color="Phylum", title="taxa")
+    p1 = plot_ordination(physeq, phyloseq_data.ord, type="taxa", color=fill_Alpha, title="taxa")
     print(p1)
 
     if (AlphaBetaDiversity == TRUE){
       # details of Phylum in NMDS
-      print( p1 + facet_wrap(~Phylum, 3) )
+      print( p1 + facet_wrap(eval(parse(text = paste0("~",fill_Alpha))), 3) )
     }
     ###################
     color = color_label
@@ -612,10 +798,17 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     #Supported Ordination Methods
     # You need to change distance type of your data like Bray-Curtis
     dist = BetaDiversity.distance
-
-    # You need to detect the mothod of Ordination
-    ord_meths = c("DCA", "CCA", "RDA", "DPCoA", "NMDS", "MDS", "PCoA")
-
+    
+    # detect if the phyloseq has phy_tree() or not to plot "DPCoA"
+    result <- try(phy_tree(physeq), silent = TRUE)
+    if (class(result) == "try-error") {
+      # You need to detect the mothod of Ordination
+      ord_meths = c("DCA", "CCA", "RDA","NMDS", "MDS", "PCoA")
+    } else {
+      # You need to detect the mothod of Ordination
+      ord_meths = c("DCA", "CCA", "RDA","DPCoA","NMDS", "MDS", "PCoA")
+    }
+    
     # You can check the different dimensions of ordination
     plot <- list()
     for (i in ord_meths){
@@ -691,7 +884,6 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
   grid.table(as.data.frame(adonis.result[1:5]))
   ###############################################################
   # library(pairwiseAdonis)
-  source("pairwise.adonis2.R")
 
   # you need to change strata acc to ***********************
   # and change the equation

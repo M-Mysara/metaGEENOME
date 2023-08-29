@@ -27,7 +27,8 @@ GEENOME(
   permanova.strata,
   permanova.permutation_number,
   adj_pvalue,
-  GEE_analysis
+  GEE_analysis,
+  fill_Alpha
 )
 }
 \arguments{
@@ -51,6 +52,12 @@ GEENOME(
 
 \item{model_form}{Character. Just detect the variables you need to enter in the formula.}
 
+\item{alpha}{Numeric. alpha cutoff}
+
+\item{n_cl}{Numeric.}
+
+\item{prv_cut}{Numeric.}
+
 \item{AlphaBetaDiversity}{Logical. If you need to apply alpha and beta diversity steps or not. (the phyloseq must have tax_table)}
 
 \item{color_label}{Character. the variable or co-founder that used in coloring the plots. in the interested variable & in RCM}
@@ -70,6 +77,8 @@ GEENOME(
 \item{adj_pvalue}{Character. The choosen method in adjust p-value. choose from c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")}
 
 \item{GEE_analysis}{Logical. Apply GEE downstream optionality if you don't need to re-analysis your data.}
+
+\item{fill_Alpha}{Character. choose your interested taxonomic level (Please make sure tax_table() in physeq has that's level)}
 }
 \value{
 A PDF file in the same directory called "GEENOME_plots.pdf"
@@ -78,7 +87,52 @@ A PDF file in the same directory called "GEENOME_plots.pdf"
 GEENOME
 }
 \examples{
-res <- GEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut,
-lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
-color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,permanova.strata,permanova.permutation_number,adj_pvalue,GEE_analysis)
+library(phyloseq)
+
+# load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
+data(dietswap, package = "microbiome")
+
+phyloseq_data <- dietswap
+
+# call library GEENOME
+library(GEENOME)
+
+# detect various parameters
+# enter your phyloseq_data variable to be named "physeq"
+physeq = phyloseq_data 
+
+# make sure from the column names in sample_data(physeq)
+variables <- c("bmi_group","timepoint.within.group") # variables & cofounders for RCM
+color_label <- c("timepoint") # is the interested variable & in RCM
+shape_label <- c("sex") # in RCM only
+id = "subject" # individual id (personal id for each participant even if repeated measures in time series)
+sample_var = "sample" # sample ID (equal to rownames of physeq@sam_data)
+
+# Apply GEE downstream optionality if you don't need to re-analysis your data. 
+GEE_analysis <- TRUE 
+model_form <- c("bmi_group","timepoint.within.group")
+
+# your need to make sure that phyloseq contain tax_table() before applying alpha & beta diversity
+AlphaBetaDiversity = TRUE
+BetaDiversity.distance <- "bray" # choose from these distances => distanceMethodList https://joey711.github.io/phyloseq/distance.html
+fill_Alpha = "Family" # choose your interested taxonomic level (Please make sure tax_table() in physeq has that's level) 
+axes = c(1,2) # You need to detect the axes before plotting the ordination after scree plot
+permanova.distance <- c("bray") # https://rdrr.io/bioc/phyloseq/man/distanceMethodList.html
+Permanova.strata = NULL # add strata if you need
+permanova.permutation_number <- 9999
+
+# Preprocessing parameters
+group_var = NULL
+out_cut = 0.05
+zero_cut = 0.9
+lib_cut = 1000
+neg_lb = FALSE
+
+adj_pvalue <- "BH" # choose from these => c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")
+
+# Run GEENOME
+res <- GEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut, 
+              lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
+              color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,
+              permanova.strata,permanova.permutation_number,adj_pvalue,GEE_analysis,fill_Alpha)
 }
