@@ -1,4 +1,18 @@
+# The required package list:
+list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
+                      "compositions", "grid", "gridExtra", "nlme", "optiscale", "propr", "webshot", "ftExtra",
+                      "flextable", "caret", "stringr", "DT", "htmlwidgets", "geepack","ggpubr","vegan","scales",
+                      "phyloseq","RCM","data.table","microbiome","heatmaply","permute")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
 
+# Load all required packages and show version
+for(i in list.of.packages)
+{
+  print(i)
+  print(packageVersion(i))
+  library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
+}
 ####################################################################################################################
 ####################################################################################################################
 # # To know where you are in your system
@@ -144,63 +158,6 @@ feature_table_pre_process = function(feature_table, meta_data, sample_var, group
 }
 ###################################################################################################################
 ###################################################################################################################
-#  pairwise.adonis2
-#'@title Pairwise multilevel comparison using adonis accepting strata
-#'
-#'@description This is a wrapper function for multilevel pairwise comparison
-#' using adonis() from package 'vegan'. The function accepts interaction between factors and strata.
-#'
-#'@param x Model formula. The LHS is either community matrix or dissimilarity matrix (eg. from vegdist or dist)
-#' See adonis() for details. The RHS are factors that nmust be column names of a data.frame specified with argument data.
-#'
-#'@param data The data frame of indipendent varibles having as column names the factors specified in formula.
-#'
-#'@param strata String. The name of the column with factors to be used as strata.
-#'
-#'@param nperm The number of permutations.
-#'
-#'@param ... Any other parameter passed to adonis
-#'
-#'@return List. Elements are the summary returned by adonis for each unique pairwise combination of factors.
-#'
-#'@author Pedro Martinez Arbizu
-#'
-#'@examples
-#' data(iris)
-#' pairwise.adonis2(iris[,1:4]~Species,data=iris)
-#'
-#' #For strata (blocks), Jari Oksanen recommends in the help of adonis2 to define the
-#' #permutation matrix outside the adonis2 call
-#' #In this example I have adapted the adonis2 example to have 3 factors in NO3
-#'
-#' dat <- expand.grid(rep=gl(2,1), NO3=factor(c(0,10,30)),field=gl(3,1) )
-#' Agropyron <- with(dat, as.numeric(field) + as.numeric(NO3)+2) +rnorm(18)/2
-#' Schizachyrium <- with(dat, as.numeric(field) - as.numeric(NO3)+2) +rnorm(18)/2
-#' Y <- data.frame(Agropyron, Schizachyrium)
-#' perm <- how(nperm = 199)
-#' setBlocks(perm) <- with(dat, field)
-#' adonis2(Y ~ NO3, data = dat, permutations = perm)
-#'
-#'
-#' # pairwise comparison
-#' pairwise.adonis2(Y ~ NO3, data = dat, strata = 'field')
-#' #notice the apostrophes in strata = 'field' !
-#'
-#' #this will give same results a doing adonis2 pairwise one by one
-#'
-#' #for factors '0' and '10'
-#' dat2 <- dat[dat$NO3 %in% c('0','10'),]
-#' Y2 <- Y[dat$NO3 %in% c('0','10'),]
-#' setBlocks(perm) <- with(dat2, field)
-#' adonis2(Y2 ~ NO3, data = dat2, permutations = perm)
-#' # and so on...
-#'
-#'@export pairwise.adonis2
-#'@importFrom utils combn
-#'@importFrom vegan adonis2 vegdist
-#'@import permute
-#'@importFrom stats as.dist as.formula model.frame
-
 
 pairwise.adonis2 <- function(x, data, strata = NULL, nperm=999, ... ) {
   
@@ -441,6 +398,12 @@ local_Post_GEECLR <-  function(geepack_mis){
 ####################################### 3. the main script #########################################################
 
 #' GEENOME
+#'@title GEENOME
+#'
+#'@description TGEENOME is a 16S rRNA metagenomic analysis tool that encompasses nearly all steps of downstream analysis. These steps include preprocessing to filter zero-inflated and low abundance data, 
+#' exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, 
+#' and applying a novel differential expression method using generalized estimating equations. 
+#' The results of all the aforementioned steps are compiled into a single, detailed PDF file within a well-organized folder structure.
 #'
 #' @param physeq Phyloseq format. The data input in phyloseq format.
 #' @param variables Character. The co-founders exist in metadata that affect on the taxa. in variables & cofounders for RCM
@@ -528,7 +491,7 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
 	list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
 		              "compositions", "grid", "gridExtra", "nlme", "optiscale", "propr", "webshot", "ftExtra",
 		              "flextable", "caret", "stringr", "DT", "htmlwidgets", "geepack","ggpubr","vegan","scales",
-		              "phyloseq","RCM","data.table","microbiome","heatmaply")
+		              "phyloseq","RCM","data.table","microbiome","heatmaply","permute")
 	new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 	if(length(new.packages)) install.packages(new.packages)
 
