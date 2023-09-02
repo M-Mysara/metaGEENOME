@@ -1,18 +1,18 @@
-# The required package list:
-list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
-                      "compositions", "grid", "gridExtra", "nlme", "optiscale", "propr", "webshot", "ftExtra",
-                      "flextable", "caret", "stringr", "DT", "htmlwidgets", "geepack","ggpubr","vegan","scales",
-                      "phyloseq","RCM","data.table","microbiome","heatmaply","permute")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
-
-# Load all required packages and show version
-for(i in list.of.packages)
-{
-  print(i)
-  print(packageVersion(i))
-  library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
-}
+# # The required package list:
+# list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
+#                       "compositions", "grid", "gridExtra", "nlme", "optiscale", "propr", "webshot", "ftExtra",
+#                       "flextable", "caret", "stringr", "DT", "htmlwidgets", "geepack","ggpubr","vegan","scales",
+#                       "phyloseq","RCM","data.table","microbiome","heatmaply","permute")
+# new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+# if(length(new.packages)) install.packages(new.packages)
+# 
+# # Load all required packages and show version
+# for(i in list.of.packages)
+# {
+#   print(i)
+#   print(packageVersion(i))
+#   library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
+# }
 ####################################################################################################################
 ####################################################################################################################
 # # To know where you are in your system
@@ -305,10 +305,10 @@ Pre_GEECLR = function(physeq, variables, id){
 ################
 Post_GEECLR <- function(data_mis,model_form_GEE){
 
-  library(geepack)
+  #library(geepack)
   set.seed(123)
   geepack_mis <- geeglm(formula(model_form_GEE), id=data_mis[[id]], data=data_mis, family=gaussian("identity"),corstr="exchangeable")
-  detach(package:geepack)
+  #detach(package:geepack)
   return(geepack_mis)
   # summary_coef <- summary(geepack_mis)$coefficients
   # return(summary_coef)
@@ -434,22 +434,36 @@ local_Post_GEECLR <-  function(geepack_mis){
 #' @export
 #'
 #' @examples
-#' library(phyloseq)
-#' 
+#' # The required package list:
+#' list.of.packages <- c("phyloseq", "microbiome","remotes")
+#' new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+#' if(length(new.packages)) install.packages(new.packages)
+#'  
+#' # Load all required packages and show version
+#' for(i in list.of.packages)
+#' {
+#'   print(i)
+#'   print(packageVersion(i))
+#'   library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
+#' }
+#' if (!requireNamespace("GEENOME", quietly = TRUE)) {
+#'   # Install "GEENOME" from GitHub
+#'   remotes::install_github("Ahmed-A-Mohamed/GEENOME")
+#' }
+#' #################################################################################################################
 #' # load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
 #' data(dietswap, package = "microbiome")
-#' 
 #' phyloseq_data <- dietswap
-#' 
+#'  
 #' # call library GEENOME
 #' library(GEENOME)
-#' 
+#'  
 #' # detect various parameters
 #' # enter your phyloseq_data variable to be named "physeq"
 #' physeq = phyloseq_data 
 #' 
 #' # make sure from the column names in sample_data(physeq)
-#' variables <- c("bmi_group","timepoint.within.group") # variables & cofounders for RCM
+#' variables <- c("bmi_group","timepoint") # variables & cofounders for RCM
 #' color_label <- c("timepoint") # is the interested variable & in RCM
 #' shape_label <- c("sex") # in RCM only
 #' id = "subject" # individual id (personal id for each participant even if repeated measures in time series)
@@ -457,7 +471,7 @@ local_Post_GEECLR <-  function(geepack_mis){
 #' 
 #' # Apply GEE downstream optionality if you don't need to re-analysis your data. 
 #' GEE_analysis <- TRUE 
-#' model_form <- c("bmi_group","timepoint.within.group")
+#' model_form <- c("bmi_group","timepoint")
 #' 
 #' # your need to make sure that phyloseq contain tax_table() before applying alpha & beta diversity
 #' AlphaBetaDiversity = TRUE
@@ -620,12 +634,16 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     grid.newpage()
     grid.table(rich)
 
-    result <- pairwise.wilcox.test(rich$Observed, sample_data(phyloseq_scaled)[[color_label]])
+    result_wilcox <- pairwise.wilcox.test(rich$Observed, sample_data(phyloseq_scaled)[[color_label]])
+    result_wilcox_dataframe <- as.data.frame(result_wilcox$p.value)
+    rownames(result_wilcox_dataframe) <- paste0(color_label,"_",rownames(result_wilcox_dataframe))
+    colnames(result_wilcox_dataframe) <- paste0(color_label,"_",colnames(result_wilcox_dataframe))
+    
     grid.newpage()
     # Add a title using grid.text
     title <- "Test whether the observed number of OTUs differs significantly between the variable using Wilcoxon rank-sum test"
     grid.text(title, x = 0.5, y = 0.95, gp = gpar(fontsize = 16, fontface = "bold"))
-    grid.table(as.data.frame(result$p.value))
+    grid.table(result_wilcox_dataframe)
 
     cat("Done >>>>>>>>>>>>>>>>>>>>>>> 3.Done Alpha diversity","\n")
     ##################################################################################
@@ -738,7 +756,7 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     #####################
     # ordination techniques like Non-Metric Multidimensional Scaling (NMDS)
     # Plot OTUs by NMDS
-    phyloseq_data.ord <- ordinate(physeq, "NMDS", "bray")
+    phyloseq_data.ord <- ordinate(physeq, "NMDS", BetaDiversity.distance)
 
     # you can change color or lablel for "Phylum"
     p1 = plot_ordination(physeq, phyloseq_data.ord, type="taxa", color=fill_Alpha, title="taxa")
@@ -940,7 +958,106 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
   }
   ##################################################################################
   # Close PDF device
+  # tryCatch({
+  #   dev.off()
+  # }, error=function(e){})
   dev.off()
+  ##################################################################################
+  ##################################################################################
+  # set the folder of plots directory
+  setwd(paste0(MyDirectory,"/GEENOME_plots/"))
+  
+  # histogram of sample read counts
+  ggsave("histogram _of_sample_read_counts.tiff", plot = plot1, width = 8, 
+         height = 6, dpi = 300,device = "tiff")
+  
+  # Plot OTUs in Rank abundance curve or Whittaker plot
+  ggsave("Plot_OTUs_in_Rank_abundance_curve_or_Whittaker_plot.tiff", plot = plot2, width = 8, 
+         height = 6, dpi = 300,device = "tiff")
+  
+  if (AlphaBetaDiversity == TRUE){
+    # rarefy_even_depth
+    ggsave(paste0("rarefy_even_depth.tiff"), plot = plot3, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    # Alpha diversity
+    write.csv(result_wilcox_dataframe, "Alpha_diversity.csv")
+    
+    # Beta_diversity
+    ggsave(paste0("Beta_diversity.tiff"), plot = plot4, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    # Beta_diversity_heatmap
+    ggsave(paste0("Beta_diversity_heatmap.tiff"), plot = plot5, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    # Unconstrained_RCM
+    ggsave(paste0("Unconstrained_RCM.tiff"), plot = plot6, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    # Total_confounders_RCM
+    ggsave(paste0("Total_confounders_RCM.tiff"), plot = plot7, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    # assign plot_phyloseq_data_RCM Function to plot confounder & random variables
+    for (i in confounders){
+      title_counfounders <- paste0("RCM for confounder"," ",i)
+      phyloseq_data_RCM_corr<-RCM(physeq,confounders=i,k=2)
+      plot <- plot_phyloseq_data_RCM(phyloseq_data_RCM_corr,color_variable, shape_variable, title_counfounders)
+      ggsave(paste0("RCM_for_confounder_",i,".tiff"), plot = plot, width = 8, 
+             height = 6, dpi = 300,device = "tiff")
+    }
+    
+    
+    for (i in parts_variable_splite){
+      title_variable_splite <- paste0("RCM split"," ", variable_splite, " ", "to", " ", i)
+      ##phyloseq_data_subset <- subset_samples(physeq, physeq@sam_data[[variable_splite]] %in% i)
+      phyloseq_data_subset <- prune_samples(physeq@sam_data[[variable_splite]] %in% i, physeq)
+      phyloseq_data_RCM_subset <- RCM(phyloseq_data_subset, k=2)
+      plot = plot_phyloseq_data_RCM(phyloseq_data_RCM_subset,color_variable_splite, variable_splite, title_variable_splite)
+      ggsave(paste0("RCM_split_",variable_splite,"_to_",i,".tiff"), plot = plot, width = 8, 
+             height = 6, dpi = 300,device = "tiff")
+    }
+    
+    p1 = plot_ordination(physeq, phyloseq_data.ord, type="taxa", color=fill_Alpha, title="taxa")
+    ggsave(paste0("NMDS_taxa.tiff"), plot = p1, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    p2 = plot_ordination(physeq, phyloseq_data.ord, type="samples", color= color, shape = shape)
+    ggsave(paste0("NMDS_samples.tiff"), plot = p2, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
+    
+    colnames(sample_data(physeq))[colnames(sample_data(physeq)) == color_label] <- c("group_stat_ellipse")
+    plot <- list()
+    for (i in ord_meths){
+      ord <- ordinate(physeq, i, dist)
+      plot = plot_ordination(physeq, ord, color = c("group_stat_ellipse"), shape=shape_label,
+                             title = i, axes = axes) +
+        geom_point(size=4) +
+        stat_ellipse(aes(group =  group_stat_ellipse ))
+      ggsave(paste0("ordination_",i,".tiff"), plot = plot, width = 8, 
+             height = 6, dpi = 300,device = "tiff")
+    }
+    colnames(sample_data(physeq))[colnames(sample_data(physeq)) == "group_stat_ellipse"] <- color_label
+  }
+  
+  ## NUll hypothesis
+  write.csv(as.data.frame(adonis.result[1:5]), "adonis_PERMANOVA.csv")
+  
+  for (result in 2:length(pairwise.adonis.result)) {
+    write.csv(as.data.frame(pairwise.adonis.result[noquote(names(pairwise.adonis.result)[result])]),
+              paste0("pairwise_adonis_",noquote(names(pairwise.adonis.result)[result]),".csv") )
+  }
+  
+  if (GEE_analysis == TRUE){
+    ## GEE result
+    write.csv(as.data.frame(global_result), "GEENOME_global.csv")
+    write.csv(as.data.frame(local_result), "GEENOME_local.csv")
+  }
+  
+  # back to the original directory
+  setwd(MyDirectory)
 }
 
 

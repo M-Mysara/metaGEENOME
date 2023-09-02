@@ -93,22 +93,36 @@ The results of all the aforementioned steps are compiled into a single, detailed
 GEENOME
 }
 \examples{
-library(phyloseq)
-
+# The required package list:
+list.of.packages <- c("phyloseq", "microbiome","remotes")
+new.packages <- list.of.packages[!(list.of.packages \%in\% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+ 
+# Load all required packages and show version
+for(i in list.of.packages)
+{
+  print(i)
+  print(packageVersion(i))
+  library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
+}
+if (!requireNamespace("GEENOME", quietly = TRUE)) {
+  # Install "GEENOME" from GitHub
+  remotes::install_github("Ahmed-A-Mohamed/GEENOME")
+}
+#################################################################################################################
 # load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
 data(dietswap, package = "microbiome")
-
 phyloseq_data <- dietswap
-
+ 
 # call library GEENOME
 library(GEENOME)
-
+ 
 # detect various parameters
 # enter your phyloseq_data variable to be named "physeq"
 physeq = phyloseq_data 
 
 # make sure from the column names in sample_data(physeq)
-variables <- c("bmi_group","timepoint.within.group") # variables & cofounders for RCM
+variables <- c("bmi_group","timepoint") # variables & cofounders for RCM
 color_label <- c("timepoint") # is the interested variable & in RCM
 shape_label <- c("sex") # in RCM only
 id = "subject" # individual id (personal id for each participant even if repeated measures in time series)
@@ -116,7 +130,7 @@ sample_var = "sample" # sample ID (equal to rownames of physeq@sam_data)
 
 # Apply GEE downstream optionality if you don't need to re-analysis your data. 
 GEE_analysis <- TRUE 
-model_form <- c("bmi_group","timepoint.within.group")
+model_form <- c("bmi_group","timepoint")
 
 # your need to make sure that phyloseq contain tax_table() before applying alpha & beta diversity
 AlphaBetaDiversity = TRUE

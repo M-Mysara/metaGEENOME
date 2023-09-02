@@ -1,0 +1,6 @@
+"","obese_vs_overweight.Df","obese_vs_overweight.SumOfSqs","obese_vs_overweight.R2","obese_vs_overweight.F","obese_vs_overweight.Pr..F."
+"bmi_group",1,0.94244137059091,0.0312732524162163,5.28311487899947,0.003
+"timepoint.within.group",1,0.117845438533519,0.00391049274826261,0.660615088817976,0.613
+"bmi_group:timepoint.within.group",1,0.176647494188051,0.00586173511352889,0.990246220088703,0.398
+"Residual",162,28.8987662643144,0.958954519721992,NA,NA
+"Total",165,30.1357005676269,1,NA,NA
