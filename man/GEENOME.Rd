@@ -122,15 +122,15 @@ library(GEENOME)
 physeq = phyloseq_data 
 
 # make sure from the column names in sample_data(physeq)
-variables <- c("bmi_group","timepoint") # variables & cofounders for RCM
-color_label <- c("timepoint") # is the interested variable & in RCM
+variables <- c("bmi_group","timepoint.within.group") # variables & cofounders for RCM
+color_label <- c("bmi_group") # is the interested variable & in RCM
 shape_label <- c("sex") # in RCM only
 id = "subject" # individual id (personal id for each participant even if repeated measures in time series)
 sample_var = "sample" # sample ID (equal to rownames of physeq@sam_data)
 
 # Apply GEE downstream optionality if you don't need to re-analysis your data. 
 GEE_analysis <- TRUE 
-model_form <- c("bmi_group","timepoint")
+model_form <- c("bmi_group","timepoint.within.group")
 
 # your need to make sure that phyloseq contain tax_table() before applying alpha & beta diversity
 AlphaBetaDiversity = TRUE
