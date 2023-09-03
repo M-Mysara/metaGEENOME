@@ -3,6 +3,8 @@ GEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstre
 
 ## Publication
 <img src="https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=blue" alt=""/>
+
+
 ## Manual for *GEENOME*
 ### A. Install GEENOME package
 ```
