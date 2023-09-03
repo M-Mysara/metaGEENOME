@@ -36,8 +36,8 @@ library(phyloseq)
 ```
 2. [Importing phyloseq Data](https://joey711.github.io/phyloseq/import-data)
 
-[!IMPORTANT]
-Make sure that the data has the same format as phyloseq before importing.
+> [!IMPORTANT]
+> Make sure that the data has the same format as phyloseq before importing.
 
 ![largerimage](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/7c41daf9-a0eb-4a5a-86c7-dbbd18d097de)
 
@@ -85,8 +85,8 @@ adj_pvalue <- "BH" # choose from these => c("holm", "hochberg", "hommel", "bonfe
 
 ```
 ### D. Apply the example
-[!WARNING]
-Ensure that you are in the R directory before running **GEENOME** because the results will be applied in that directory.
+> [!WARNING]
+> Ensure that you are in the R directory before running **GEENOME** because the results will be applied in that directory.
 ```
 # get your working directory
 getwd()
