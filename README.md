@@ -36,7 +36,7 @@ library(GEENOME)
 ```
 library(phyloseq)
 ```
-2. [Importing phyloseq Data](https://joey711.github.io/phyloseq/import-data)
+2. [**Importing phyloseq Data**](https://joey711.github.io/phyloseq/import-data)
 
 > [!IMPORTANT]
 > Make sure that the data has the same format as phyloseq before importing.
