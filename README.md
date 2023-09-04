@@ -1,15 +1,15 @@
-# METAMETAGEENOME
-![Screenshot from 2023-09-04 13-25-57](https://github.com/Ahmed-A-Mohamed/METAGEENOME/assets/82543843/f95b568c-75b1-499a-b133-44de47f173d8)
+# metaGEENOME
+![Screenshot from 2023-09-04 13-25-57](https://github.com/Ahmed-A-Mohamed/metaGEENOME/assets/82543843/f95b568c-75b1-499a-b133-44de47f173d8)
 
 
-METAGEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstream analysis steps. These steps include preprocessing to filter zero-inflated and low-abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. As mentioned earlier, the results of all the steps are compiled into a single, detailed PDF file within a well-organized folder structure.
+metaGEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstream analysis steps. These steps include preprocessing to filter zero-inflated and low-abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. As mentioned earlier, the results of all the steps are compiled into a single, detailed PDF file within a well-organized folder structure.
 
 ## Publication
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18914.svg)]()
 
 
-## Manual for *METAGEENOME*
-### A. Install METAGEENOME package
+## Manual for *metaGEENOME*
+### A. Install metaGEENOME package
 ```r
 # The required packages list:
 list.of.packages <- c("phyloseq", "microbiome","remotes")
@@ -23,15 +23,15 @@ for(i in list.of.packages)
   print(packageVersion(i))
   library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
 }
-if (!requireNamespace("METAGEENOME", quietly = TRUE)) {
-  # Install "METAGEENOME" from GitHub
-  remotes::install_github("Ahmed-A-Mohamed/METAGEENOME")
+if (!requireNamespace("metaGEENOME", quietly = TRUE)) {
+  # Install "metaGEENOME" from GitHub
+  remotes::install_github("Ahmed-A-Mohamed/metaGEENOME")
 }
 ```
-- you can read the detailed of METAGEENOME package from help in r
+- you can read the detailed of metaGEENOME package from help in r
 ```r
-library(METAGEENOME)
-?METAGEENOME
+library(metaGEENOME)
+?metaGEENOME
 ```
   
 ### B. Convert the 16S data into ***phyloseq***  
@@ -44,7 +44,7 @@ library(phyloseq)
 > [!IMPORTANT]
 > Make sure that the data has the same format as phyloseq before importing.
 
-![largerimage](https://github.com/Ahmed-A-Mohamed/METAGEENOME/assets/82543843/7c41daf9-a0eb-4a5a-86c7-dbbd18d097de)
+![largerimage](https://github.com/Ahmed-A-Mohamed/metaGEENOME/assets/82543843/7c41daf9-a0eb-4a5a-86c7-dbbd18d097de)
 
 ### C. Set the parameters carefully
 ```r
@@ -52,8 +52,8 @@ library(phyloseq)
 data(dietswap, package = "microbiome")
 phyloseq_data <- dietswap
 
-# call library METAGEENOME
-library(METAGEENOME)
+# call library metaGEENOME
+library(metaGEENOME)
 
 # detect various parameters
 # enter your phyloseq_data variable to be named "physeq"
@@ -91,13 +91,13 @@ adj_pvalue <- "BH" # choose from these => c("holm", "hochberg", "hommel", "bonfe
 ```
 ### D. Apply the example
 > [!WARNING]
-> Ensure that you are in the R directory before running **METAGEENOME** because the results will be applied in that directory.
+> Ensure that you are in the R directory before running **metaGEENOME** because the results will be applied in that directory.
 ```r
 # get your working directory
 getwd()
 
-# Run METAGEENOME
-res <- METAGEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut, 
+# Run metaGEENOME
+res <- metaGEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut, 
                lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
                color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,
                permanova.strata,permanova.permutation_number,adj_pvalue,GEE_analysis,fill_Alpha)
