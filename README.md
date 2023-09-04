@@ -1,4 +1,4 @@
-# metaGEEnome
+# METAGEENOME
 
 ![Screenshot from 2023-09-04 09-51-37](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/2623ed61-f1c7-469e-93e4-557411533401)
 
