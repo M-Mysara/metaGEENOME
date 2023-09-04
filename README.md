@@ -11,7 +11,7 @@ GEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstre
 
 ## Manual for *GEENOME*
 ### A. Install GEENOME package
-```ruby
+```java
 # The required packages list:
 list.of.packages <- c("phyloseq", "microbiome","remotes")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
