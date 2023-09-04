@@ -45,6 +45,7 @@ library(phyloseq)
 > Make sure that the data has the same format as phyloseq before importing.
 
 ![largerimage](https://github.com/Ahmed-A-Mohamed/metaGEENOME/assets/82543843/7c41daf9-a0eb-4a5a-86c7-dbbd18d097de)
+This image is taken from [phyloseq manual]([https://pages.github.com/](https://joey711.github.io/phyloseq/import-data)).
 
 ### C. Set the parameters carefully
 ```r
