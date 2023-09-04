@@ -1,5 +1,6 @@
 # metaGEENOME
-![Screenshot from 2023-09-04 13-33-52](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/b387b4db-774d-4986-9033-d8c664092729)
+![Screenshot from 2023-09-04 13-34-45](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/46ff38cd-56a4-4fc7-b8a4-ce228ac5ef1c)
+
 
 
 metaGEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstream analysis steps. These steps include preprocessing to filter zero-inflated and low-abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. As mentioned earlier, the results of all the steps are compiled into a single, detailed PDF file within a well-organized folder structure.
