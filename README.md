@@ -47,7 +47,7 @@ library(phyloseq)
 
 ![largerimage](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/7c41daf9-a0eb-4a5a-86c7-dbbd18d097de)
 
-### C. Detect the parameters carefully
+### C. Set the parameters carefully
 ```r
 # load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
 data(dietswap, package = "microbiome")
