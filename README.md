@@ -11,7 +11,7 @@ GEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstre
 
 ## Manual for *GEENOME*
 ### A. Install GEENOME package
-```
+```ruby
 # The required packages list:
 list.of.packages <- c("phyloseq", "microbiome","remotes")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
@@ -30,14 +30,14 @@ if (!requireNamespace("GEENOME", quietly = TRUE)) {
 }
 ```
 - you can read the detailed of GEENOME package from help in r
-```
+```ruby
 library(GEENOME)
 ?GEENOME
 ```
   
 ### B. Convert the 16S data into ***phyloseq***  
 1. call phyloseq package on R
-```
+```ruby
 library(phyloseq)
 ```
 2. [**Importing phyloseq Data**](https://joey711.github.io/phyloseq/import-data)
@@ -48,7 +48,7 @@ library(phyloseq)
 ![largerimage](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/7c41daf9-a0eb-4a5a-86c7-dbbd18d097de)
 
 ### C. Detect the parameters carefully
-```
+```ruby
 # load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
 data(dietswap, package = "microbiome")
 phyloseq_data <- dietswap
@@ -93,7 +93,7 @@ adj_pvalue <- "BH" # choose from these => c("holm", "hochberg", "hommel", "bonfe
 ### D. Apply the example
 > [!WARNING]
 > Ensure that you are in the R directory before running **GEENOME** because the results will be applied in that directory.
-```
+```ruby
 # get your working directory
 getwd()
 
