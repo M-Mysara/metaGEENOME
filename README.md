@@ -1,5 +1,6 @@
 # metaGEENOME
-![Screenshot from 2023-09-04 13-34-45](https://github.com/Ahmed-A-Mohamed/GEENOME/assets/82543843/46ff38cd-56a4-4fc7-b8a4-ce228ac5ef1c)
+
+![Screenshot from 2023-09-04 13-37-25](https://github.com/Ahmed-A-Mohamed/metaGEENOME/assets/82543843/03d1a59e-de62-4e64-97c1-28346806ff4a)
 
 
 
