@@ -397,10 +397,10 @@ local_Post_GEECLR <-  function(geepack_mis){
 ####################################################################################################################
 ####################################### 3. the main script #########################################################
 
-#' GEENOME
-#'@title GEENOME
+#' metaGEENOME
+#'@title metaGEENOME
 #'
-#'@description TGEENOME is a 16S rRNA metagenomic analysis tool that encompasses nearly all steps of downstream analysis. These steps include preprocessing to filter zero-inflated and low abundance data, 
+#'@description metaGEENOME is a 16S rRNA metagenomic analysis tool that encompasses nearly all steps of downstream analysis. These steps include preprocessing to filter zero-inflated and low abundance data, 
 #' exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, 
 #' and applying a novel differential expression method using generalized estimating equations. 
 #' The results of all the aforementioned steps are compiled into a single, detailed PDF file within a well-organized folder structure.
@@ -430,7 +430,7 @@ local_Post_GEECLR <-  function(geepack_mis){
 #' @param GEE_analysis Logical. Apply GEE downstream optionality if you don't need to re-analysis your data.
 #' @param fill_Alpha Character. choose your interested taxonomic level (Please make sure tax_table() in physeq has that's level) 
 #'
-#' @return A PDF file in the same directory called "GEENOME_plots.pdf"
+#' @return A PDF file in the same directory called "metaGEENOME_plots.pdf"
 #' @export
 #'
 #' @examples
@@ -446,17 +446,17 @@ local_Post_GEECLR <-  function(geepack_mis){
 #'   print(packageVersion(i))
 #'   library(i, quietly=TRUE, verbose=FALSE, warn.conflicts=FALSE, character.only=TRUE)
 #' }
-#' if (!requireNamespace("GEENOME", quietly = TRUE)) {
-#'   # Install "GEENOME" from GitHub
-#'   remotes::install_github("Ahmed-A-Mohamed/GEENOME")
+#' if (!requireNamespace("metaGEENOME", quietly = TRUE)) {
+#'   # Install "metaGEENOME" from GitHub
+#'   remotes::install_github("Ahmed-A-Mohamed/metaGEENOME")
 #' }
 #' #################################################################################################################
 #' # load A two-week diet swap study between western (USA) and traditional (rural Africa) diets (Lahti et al. 2014).
 #' data(dietswap, package = "microbiome")
 #' phyloseq_data <- dietswap
 #'  
-#' # call library GEENOME
-#' library(GEENOME)
+#' # call library metaGEENOME
+#' library(metaGEENOME)
 #'  
 #' # detect various parameters
 #' # enter your phyloseq_data variable to be named "physeq"
@@ -491,21 +491,33 @@ local_Post_GEECLR <-  function(geepack_mis){
 #' 
 #' adj_pvalue <- "BH" # choose from these => c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none")
 #' 
-#' # Run GEENOME
-#' res <- GEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut, 
+#' # Run metaGEENOME
+#' res <- metaGEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_cut, 
 #'               lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
 #'               color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,
 #'               permanova.strata,permanova.permutation_number,adj_pvalue,GEE_analysis,fill_Alpha)
-GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_cut,
+metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_cut,
                     lib_cut, neg_lb, model_form, alpha, n_cl, prv_cut,AlphaBetaDiversity,
                     color_label,BetaDiversity.distance,shape_label,axes,permanova.distance,permanova.strata,
                     permanova.permutation_number,adj_pvalue,GEE_analysis,fill_Alpha){
 
+  if (!require(RCM, quietly = TRUE)) {
+    # If not installed, install it
+    if (!require("BiocManager", quietly = TRUE))
+      install.packages("BiocManager")
+    
+    BiocManager::install("RCM")
+    # Load the package after installation
+    library(RCM)
+  } else {
+    # If already installed, just load the package
+    library(RCM)
+  }
 	  # The required package list:
 	list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
-		              "compositions", "grid", "gridExtra", "nlme", "optiscale", "propr", "webshot", "ftExtra",
+		              "compositions", "grid", "gridExtra", "optiscale", "propr", "webshot", "ftExtra",
 		              "flextable", "caret", "stringr", "DT", "htmlwidgets", "geepack","ggpubr","vegan","scales",
-		              "phyloseq","RCM","data.table","microbiome","heatmaply","permute")
+		              "phyloseq","data.table","microbiome","heatmaply","permute")
 	new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 	if(length(new.packages)) install.packages(new.packages)
 
@@ -522,18 +534,18 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
   MyDirectory <- getwd()
   cat("!!!>>>>>>>>>> your output will be in this directory:",MyDirectory,"\n")
   cat("!!!>>>>>>>>>> make sure that this script and your data in the same directory","\n")
-  cat("!!!>>>>>>>>>> The output plots in details will be saved in separated folder called *GEENOME_plots*")
+  cat("!!!>>>>>>>>>> The output plots in details will be saved in separated folder called *metaGEENOME_plots*")
 
   # Setting another directory such as Desktop if you like, but make sure that this script and your data in the same directory
   setwd(MyDirectory)
   #setwd("F:/GitHub/16S_postprocessing")
 
   # detect the distination to save PDF file
-  destination <- paste0(MyDirectory,"/GEENOME_plots.pdf") # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< check this PDF again
+  destination <- paste0(MyDirectory,"/metaGEENOME_plots.pdf") # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< check this PDF again
 
   # create new folder to save the plots outputs
   folder_path <- MyDirectory
-  folder_name <- "GEENOME_plots"
+  folder_name <- "metaGEENOME_plots"
   dir.create(file.path(folder_path, folder_name))
   ####################################################################################################################
   ####################################################################################################################
@@ -626,14 +638,39 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     # plotting the alpha diversity estimators and color by metadata label like condition.
     plot_AlphaDiversity_methods <- plot_richness(phyloseq_scaled, color_label, measures=AlphaDiversity_methods, color=color_label)
     # plot data from "p" as a boxplot with ggplot2
-    plot_AlphaDiversity_methods + geom_boxplot(data=plot_AlphaDiversity_methods$data, aes(x=noquote(color_label), color=NULL))
-
+    plot_AlphaDiversity <- plot_AlphaDiversity_methods + geom_boxplot(data=plot_AlphaDiversity_methods$data, aes(x=noquote(color_label), color=NULL))
+    print(plot_AlphaDiversity)
+    
     # get richness
     rich = estimate_richness(phyloseq_scaled)
+    # round all numbers in richness
+    # Function to round a number
+    round_df <- function(x) {
+      if (is.numeric(x)) {
+        return(round(x, 3))  # Rounding to 2 decimal places
+      } else {
+        return(x)
+      }
+    }
+    rich <- apply(rich, 2, round_df)
     #Plot your table with table Grob in the library(gridExtra)
+    # create local result
     grid.newpage()
-    grid.table(rich)
-
+    title <- paste0("richness")
+    grid.text(title, x = 0.5, y = 0.95, gp = gpar(fontsize = 16, fontface = "bold"))
+    # Split the long table into chunks and create PDF pages
+    chunk_size <- 30  # Number of rows per page
+    num_rows <- nrow(rich)
+    num_pages <- ceiling(num_rows / chunk_size)
+    
+    for (page in 1:num_pages) {
+      start_row <- (page - 1) * chunk_size + 1
+      end_row <- min(start_row + chunk_size - 1, num_rows)
+      table_chunk <- rich[start_row:end_row, ]
+      grid.arrange(tableGrob(table_chunk))
+    }
+    ###########
+    # https://micca.readthedocs.io/en/latest/phyloseq.html
     result_wilcox <- pairwise.wilcox.test(rich$Observed, sample_data(phyloseq_scaled)[[color_label]])
     result_wilcox_dataframe <- as.data.frame(result_wilcox$p.value)
     rownames(result_wilcox_dataframe) <- paste0(color_label,"_",rownames(result_wilcox_dataframe))
@@ -644,6 +681,18 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     title <- "Test whether the observed number of OTUs differs significantly between the variable using Wilcoxon rank-sum test"
     grid.text(title, x = 0.5, y = 0.95, gp = gpar(fontsize = 16, fontface = "bold"))
     grid.table(result_wilcox_dataframe)
+    ################
+    # for Shannon
+    result_wilcox_Shannon <- pairwise.wilcox.test(rich$Shannon, sample_data(phyloseq_scaled)[[color_label]])
+    result_wilcox_dataframe_Shannon <- as.data.frame(result_wilcox_Shannon$p.value)
+    rownames(result_wilcox_dataframe_Shannon) <- paste0(color_label,"_",rownames(result_wilcox_dataframe_Shannon))
+    colnames(result_wilcox_dataframe_Shannon) <- paste0(color_label,"_",colnames(result_wilcox_dataframe_Shannon))
+    
+    grid.newpage()
+    # Add a title using grid.text
+    title <- "Test whether the Shannon indexes of OTUs differs significantly between the variable using Wilcoxon rank-sum test"
+    grid.text(title, x = 0.5, y = 0.95, gp = gpar(fontsize = 16, fontface = "bold"))
+    grid.table(result_wilcox_dataframe_Shannon)
 
     cat("Done >>>>>>>>>>>>>>>>>>>>>>> 3.Done Alpha diversity","\n")
     ##################################################################################
@@ -771,7 +820,7 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     shape = shape_label
     # you need to change the color & shape
     #p2 = plot_ordination(phyloseq_data, phyloseq_data.ord, type="samples", color= color, shape #= shape)
-    p2 = plot_ordination(physeq, phyloseq_data.ord, type="samples", color= color, shape = shape)
+    p2 = plot_ordination(physeq, phyloseq_data.ord, type="samples", color= color, shape = shape, title="samples")
     print(p2)
     ###################
     # biplot graphic
@@ -881,14 +930,14 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
 
   cat("Done >>>>>>>>>>>>>>>>>>>>>>> 6.Done Null hypothesis","\n")
   ##################################################################################
-  ######################### 7. GEENOME main script #################################
+  ######################### 7. metaGEENOME main script #################################
   if (GEE_analysis == TRUE){
-    cat("\n","!!!!!!!!!!!!!! The GEENOME step may take a long time, depending on your complex formula !!!!!!!!!!!!!!","\n")
+    cat("\n","!!!!!!!!!!!!!! The metaGEENOME step may take a long time, depending on your complex formula !!!!!!!!!!!!!!","\n")
 
     plotSep6 <- ggplot() +
       ggplot2::annotate("text", x = 10,  y = 10,
                         size = 6,
-                        label = "6. GEENOME results global & local") + theme_void()
+                        label = "6. metaGEENOME results global & local") + theme_void()
     print(plotSep6)
 
     data_mis <- Pre_GEECLR(physeq, variables, id)
@@ -954,7 +1003,7 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
     }
     #######################
 
-    cat("Done >>>>>>>>>>>>>>>>>>>>>>> 7.Done GEENOME","\n")
+    cat("Done >>>>>>>>>>>>>>>>>>>>>>> 7.Done metaGEENOME","\n")
   }
   ##################################################################################
   # Close PDF device
@@ -965,7 +1014,7 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
   ##################################################################################
   ##################################################################################
   # set the folder of plots directory
-  setwd(paste0(MyDirectory,"/GEENOME_plots/"))
+  setwd(paste0(MyDirectory,"/metaGEENOME_plots/"))
   
   # histogram of sample read counts
   ggsave("histogram _of_sample_read_counts.tiff", plot = plot1, width = 8, 
@@ -981,7 +1030,14 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
            height = 6, dpi = 300,device = "tiff")
     
     # Alpha diversity
-    write.csv(result_wilcox_dataframe, "Alpha_diversity.csv")
+    write.csv(result_wilcox_dataframe, "Alpha_diversity_significant_OTU_Wilcoxon_Observed.csv")
+    
+    write.csv(result_wilcox_dataframe_Shannon, "Alpha_diversity_significant_OTU_Wilcoxon_Shannon.csv")
+    
+    # Box plots Alpha diversity
+    ggsave(paste0("Boxplots_AlphaDiversity.tiff"), plot = plot_AlphaDiversity, width = 8, 
+           height = 6, dpi = 300,device = "tiff")
+    
     
     # Beta_diversity
     ggsave(paste0("Beta_diversity.tiff"), plot = plot4, width = 8, 
@@ -1052,8 +1108,8 @@ GEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, zero_
   
   if (GEE_analysis == TRUE){
     ## GEE result
-    write.csv(as.data.frame(global_result), "GEENOME_global.csv")
-    write.csv(as.data.frame(local_result), "GEENOME_local.csv")
+    write.csv(as.data.frame(global_result), "metaGEENOME_global.csv")
+    write.csv(as.data.frame(local_result), "metaGEENOME_local.csv")
   }
   
   # back to the original directory
