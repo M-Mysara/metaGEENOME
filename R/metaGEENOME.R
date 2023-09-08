@@ -598,7 +598,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
   # histogram of sample read counts
   plot_Raw <- ggplot(read_counts_df_RawData, aes(x = sum)) +
     geom_histogram(color = "black", fill = "indianred", binwidth = 1000) +
-    ggtitle("Distribution of sample sequencing depth") +
+    ggtitle("Distribution of sample sequencing depth before the filtering") +
     xlab("Read counts") +
     theme(axis.title.y = element_blank())
   print(plot_Raw)
@@ -610,7 +610,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
   # histogram of sample read counts
   plot1 <- ggplot(read_counts_df, aes(x = sum)) +
     geom_histogram(color = "black", fill = "indianred", binwidth = 1000) +
-    ggtitle("Distribution of sample sequencing depth") +
+    ggtitle("Distribution of sample sequencing depth after the filtering") +
     xlab("Read counts") +
     theme(axis.title.y = element_blank())
   print(plot1)
