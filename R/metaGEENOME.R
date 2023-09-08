@@ -555,6 +555,9 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
   par(mfrow = c(2,2))
   ##################################################################################
   ############################# 1. Preprocessing ###################################
+  # save the raw data before filtering
+  RawData <- physeq
+  
   otu_data = physeq@otu_table
   otu_data =physeq@otu_table[ sort(rownames(physeq@otu_table)) ,]
   meta_data = physeq@sam_data
@@ -588,6 +591,19 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
   # Let's look at the distribution of your data by histogram distribution and some statistical parameters.
   # We need to create data frame from read counts of each sample by using "sample_sums" function in Phyloseq.
 
+  ## plot histogram before filtering
+  # create data frame
+  read_counts_df_RawData <- data.frame(sum = sample_sums(RawData))
+  
+  # histogram of sample read counts
+  plot_Raw <- ggplot(read_counts_df_RawData, aes(x = sum)) +
+    geom_histogram(color = "black", fill = "indianred", binwidth = 1000) +
+    ggtitle("Distribution of sample sequencing depth") +
+    xlab("Read counts") +
+    theme(axis.title.y = element_blank())
+  print(plot_Raw)
+  
+  ## plot histogram after filtering
   # create data frame
   read_counts_df <- data.frame(sum = sample_sums(physeq))
 
