@@ -687,7 +687,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
     }
     ###########
     # https://micca.readthedocs.io/en/latest/phyloseq.html
-    result_wilcox <- pairwise.wilcox.test(rich$Observed, sample_data(phyloseq_scaled)[[color_label]])
+    result_wilcox <- pairwise.wilcox.test(rich[,"Observed"], sample_data(phyloseq_scaled)[[color_label]])
     result_wilcox_dataframe <- as.data.frame(result_wilcox$p.value)
     rownames(result_wilcox_dataframe) <- paste0(color_label,"_",rownames(result_wilcox_dataframe))
     colnames(result_wilcox_dataframe) <- paste0(color_label,"_",colnames(result_wilcox_dataframe))
@@ -699,7 +699,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
     grid.table(result_wilcox_dataframe)
     ################
     # for Shannon
-    result_wilcox_Shannon <- pairwise.wilcox.test(rich$Shannon, sample_data(phyloseq_scaled)[[color_label]])
+    result_wilcox_Shannon <- pairwise.wilcox.test(rich[,"Shannon"], sample_data(phyloseq_scaled)[[color_label]])
     result_wilcox_dataframe_Shannon <- as.data.frame(result_wilcox_Shannon$p.value)
     rownames(result_wilcox_dataframe_Shannon) <- paste0(color_label,"_",rownames(result_wilcox_dataframe_Shannon))
     colnames(result_wilcox_dataframe_Shannon) <- paste0(color_label,"_",colnames(result_wilcox_dataframe_Shannon))
