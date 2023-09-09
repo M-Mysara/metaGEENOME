@@ -1,9 +1,9 @@
-# metaGEENOME
+# meta :microbe: GEENOME
 
 ![Screenshot from 2023-09-04 21-10-19](https://github.com/Ahmed-A-Mohamed/metaGEENOME/assets/82543843/b85bc799-d9af-4e28-a0b2-7a6a3d0de82e)
 
 
-metaGEENOME is a 16S rRNA metagenomic analysis tool encompassing nearly all downstream analysis steps. These steps include preprocessing to filter zero-inflated and low-abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. As mentioned earlier, the results of all the steps are compiled into a single, detailed PDF file within a well-organized folder structure.
+*metaGEENOME* is a 16S rRNA metagenomic analysis tool encompassing nearly all downstream analysis steps. These steps include preprocessing to filter zero-inflated and low-abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. As mentioned earlier, the results of all the steps are compiled into a single, detailed PDF file with a well-organized folder structure.
 
 ## Publication
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18914.svg)]()
