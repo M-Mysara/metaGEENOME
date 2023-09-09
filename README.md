@@ -1,5 +1,5 @@
 # metaGEENOME
-<<<<<<< HEAD
+
 ![Screenshot from 2023-09-04 21-10-19](https://github.com/Ahmed-A-Mohamed/metaGEENOME/assets/82543843/b85bc799-d9af-4e28-a0b2-7a6a3d0de82e)
 
 
