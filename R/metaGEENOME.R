@@ -888,7 +888,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
   plotSep5 <- ggplot() +
     ggplot2::annotate("text", x = 10,  y = 10,
                       size = 6,
-                      label = "5.Null hypothesis") + theme_void()
+                      label = "5.Statistical hypothesis testing") + theme_void()
   print(plotSep5)
   # PERMANOVA
   ###################################################################################
@@ -944,7 +944,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
     grid.table(as.data.frame(pairwise.adonis.result[noquote(names(pairwise.adonis.result)[result])]))
   }
 
-  cat("Done >>>>>>>>>>>>>>>>>>>>>>> 6.Done Null hypothesis","\n")
+  cat("Done >>>>>>>>>>>>>>>>>>>>>>> 6.Done Statistical hypothesis testing","\n")
   ##################################################################################
   ######################### 7. metaGEENOME main script #################################
   if (GEE_analysis == TRUE){
