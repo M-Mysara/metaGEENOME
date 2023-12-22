@@ -243,8 +243,20 @@ summary.pwadstrata = function(object, ...) {
 ######################################## 2. preprocessing ##########################################################
 Pre_GEECLR = function(physeq, variables, id){
 
-  Otu_file <- physeq@otu_table
-  metadata_file <- physeq@sam_data
+  Otu_file <- as.data.frame(physeq@otu_table)
+  metadata_file <- as.data.frame(physeq@sam_data)
+  
+  # Normalization with CTF
+  # replace NA with zero 
+  Otu_file[is.na(Otu_file)] <- 0
+  # CTF Normalization => https://github.com/krishnanlab/RNAseq_coexpression/blob/main/src/CTF_normalize.R
+  lib_size <- base::colSums(Otu_file, na.rm = TRUE)
+  norm_factors <- calcNormFactors(object = Otu_file, lib.size = lib_size, method = "TMM")
+  feature_table <- sweep(Otu_file, 2, norm_factors, "/")
+  # Add pseudocount 1 to CLR
+  Otu_file = Otu_file + 1
+  
+  
   ######### step 1 :Data Cleaning and Pre-processing #############
   dt_1=as.data.frame(t(Otu_file))
   dt_2 = data.frame(metadata_file)
@@ -272,6 +284,7 @@ Pre_GEECLR = function(physeq, variables, id){
   data_prop_redt <- t(data_t)
   data_prop_redt <- as.data.frame(data_prop_redt)
 
+  # transformation with CLR
   data_clr <- as.data.frame(clr(data_prop_redt))
   data_full <- bind_cols(data_main[ ,c(colnames(dt_2_numeric))], data_clr[  , ])
   data_melt <- data_full %>%
@@ -291,16 +304,6 @@ Pre_GEECLR = function(physeq, variables, id){
   }
   data_mis[[id]] <- as_factor(data_mis[[id]])
   return(data_mis)
-  # library(geepack)
-  # set.seed(123)
-  # geepack_mis <- geeglm(model_form, id=data_mis[[id]], data=data_mis, family=gaussian("identity"),corstr="exchangeable")
-  # detach(package:geepack)
-  # summary_coef <- summary(geepack_mis)$coefficients
-  # summary_coef_r <- round(summary_coef,4)
-  # summary_coef_r$Wald <- summary_coef_r$Estimate / summary_coef_r$Std.err
-  #
-  # return(summary_coef_r)
-
 }
 ################
 Post_GEECLR <- function(data_mis,model_form_GEE){
