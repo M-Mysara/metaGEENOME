@@ -1,661 +1,661 @@
 "","estimate","std_err","wald","pval","AdjPvalue"
-"Akkermansia",1.12,0.235,4.756,0,0
-"Alcaligenes faecalis et rel.",-1.597,0.157,-10.155,0,0
-"Allistipes et rel.",1.678,0.177,9.465,0,0
-"Anaerostipes caccae et rel.",0.753,0.161,4.681,0,0
-"Anaerotruncus colihominis et rel.",1.113,0.172,6.462,0,0
-"Anaerovorax odorimutans et rel.",-0.039,0.091,-0.427,0.67,0.966
-"Aquabacterium",-0.274,0.141,-1.942,0.052,0.292
-"Atopobium",-0.278,0.154,-1.802,0.072,0.387
-"Bacillus",-2.486,0.062,-40.158,0,0
-"Bacteroides fragilis et rel.",1.461,0.234,6.239,0,0
-"Bacteroides intestinalis et rel.",-1.619,0.168,-9.637,0,0
-"Bacteroides ovatus et rel.",0.89,0.162,5.489,0,0
-"Bacteroides plebeius et rel.",0.263,0.14,1.87,0.062,0.335
-"Bacteroides splachnicus et rel.",0.777,0.096,8.057,0,0
-"Bacteroides stercoris et rel.",-0.44,0.091,-4.861,0,0
-"Bacteroides uniformis et rel.",0.02,0.309,0.066,0.947,0.991
-"Bacteroides vulgatus et rel.",2.524,0.223,11.334,0,0
-"Bifidobacterium",0.945,0.141,6.7,0,0
-"Bilophila et rel.",-2.392,0.091,-26.232,0,0
-"Bryantella formatexigens et rel.",1.269,0.112,11.38,0,0
-"Bulleidia moorei et rel.",-1.501,0.073,-20.594,0,0
-"Burkholderia",-1.182,0.248,-4.774,0,0
-"Butyrivibrio crossotus et rel.",2.076,0.11,18.886,0,0
-"Campylobacter",-1.197,0.061,-19.589,0,0
-"Catenibacterium mitsuokai et rel.",-1.279,0.184,-6.949,0,0
-"Clostridium (sensu stricto)",0.624,0.111,5.634,0,0
-"Clostridium cellulosi et rel.",2.888,0.218,13.249,0,0
-"Clostridium colinum et rel.",0.338,0.167,2.026,0.043,0.248
-"Clostridium difficile et rel.",0.529,0.157,3.377,0.001,0.005
-"Clostridium leptum et rel.",1.499,0.152,9.871,0,0
-"Clostridium nexile et rel.",0.836,0.14,5.955,0,0
-"Clostridium orbiscindens et rel.",2.585,0.142,18.189,0,0
-"Clostridium ramosum et rel.",-1.747,0.053,-33.08,0,0
-"Clostridium sphenoides et rel.",1.495,0.1,14.876,0,0
-"Clostridium stercorarium et rel.",-0.995,0.096,-10.42,0,0
-"Clostridium symbiosum et rel.",2.379,0.131,18.176,0,0
-"Collinsella",-0.605,0.146,-4.138,0,0
-"Coprobacillus catenaformis et rel.",-1.47,0.084,-17.398,0,0
-"Coprococcus eutactus et rel.",1.42,0.175,8.115,0,0
-"Corynebacterium",-2.558,0.05,-51.355,0,0
-"Desulfovibrio et rel.",-1.283,0.073,-17.482,0,0
-"Dialister",-0.356,0.251,-1.417,0.156,0.666
-"Dorea formicigenerans et rel.",1.68,0.134,12.526,0,0
-"Eggerthella lenta et rel.",-1.147,0.06,-19.177,0,0
-"Enterobacter aerogenes et rel.",-0.163,0.139,-1.172,0.241,0.86
-"Enterococcus",-0.783,0.228,-3.438,0.001,0.005
-"Escherichia coli et rel.",0.281,0.139,2.024,0.043,0.248
-"Eubacterium biforme et rel.",0.495,0.202,2.451,0.014,0.097
-"Eubacterium cylindroides et rel.",-1.736,0.076,-22.747,0,0
-"Eubacterium hallii et rel.",0.09,0.146,0.617,0.538,0.939
-"Eubacterium limosum et rel.",-2.534,0.062,-40.799,0,0
-"Eubacterium rectale et rel.",0.873,0.13,6.729,0,0
-"Eubacterium siraeum et rel.",-1.646,0.097,-17.003,0,0
-"Eubacterium ventriosum et rel.",0.031,0.123,0.251,0.802,0.966
-"Faecalibacterium prausnitzii et rel.",3.077,0.164,18.784,0,0
-"Fusobacteria",-0.985,0.064,-15.481,0,0
-"Haemophilus",-1.273,0.22,-5.793,0,0
-"Helicobacter",-1.85,0.056,-32.982,0,0
-"Klebisiella pneumoniae et rel.",-0.666,0.141,-4.723,0,0
-"Lachnobacillus bovis et rel.",0.7,0.137,5.096,0,0
-"Lachnospira pectinoschiza et rel.",1.117,0.094,11.895,0,0
-"Lactobacillus catenaformis et rel.",-0.507,0.189,-2.689,0.007,0.052
-"Lactobacillus gasseri et rel.",-0.519,0.06,-8.705,0,0
-"Lactobacillus plantarum et rel.",-0.065,0.082,-0.783,0.434,0.931
-"Lactobacillus salivarius et rel.",-2.187,0.132,-16.539,0,0
-"Lactococcus",-2.357,0.091,-25.928,0,0
-"Leminorella",-0.502,0.16,-3.126,0.002,0.013
-"Megamonas hypermegale et rel.",-2.558,0.05,-51.355,0,0
-"Megasphaera elsdenii et rel.",0.306,0.258,1.184,0.236,0.853
-"Mitsuokella multiacida et rel.",-0.524,0.382,-1.374,0.17,0.713
-"Moraxellaceae",-0.595,0.188,-3.162,0.002,0.012
-"Oceanospirillum",-2.247,0.084,-26.588,0,0
-"Oscillospira guillermondii et rel.",4.266,0.184,23.161,0,0
-"Outgrouping clostridium cluster XIVa",0.997,0.131,7.622,0,0
-"Oxalobacter formigenes et rel.",0.409,0.187,2.18,0.029,0.178
-"Papillibacter cinnamivorans et rel.",0.604,0.118,5.1,0,0
-"Parabacteroides distasonis et rel.",1.026,0.154,6.646,0,0
-"Peptococcus niger et rel.",-1.338,0.098,-13.694,0,0
-"Peptostreptococcus micros et rel.",-1.775,0.058,-30.649,0,0
-"Phascolarctobacterium faecium et rel.",-0.133,0.119,-1.118,0.264,0.877
-"Prevotella melaninogenica et rel.",5.168,0.339,15.252,0,0
-"Prevotella oralis et rel.",3.463,0.269,12.891,0,0
-"Prevotella ruminicola et rel.",-1.866,0.128,-14.613,0,0
-"Prevotella tannerae et rel.",0.372,0.155,2.397,0.016,0.11
-"Propionibacterium",-2.51,0.066,-38.258,0,0
-"Proteus et rel.",-1.052,0.068,-15.519,0,0
-"Roseburia intestinalis et rel.",-0.183,0.121,-1.51,0.131,0.607
-"Ruminococcus bromii et rel.",0.973,0.211,4.615,0,0
-"Ruminococcus callidus et rel.",1.041,0.136,7.683,0,0
-"Ruminococcus gnavus et rel.",0.388,0.109,3.554,0,0.003
-"Ruminococcus lactaris et rel.",-0.682,0.143,-4.773,0,0
-"Ruminococcus obeum et rel.",2.511,0.115,21.832,0,0
-"Serratia",-1.108,0.214,-5.17,0,0
-"Sporobacter termitidis et rel.",2.598,0.135,19.231,0,0
-"Streptococcus bovis et rel.",0.811,0.208,3.908,0,0.001
-"Streptococcus intermedius et rel.",-1.218,0.147,-8.294,0,0
-"Streptococcus mitis et rel.",0.434,0.2,2.169,0.03,0.181
-"Subdoligranulum variable at rel.",2.169,0.139,15.618,0,0
-"Sutterella wadsworthia et rel.",0.396,0.149,2.647,0.008,0.057
-"Tannerella et rel.",0.439,0.093,4.718,0,0
-"Uncultured Bacteroidetes",-1.592,0.196,-8.105,0,0
-"Uncultured Clostridiales I",1.329,0.158,8.401,0,0
-"Uncultured Clostridiales II",1.452,0.146,9.93,0,0
-"Uncultured Mollicutes",0.687,0.181,3.8,0,0.001
-"Uncultured Selenomonadaceae",-0.143,0.097,-1.469,0.142,0.641
-"Veillonella",-1.04,0.158,-6.583,0,0
-"Vibrio",-1.558,0.071,-21.909,0,0
-"Weissella et rel.",-1.777,0.266,-6.689,0,0
-"Xanthomonadaceae",-1.685,0.204,-8.261,0,0
-"Yersinia et rel.",-1.865,0.09,-20.765,0,0
-"bmi_groupoverweight",0.046,0.296,0.155,0.877,0.966
-"bmi_groupobese",-0.35,0.304,-1.15,0.25,0.862
-"timepoint.within.group2",0.201,0.325,0.618,0.537,0.939
-"Alcaligenes faecalis et rel.:bmi_groupoverweight",-0.004,0.374,-0.012,0.99,0.997
-"Allistipes et rel.:bmi_groupoverweight",0.659,0.386,1.706,0.088,0.45
-"Anaerostipes caccae et rel.:bmi_groupoverweight",0.313,0.363,0.864,0.387,0.931
-"Anaerotruncus colihominis et rel.:bmi_groupoverweight",-0.313,0.381,-0.822,0.411,0.931
-"Anaerovorax odorimutans et rel.:bmi_groupoverweight",-0.299,0.319,-0.937,0.349,0.931
-"Aquabacterium:bmi_groupoverweight",-0.065,0.351,-0.184,0.854,0.966
-"Atopobium:bmi_groupoverweight",-0.101,0.365,-0.276,0.782,0.966
-"Bacillus:bmi_groupoverweight",-0.284,0.304,-0.933,0.351,0.931
-"Bacteroides fragilis et rel.:bmi_groupoverweight",0.698,0.412,1.694,0.09,0.455
-"Bacteroides intestinalis et rel.:bmi_groupoverweight",1.242,0.409,3.037,0.002,0.018
-"Bacteroides ovatus et rel.:bmi_groupoverweight",0.847,0.377,2.249,0.024,0.157
-"Bacteroides plebeius et rel.:bmi_groupoverweight",0.689,0.35,1.97,0.049,0.275
-"Bacteroides splachnicus et rel.:bmi_groupoverweight",0.174,0.328,0.53,0.596,0.962
-"Bacteroides stercoris et rel.:bmi_groupoverweight",0.873,0.351,2.488,0.013,0.088
-"Bacteroides uniformis et rel.:bmi_groupoverweight",1.463,0.501,2.918,0.004,0.025
-"Bacteroides vulgatus et rel.:bmi_groupoverweight",1.382,0.434,3.181,0.002,0.011
-"Bifidobacterium:bmi_groupoverweight",0.088,0.365,0.242,0.809,0.966
-"Bilophila et rel.:bmi_groupoverweight",-0.056,0.317,-0.178,0.859,0.966
-"Bryantella formatexigens et rel.:bmi_groupoverweight",0.226,0.346,0.653,0.514,0.939
-"Bulleidia moorei et rel.:bmi_groupoverweight",-0.343,0.316,-1.086,0.278,0.889
-"Burkholderia:bmi_groupoverweight",-0.325,0.438,-0.741,0.459,0.931
-"Butyrivibrio crossotus et rel.:bmi_groupoverweight",-0.005,0.343,-0.015,0.988,0.997
-"Campylobacter:bmi_groupoverweight",-0.184,0.304,-0.605,0.545,0.944
-"Catenibacterium mitsuokai et rel.:bmi_groupoverweight",0.054,0.394,0.136,0.892,0.967
-"Clostridium (sensu stricto):bmi_groupoverweight",-0.471,0.322,-1.461,0.144,0.644
-"Clostridium cellulosi et rel.:bmi_groupoverweight",-0.092,0.446,-0.207,0.836,0.966
-"Clostridium colinum et rel.:bmi_groupoverweight",-0.288,0.373,-0.771,0.44,0.931
-"Clostridium difficile et rel.:bmi_groupoverweight",-0.62,0.347,-1.789,0.074,0.393
-"Clostridium leptum et rel.:bmi_groupoverweight",-0.251,0.351,-0.715,0.474,0.931
-"Clostridium nexile et rel.:bmi_groupoverweight",-0.044,0.349,-0.125,0.9,0.969
-"Clostridium orbiscindens et rel.:bmi_groupoverweight",0.076,0.342,0.221,0.825,0.966
-"Clostridium ramosum et rel.:bmi_groupoverweight",-0.23,0.304,-0.756,0.45,0.931
-"Clostridium sphenoides et rel.:bmi_groupoverweight",0.062,0.328,0.189,0.85,0.966
-"Clostridium stercorarium et rel.:bmi_groupoverweight",0.136,0.349,0.389,0.697,0.966
-"Clostridium symbiosum et rel.:bmi_groupoverweight",0.405,0.342,1.185,0.236,0.853
-"Collinsella:bmi_groupoverweight",-0.015,0.356,-0.042,0.967,0.997
-"Coprobacillus catenaformis et rel.:bmi_groupoverweight",-0.335,0.318,-1.053,0.292,0.931
-"Coprococcus eutactus et rel.:bmi_groupoverweight",-0.066,0.378,-0.175,0.862,0.966
-"Corynebacterium:bmi_groupoverweight",-0.212,0.302,-0.703,0.482,0.931
-"Desulfovibrio et rel.:bmi_groupoverweight",-0.069,0.326,-0.211,0.833,0.966
-"Dialister:bmi_groupoverweight",0.111,0.474,0.235,0.814,0.966
-"Dorea formicigenerans et rel.:bmi_groupoverweight",0.113,0.339,0.334,0.739,0.966
-"Eggerthella lenta et rel.:bmi_groupoverweight",-0.188,0.305,-0.617,0.537,0.939
-"Enterobacter aerogenes et rel.:bmi_groupoverweight",-0.511,0.336,-1.522,0.128,0.603
-"Enterococcus:bmi_groupoverweight",-0.434,0.389,-1.114,0.265,0.877
-"Escherichia coli et rel.:bmi_groupoverweight",0.122,0.401,0.305,0.761,0.966
-"Eubacterium biforme et rel.:bmi_groupoverweight",-0.837,0.409,-2.046,0.041,0.243
-"Eubacterium cylindroides et rel.:bmi_groupoverweight",-0.047,0.313,-0.151,0.88,0.966
-"Eubacterium hallii et rel.:bmi_groupoverweight",0.073,0.352,0.208,0.835,0.966
-"Eubacterium limosum et rel.:bmi_groupoverweight",0.049,0.312,0.156,0.876,0.966
-"Eubacterium rectale et rel.:bmi_groupoverweight",0.144,0.357,0.402,0.688,0.966
-"Eubacterium siraeum et rel.:bmi_groupoverweight",0.084,0.323,0.26,0.795,0.966
-"Eubacterium ventriosum et rel.:bmi_groupoverweight",0.021,0.338,0.064,0.949,0.991
-"Faecalibacterium prausnitzii et rel.:bmi_groupoverweight",0.169,0.362,0.466,0.641,0.966
-"Fusobacteria:bmi_groupoverweight",-0.192,0.306,-0.627,0.53,0.939
-"Haemophilus:bmi_groupoverweight",0.471,0.414,1.138,0.255,0.862
-"Helicobacter:bmi_groupoverweight",-0.172,0.304,-0.565,0.572,0.948
-"Klebisiella pneumoniae et rel.:bmi_groupoverweight",-0.554,0.34,-1.628,0.104,0.514
-"Lachnobacillus bovis et rel.:bmi_groupoverweight",0.052,0.349,0.149,0.882,0.966
-"Lachnospira pectinoschiza et rel.:bmi_groupoverweight",-0.037,0.325,-0.115,0.908,0.974
-"Lactobacillus catenaformis et rel.:bmi_groupoverweight",0.312,0.366,0.851,0.395,0.931
-"Lactobacillus gasseri et rel.:bmi_groupoverweight",-0.235,0.307,-0.764,0.445,0.931
-"Lactobacillus plantarum et rel.:bmi_groupoverweight",-0.262,0.31,-0.848,0.397,0.931
-"Lactobacillus salivarius et rel.:bmi_groupoverweight",-0.298,0.35,-0.851,0.395,0.931
-"Lactococcus:bmi_groupoverweight",-0.271,0.318,-0.851,0.394,0.931
-"Leminorella:bmi_groupoverweight",-0.359,0.391,-0.918,0.359,0.931
-"Megamonas hypermegale et rel.:bmi_groupoverweight",-0.183,0.303,-0.602,0.547,0.945
-"Megasphaera elsdenii et rel.:bmi_groupoverweight",-0.505,0.441,-1.145,0.252,0.862
-"Mitsuokella multiacida et rel.:bmi_groupoverweight",-0.654,0.571,-1.146,0.252,0.862
-"Moraxellaceae:bmi_groupoverweight",0.095,0.386,0.247,0.805,0.966
-"Oceanospirillum:bmi_groupoverweight",-0.101,0.316,-0.319,0.75,0.966
-"Oscillospira guillermondii et rel.:bmi_groupoverweight",-0.321,0.379,-0.846,0.397,0.931
-"Outgrouping clostridium cluster XIVa:bmi_groupoverweight",-0.178,0.343,-0.518,0.604,0.966
-"Oxalobacter formigenes et rel.:bmi_groupoverweight",-0.098,0.381,-0.257,0.797,0.966
-"Papillibacter cinnamivorans et rel.:bmi_groupoverweight",-0.112,0.341,-0.328,0.743,0.966
-"Parabacteroides distasonis et rel.:bmi_groupoverweight",0.88,0.375,2.35,0.019,0.123
-"Peptococcus niger et rel.:bmi_groupoverweight",-0.255,0.327,-0.779,0.436,0.931
-"Peptostreptococcus micros et rel.:bmi_groupoverweight",-0.269,0.304,-0.886,0.376,0.931
-"Phascolarctobacterium faecium et rel.:bmi_groupoverweight",0.274,0.371,0.737,0.461,0.931
-"Prevotella melaninogenica et rel.:bmi_groupoverweight",-1.993,0.601,-3.316,0.001,0.007
-"Prevotella oralis et rel.:bmi_groupoverweight",-1.263,0.497,-2.543,0.011,0.076
-"Prevotella ruminicola et rel.:bmi_groupoverweight",0.032,0.35,0.091,0.928,0.986
-"Prevotella tannerae et rel.:bmi_groupoverweight",0.659,0.371,1.777,0.076,0.396
-"Propionibacterium:bmi_groupoverweight",-0.167,0.307,-0.542,0.588,0.951
-"Proteus et rel.:bmi_groupoverweight",-0.289,0.306,-0.944,0.345,0.931
-"Roseburia intestinalis et rel.:bmi_groupoverweight",0.464,0.345,1.345,0.179,0.737
-"Ruminococcus bromii et rel.:bmi_groupoverweight",-0.288,0.402,-0.717,0.473,0.931
-"Ruminococcus callidus et rel.:bmi_groupoverweight",-0.246,0.346,-0.709,0.478,0.931
-"Ruminococcus gnavus et rel.:bmi_groupoverweight",0.273,0.336,0.813,0.416,0.931
-"Ruminococcus lactaris et rel.:bmi_groupoverweight",-0.399,0.35,-1.14,0.254,0.862
-"Ruminococcus obeum et rel.:bmi_groupoverweight",0.172,0.34,0.507,0.612,0.966
-"Serratia:bmi_groupoverweight",0.591,0.399,1.483,0.138,0.629
-"Sporobacter termitidis et rel.:bmi_groupoverweight",-0.305,0.36,-0.846,0.397,0.931
-"Streptococcus bovis et rel.:bmi_groupoverweight",0.306,0.411,0.744,0.457,0.931
-"Streptococcus intermedius et rel.:bmi_groupoverweight",0.067,0.359,0.188,0.851,0.966
-"Streptococcus mitis et rel.:bmi_groupoverweight",0.252,0.392,0.643,0.52,0.939
-"Subdoligranulum variable at rel.:bmi_groupoverweight",0.251,0.35,0.716,0.474,0.931
-"Sutterella wadsworthia et rel.:bmi_groupoverweight",0.289,0.365,0.792,0.429,0.931
-"Tannerella et rel.:bmi_groupoverweight",0.369,0.322,1.146,0.252,0.862
-"Uncultured Bacteroidetes:bmi_groupoverweight",-0.438,0.376,-1.164,0.245,0.862
-"Uncultured Clostridiales I:bmi_groupoverweight",-0.428,0.386,-1.109,0.267,0.877
-"Uncultured Clostridiales II:bmi_groupoverweight",-0.631,0.355,-1.777,0.076,0.396
-"Uncultured Mollicutes:bmi_groupoverweight",-0.683,0.389,-1.756,0.079,0.41
-"Uncultured Selenomonadaceae:bmi_groupoverweight",-0.396,0.344,-1.151,0.25,0.862
-"Veillonella:bmi_groupoverweight",-0.46,0.359,-1.28,0.2,0.765
-"Vibrio:bmi_groupoverweight",-0.351,0.307,-1.142,0.253,0.862
-"Weissella et rel.:bmi_groupoverweight",-0.732,0.41,-1.788,0.074,0.393
-"Xanthomonadaceae:bmi_groupoverweight",-0.062,0.413,-0.15,0.881,0.966
-"Yersinia et rel.:bmi_groupoverweight",-0.256,0.312,-0.82,0.412,0.931
-"Alcaligenes faecalis et rel.:bmi_groupobese",0.158,0.372,0.425,0.671,0.966
-"Allistipes et rel.:bmi_groupobese",0.755,0.402,1.879,0.06,0.332
-"Anaerostipes caccae et rel.:bmi_groupobese",0.863,0.38,2.268,0.023,0.151
-"Anaerotruncus colihominis et rel.:bmi_groupobese",-0.004,0.362,-0.012,0.99,0.997
-"Anaerovorax odorimutans et rel.:bmi_groupobese",0.286,0.332,0.86,0.39,0.931
-"Aquabacterium:bmi_groupobese",0.497,0.342,1.456,0.145,0.644
-"Atopobium:bmi_groupobese",0.155,0.395,0.391,0.696,0.966
-"Bacillus:bmi_groupobese",0.225,0.312,0.72,0.472,0.931
-"Bacteroides fragilis et rel.:bmi_groupobese",0.382,0.43,0.888,0.375,0.931
-"Bacteroides intestinalis et rel.:bmi_groupobese",0.758,0.381,1.992,0.046,0.264
-"Bacteroides ovatus et rel.:bmi_groupobese",0.6,0.395,1.519,0.129,0.603
-"Bacteroides plebeius et rel.:bmi_groupobese",0.624,0.368,1.694,0.09,0.455
-"Bacteroides splachnicus et rel.:bmi_groupobese",0.493,0.347,1.42,0.156,0.666
-"Bacteroides stercoris et rel.:bmi_groupobese",0.823,0.337,2.442,0.015,0.098
-"Bacteroides uniformis et rel.:bmi_groupobese",0.658,0.507,1.297,0.195,0.76
-"Bacteroides vulgatus et rel.:bmi_groupobese",1.194,0.454,2.632,0.009,0.06
-"Bifidobacterium:bmi_groupobese",0.541,0.375,1.443,0.149,0.647
-"Bilophila et rel.:bmi_groupobese",0.235,0.323,0.726,0.468,0.931
-"Bryantella formatexigens et rel.:bmi_groupobese",0.549,0.356,1.542,0.123,0.584
-"Bulleidia moorei et rel.:bmi_groupobese",0.201,0.328,0.611,0.541,0.94
-"Burkholderia:bmi_groupobese",-0.014,0.444,-0.031,0.975,0.997
-"Butyrivibrio crossotus et rel.:bmi_groupobese",0.456,0.334,1.366,0.172,0.718
-"Campylobacter:bmi_groupobese",0.302,0.312,0.966,0.334,0.931
-"Catenibacterium mitsuokai et rel.:bmi_groupobese",0.384,0.382,1.006,0.314,0.931
-"Clostridium (sensu stricto):bmi_groupobese",0.156,0.331,0.471,0.637,0.966
-"Clostridium cellulosi et rel.:bmi_groupobese",0.536,0.416,1.287,0.198,0.765
-"Clostridium colinum et rel.:bmi_groupobese",0.374,0.373,1.003,0.316,0.931
-"Clostridium difficile et rel.:bmi_groupobese",0.096,0.362,0.266,0.79,0.966
-"Clostridium leptum et rel.:bmi_groupobese",0.098,0.359,0.272,0.786,0.966
-"Clostridium nexile et rel.:bmi_groupobese",0.589,0.371,1.588,0.112,0.549
-"Clostridium orbiscindens et rel.:bmi_groupobese",0.215,0.369,0.584,0.559,0.948
-"Clostridium ramosum et rel.:bmi_groupobese",0.301,0.312,0.966,0.334,0.931
-"Clostridium sphenoides et rel.:bmi_groupobese",0.465,0.331,1.405,0.16,0.677
-"Clostridium stercorarium et rel.:bmi_groupobese",0.512,0.358,1.431,0.152,0.658
-"Clostridium symbiosum et rel.:bmi_groupobese",0.689,0.345,1.996,0.046,0.263
-"Collinsella:bmi_groupobese",0.362,0.365,0.992,0.321,0.931
-"Coprobacillus catenaformis et rel.:bmi_groupobese",0.284,0.322,0.883,0.377,0.931
-"Coprococcus eutactus et rel.:bmi_groupobese",0.288,0.382,0.752,0.452,0.931
-"Corynebacterium:bmi_groupobese",0.287,0.31,0.925,0.355,0.931
-"Desulfovibrio et rel.:bmi_groupobese",0.127,0.318,0.398,0.691,0.966
-"Dialister:bmi_groupobese",0.656,0.452,1.452,0.146,0.644
-"Dorea formicigenerans et rel.:bmi_groupobese",0.454,0.348,1.308,0.191,0.75
-"Eggerthella lenta et rel.:bmi_groupobese",0.329,0.314,1.047,0.295,0.931
-"Enterobacter aerogenes et rel.:bmi_groupobese",0.463,0.364,1.27,0.204,0.765
-"Enterococcus:bmi_groupobese",-0.011,0.388,-0.028,0.978,0.997
-"Escherichia coli et rel.:bmi_groupobese",0.231,0.358,0.647,0.518,0.939
-"Eubacterium biforme et rel.:bmi_groupobese",-0.476,0.406,-1.173,0.241,0.86
-"Eubacterium cylindroides et rel.:bmi_groupobese",0.203,0.316,0.642,0.52,0.939
-"Eubacterium hallii et rel.:bmi_groupobese",0.431,0.35,1.229,0.219,0.813
-"Eubacterium limosum et rel.:bmi_groupobese",0.283,0.312,0.905,0.366,0.931
-"Eubacterium rectale et rel.:bmi_groupobese",0.766,0.349,2.194,0.028,0.174
-"Eubacterium siraeum et rel.:bmi_groupobese",0.425,0.324,1.309,0.191,0.75
-"Eubacterium ventriosum et rel.:bmi_groupobese",0.535,0.34,1.574,0.116,0.561
-"Faecalibacterium prausnitzii et rel.:bmi_groupobese",0.595,0.385,1.544,0.123,0.584
-"Fusobacteria:bmi_groupobese",0.424,0.319,1.327,0.184,0.742
-"Haemophilus:bmi_groupobese",0.839,0.435,1.928,0.054,0.298
-"Helicobacter:bmi_groupobese",0.3,0.312,0.961,0.337,0.931
-"Klebisiella pneumoniae et rel.:bmi_groupobese",0.295,0.367,0.804,0.421,0.931
-"Lachnobacillus bovis et rel.:bmi_groupobese",0.755,0.347,2.176,0.03,0.179
-"Lachnospira pectinoschiza et rel.:bmi_groupobese",0.78,0.331,2.357,0.018,0.121
-"Lactobacillus catenaformis et rel.:bmi_groupobese",0.352,0.38,0.926,0.355,0.931
-"Lactobacillus gasseri et rel.:bmi_groupobese",0.298,0.313,0.951,0.342,0.931
-"Lactobacillus plantarum et rel.:bmi_groupobese",0.302,0.328,0.919,0.358,0.931
-"Lactobacillus salivarius et rel.:bmi_groupobese",0.461,0.35,1.315,0.188,0.75
-"Lactococcus:bmi_groupobese",0.338,0.334,1.011,0.312,0.931
-"Leminorella:bmi_groupobese",0.354,0.368,0.962,0.336,0.931
-"Megamonas hypermegale et rel.:bmi_groupobese",0.303,0.311,0.976,0.329,0.931
-"Megasphaera elsdenii et rel.:bmi_groupobese",-0.125,0.435,-0.287,0.774,0.966
-"Mitsuokella multiacida et rel.:bmi_groupobese",0.231,0.551,0.419,0.675,0.966
-"Moraxellaceae:bmi_groupobese",0.542,0.373,1.454,0.146,0.644
-"Oceanospirillum:bmi_groupobese",0.48,0.332,1.445,0.148,0.647
-"Oscillospira guillermondii et rel.:bmi_groupobese",0.386,0.384,1.006,0.315,0.931
-"Outgrouping clostridium cluster XIVa:bmi_groupobese",0.55,0.346,1.591,0.112,0.549
-"Oxalobacter formigenes et rel.:bmi_groupobese",-0.045,0.396,-0.113,0.91,0.974
-"Papillibacter cinnamivorans et rel.:bmi_groupobese",0.215,0.34,0.633,0.527,0.939
-"Parabacteroides distasonis et rel.:bmi_groupobese",0.567,0.378,1.499,0.134,0.614
-"Peptococcus niger et rel.:bmi_groupobese",0.209,0.329,0.634,0.526,0.939
-"Peptostreptococcus micros et rel.:bmi_groupobese",0.301,0.312,0.964,0.335,0.931
-"Phascolarctobacterium faecium et rel.:bmi_groupobese",0.445,0.348,1.282,0.2,0.765
-"Prevotella melaninogenica et rel.:bmi_groupobese",-0.661,0.583,-1.135,0.256,0.862
-"Prevotella oralis et rel.:bmi_groupobese",-0.577,0.521,-1.107,0.268,0.877
-"Prevotella ruminicola et rel.:bmi_groupobese",0.45,0.354,1.274,0.203,0.765
-"Prevotella tannerae et rel.:bmi_groupobese",0.775,0.38,2.038,0.042,0.245
-"Propionibacterium:bmi_groupobese",0.325,0.314,1.036,0.3,0.931
-"Proteus et rel.:bmi_groupobese",0.296,0.318,0.932,0.352,0.931
-"Roseburia intestinalis et rel.:bmi_groupobese",0.76,0.341,2.232,0.026,0.161
-"Ruminococcus bromii et rel.:bmi_groupobese",-0.114,0.399,-0.287,0.774,0.966
-"Ruminococcus callidus et rel.:bmi_groupobese",0.262,0.349,0.75,0.453,0.931
-"Ruminococcus gnavus et rel.:bmi_groupobese",0.428,0.335,1.277,0.202,0.765
-"Ruminococcus lactaris et rel.:bmi_groupobese",0.118,0.348,0.339,0.735,0.966
-"Ruminococcus obeum et rel.:bmi_groupobese",0.32,0.344,0.93,0.352,0.931
-"Serratia:bmi_groupobese",0.983,0.438,2.246,0.025,0.157
-"Sporobacter termitidis et rel.:bmi_groupobese",0.3,0.357,0.842,0.4,0.931
-"Streptococcus bovis et rel.:bmi_groupobese",0.171,0.402,0.425,0.671,0.966
-"Streptococcus intermedius et rel.:bmi_groupobese",0.198,0.352,0.562,0.574,0.948
-"Streptococcus mitis et rel.:bmi_groupobese",0.307,0.388,0.792,0.428,0.931
-"Subdoligranulum variable at rel.:bmi_groupobese",0.818,0.367,2.229,0.026,0.161
-"Sutterella wadsworthia et rel.:bmi_groupobese",0.622,0.368,1.689,0.091,0.456
-"Tannerella et rel.:bmi_groupobese",0.46,0.341,1.347,0.178,0.737
-"Uncultured Bacteroidetes:bmi_groupobese",0.061,0.397,0.153,0.878,0.966
-"Uncultured Clostridiales I:bmi_groupobese",-0.013,0.36,-0.035,0.972,0.997
-"Uncultured Clostridiales II:bmi_groupobese",-0.08,0.35,-0.229,0.819,0.966
-"Uncultured Mollicutes:bmi_groupobese",-0.086,0.383,-0.224,0.823,0.966
-"Uncultured Selenomonadaceae:bmi_groupobese",0.194,0.354,0.547,0.584,0.951
-"Veillonella:bmi_groupobese",0.261,0.361,0.721,0.471,0.931
-"Vibrio:bmi_groupobese",0.175,0.315,0.555,0.579,0.949
-"Weissella et rel.:bmi_groupobese",-0.076,0.418,-0.18,0.857,0.966
-"Xanthomonadaceae:bmi_groupobese",0.407,0.442,0.922,0.356,0.931
-"Yersinia et rel.:bmi_groupobese",0.439,0.331,1.328,0.184,0.742
-"Alcaligenes faecalis et rel.:timepoint.within.group2",-0.111,0.386,-0.288,0.774,0.966
-"Allistipes et rel.:timepoint.within.group2",-0.12,0.405,-0.295,0.768,0.966
-"Anaerostipes caccae et rel.:timepoint.within.group2",-0.246,0.39,-0.631,0.528,0.939
-"Anaerotruncus colihominis et rel.:timepoint.within.group2",0.139,0.414,0.337,0.736,0.966
-"Anaerovorax odorimutans et rel.:timepoint.within.group2",-0.232,0.342,-0.679,0.497,0.938
-"Aquabacterium:timepoint.within.group2",-0.121,0.365,-0.332,0.74,0.966
-"Atopobium:timepoint.within.group2",-0.142,0.39,-0.364,0.716,0.966
-"Bacillus:timepoint.within.group2",-0.333,0.335,-0.995,0.32,0.931
-"Bacteroides fragilis et rel.:timepoint.within.group2",0.253,0.45,0.563,0.573,0.948
-"Bacteroides intestinalis et rel.:timepoint.within.group2",-0.259,0.401,-0.647,0.517,0.939
-"Bacteroides ovatus et rel.:timepoint.within.group2",0.027,0.403,0.067,0.947,0.991
-"Bacteroides plebeius et rel.:timepoint.within.group2",-0.085,0.381,-0.224,0.823,0.966
-"Bacteroides splachnicus et rel.:timepoint.within.group2",0.111,0.355,0.313,0.754,0.966
-"Bacteroides stercoris et rel.:timepoint.within.group2",-0.219,0.353,-0.621,0.534,0.939
-"Bacteroides uniformis et rel.:timepoint.within.group2",0.228,0.525,0.435,0.664,0.966
-"Bacteroides vulgatus et rel.:timepoint.within.group2",0.218,0.464,0.47,0.638,0.966
-"Bifidobacterium:timepoint.within.group2",-0.593,0.381,-1.556,0.12,0.576
-"Bilophila et rel.:timepoint.within.group2",-0.216,0.345,-0.627,0.531,0.939
-"Bryantella formatexigens et rel.:timepoint.within.group2",-0.152,0.37,-0.411,0.681,0.966
-"Bulleidia moorei et rel.:timepoint.within.group2",-0.024,0.359,-0.067,0.946,0.991
-"Burkholderia:timepoint.within.group2",-0.549,0.479,-1.147,0.252,0.862
-"Butyrivibrio crossotus et rel.:timepoint.within.group2",-0.088,0.359,-0.245,0.807,0.966
-"Campylobacter:timepoint.within.group2",-0.238,0.335,-0.711,0.477,0.931
-"Catenibacterium mitsuokai et rel.:timepoint.within.group2",-0.418,0.434,-0.962,0.336,0.931
-"Clostridium (sensu stricto):timepoint.within.group2",-0.281,0.354,-0.795,0.427,0.931
-"Clostridium cellulosi et rel.:timepoint.within.group2",-0.049,0.471,-0.103,0.918,0.98
-"Clostridium colinum et rel.:timepoint.within.group2",-0.17,0.394,-0.431,0.666,0.966
-"Clostridium difficile et rel.:timepoint.within.group2",-0.217,0.383,-0.566,0.572,0.948
-"Clostridium leptum et rel.:timepoint.within.group2",-0.202,0.399,-0.506,0.613,0.966
-"Clostridium nexile et rel.:timepoint.within.group2",-0.274,0.404,-0.678,0.498,0.938
-"Clostridium orbiscindens et rel.:timepoint.within.group2",-0.095,0.38,-0.25,0.803,0.966
-"Clostridium ramosum et rel.:timepoint.within.group2",-0.199,0.334,-0.595,0.551,0.948
-"Clostridium sphenoides et rel.:timepoint.within.group2",-0.247,0.351,-0.705,0.481,0.931
-"Clostridium stercorarium et rel.:timepoint.within.group2",-0.347,0.348,-0.996,0.319,0.931
-"Clostridium symbiosum et rel.:timepoint.within.group2",-0.228,0.363,-0.629,0.529,0.939
-"Collinsella:timepoint.within.group2",-0.183,0.389,-0.472,0.637,0.966
-"Coprobacillus catenaformis et rel.:timepoint.within.group2",-0.24,0.344,-0.697,0.486,0.931
-"Coprococcus eutactus et rel.:timepoint.within.group2",-0.333,0.398,-0.836,0.403,0.931
-"Corynebacterium:timepoint.within.group2",-0.261,0.333,-0.785,0.432,0.931
-"Desulfovibrio et rel.:timepoint.within.group2",-0.054,0.343,-0.156,0.876,0.966
-"Dialister:timepoint.within.group2",-0.151,0.496,-0.304,0.761,0.966
-"Dorea formicigenerans et rel.:timepoint.within.group2",-0.164,0.383,-0.429,0.668,0.966
-"Eggerthella lenta et rel.:timepoint.within.group2",-0.163,0.336,-0.485,0.628,0.966
-"Enterobacter aerogenes et rel.:timepoint.within.group2",-0.089,0.382,-0.234,0.815,0.966
-"Enterococcus:timepoint.within.group2",-0.534,0.408,-1.309,0.191,0.75
-"Escherichia coli et rel.:timepoint.within.group2",0.055,0.422,0.129,0.897,0.968
-"Eubacterium biforme et rel.:timepoint.within.group2",-0.08,0.432,-0.185,0.854,0.966
-"Eubacterium cylindroides et rel.:timepoint.within.group2",-0.228,0.341,-0.668,0.504,0.939
-"Eubacterium hallii et rel.:timepoint.within.group2",-0.327,0.386,-0.846,0.398,0.931
-"Eubacterium limosum et rel.:timepoint.within.group2",-0.259,0.336,-0.772,0.44,0.931
-"Eubacterium rectale et rel.:timepoint.within.group2",-0.408,0.368,-1.108,0.268,0.877
-"Eubacterium siraeum et rel.:timepoint.within.group2",-0.088,0.352,-0.25,0.802,0.966
-"Eubacterium ventriosum et rel.:timepoint.within.group2",-0.393,0.358,-1.099,0.272,0.883
-"Faecalibacterium prausnitzii et rel.:timepoint.within.group2",-0.493,0.401,-1.229,0.219,0.813
-"Fusobacteria:timepoint.within.group2",-0.162,0.339,-0.476,0.634,0.966
-"Haemophilus:timepoint.within.group2",-0.035,0.451,-0.079,0.938,0.991
-"Helicobacter:timepoint.within.group2",-0.26,0.334,-0.779,0.436,0.931
-"Klebisiella pneumoniae et rel.:timepoint.within.group2",-0.033,0.389,-0.085,0.932,0.987
-"Lachnobacillus bovis et rel.:timepoint.within.group2",0.025,0.383,0.067,0.947,0.991
-"Lachnospira pectinoschiza et rel.:timepoint.within.group2",-0.342,0.354,-0.968,0.333,0.931
-"Lactobacillus catenaformis et rel.:timepoint.within.group2",-0.613,0.458,-1.34,0.18,0.739
-"Lactobacillus gasseri et rel.:timepoint.within.group2",-0.292,0.333,-0.876,0.381,0.931
-"Lactobacillus plantarum et rel.:timepoint.within.group2",-0.34,0.339,-1.002,0.316,0.931
-"Lactobacillus salivarius et rel.:timepoint.within.group2",-0.479,0.359,-1.333,0.183,0.742
-"Lactococcus:timepoint.within.group2",-0.318,0.341,-0.933,0.351,0.931
-"Leminorella:timepoint.within.group2",-0.199,0.394,-0.504,0.614,0.966
-"Megamonas hypermegale et rel.:timepoint.within.group2",-0.261,0.333,-0.785,0.432,0.931
-"Megasphaera elsdenii et rel.:timepoint.within.group2",-0.375,0.485,-0.774,0.439,0.931
-"Mitsuokella multiacida et rel.:timepoint.within.group2",-0.025,0.639,-0.039,0.969,0.997
-"Moraxellaceae:timepoint.within.group2",-0.565,0.444,-1.27,0.204,0.765
-"Oceanospirillum:timepoint.within.group2",-0.136,0.347,-0.39,0.696,0.966
-"Oscillospira guillermondii et rel.:timepoint.within.group2",0.23,0.398,0.577,0.564,0.948
-"Outgrouping clostridium cluster XIVa:timepoint.within.group2",-0.252,0.367,-0.687,0.492,0.936
-"Oxalobacter formigenes et rel.:timepoint.within.group2",0.138,0.418,0.331,0.741,0.966
-"Papillibacter cinnamivorans et rel.:timepoint.within.group2",-0.397,0.359,-1.107,0.268,0.877
-"Parabacteroides distasonis et rel.:timepoint.within.group2",0.062,0.407,0.152,0.879,0.966
-"Peptococcus niger et rel.:timepoint.within.group2",-0.257,0.356,-0.722,0.47,0.931
-"Peptostreptococcus micros et rel.:timepoint.within.group2",-0.336,0.334,-1.004,0.315,0.931
-"Phascolarctobacterium faecium et rel.:timepoint.within.group2",-0.052,0.374,-0.14,0.888,0.967
-"Prevotella melaninogenica et rel.:timepoint.within.group2",-0.423,0.572,-0.74,0.459,0.931
-"Prevotella oralis et rel.:timepoint.within.group2",-0.355,0.492,-0.721,0.471,0.931
-"Prevotella ruminicola et rel.:timepoint.within.group2",-0.097,0.371,-0.261,0.794,0.966
-"Prevotella tannerae et rel.:timepoint.within.group2",0.096,0.397,0.243,0.808,0.966
-"Propionibacterium:timepoint.within.group2",-0.243,0.337,-0.719,0.472,0.931
-"Proteus et rel.:timepoint.within.group2",-0.238,0.341,-0.698,0.485,0.931
-"Roseburia intestinalis et rel.:timepoint.within.group2",-0.304,0.362,-0.839,0.402,0.931
-"Ruminococcus bromii et rel.:timepoint.within.group2",-0.256,0.443,-0.578,0.564,0.948
-"Ruminococcus callidus et rel.:timepoint.within.group2",-0.154,0.389,-0.395,0.693,0.966
-"Ruminococcus gnavus et rel.:timepoint.within.group2",-0.317,0.357,-0.888,0.375,0.931
-"Ruminococcus lactaris et rel.:timepoint.within.group2",0.062,0.418,0.147,0.883,0.966
-"Ruminococcus obeum et rel.:timepoint.within.group2",-0.345,0.363,-0.951,0.342,0.931
-"Serratia:timepoint.within.group2",-0.15,0.451,-0.331,0.74,0.966
-"Sporobacter termitidis et rel.:timepoint.within.group2",-0.021,0.372,-0.057,0.955,0.991
-"Streptococcus bovis et rel.:timepoint.within.group2",-0.521,0.429,-1.213,0.225,0.826
-"Streptococcus intermedius et rel.:timepoint.within.group2",-0.357,0.377,-0.948,0.343,0.931
-"Streptococcus mitis et rel.:timepoint.within.group2",-0.521,0.426,-1.223,0.222,0.817
-"Subdoligranulum variable at rel.:timepoint.within.group2",-0.268,0.378,-0.709,0.478,0.931
-"Sutterella wadsworthia et rel.:timepoint.within.group2",-0.143,0.38,-0.376,0.707,0.966
-"Tannerella et rel.:timepoint.within.group2",-0.082,0.354,-0.233,0.816,0.966
-"Uncultured Bacteroidetes:timepoint.within.group2",-0.278,0.41,-0.679,0.497,0.938
-"Uncultured Clostridiales I:timepoint.within.group2",0.138,0.422,0.327,0.744,0.966
-"Uncultured Clostridiales II:timepoint.within.group2",0.077,0.391,0.196,0.845,0.966
-"Uncultured Mollicutes:timepoint.within.group2",0.077,0.45,0.171,0.864,0.966
-"Uncultured Selenomonadaceae:timepoint.within.group2",-0.258,0.367,-0.703,0.482,0.931
-"Veillonella:timepoint.within.group2",-0.431,0.396,-1.089,0.276,0.889
-"Vibrio:timepoint.within.group2",-0.129,0.338,-0.381,0.703,0.966
-"Weissella et rel.:timepoint.within.group2",-0.755,0.43,-1.754,0.08,0.41
-"Xanthomonadaceae:timepoint.within.group2",-0.629,0.417,-1.508,0.132,0.607
-"Yersinia et rel.:timepoint.within.group2",-0.094,0.345,-0.272,0.786,0.966
-"bmi_groupoverweight:timepoint.within.group2",0.083,0.433,0.192,0.848,0.966
-"bmi_groupobese:timepoint.within.group2",0.154,0.472,0.325,0.745,0.966
-"Alcaligenes faecalis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.01,0.531,-0.019,0.985,0.997
-"Allistipes et rel.:bmi_groupoverweight:timepoint.within.group2",-0.265,0.552,-0.479,0.632,0.966
-"Anaerostipes caccae et rel.:bmi_groupoverweight:timepoint.within.group2",-0.319,0.512,-0.622,0.534,0.939
-"Anaerotruncus colihominis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.241,0.561,-0.43,0.667,0.966
-"Anaerovorax odorimutans et rel.:bmi_groupoverweight:timepoint.within.group2",0.004,0.459,0.008,0.993,0.997
-"Aquabacterium:bmi_groupoverweight:timepoint.within.group2",-0.189,0.5,-0.378,0.705,0.966
-"Atopobium:bmi_groupoverweight:timepoint.within.group2",-0.296,0.533,-0.554,0.579,0.949
-"Bacillus:bmi_groupoverweight:timepoint.within.group2",0.137,0.444,0.309,0.757,0.966
-"Bacteroides fragilis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.448,0.589,-0.761,0.447,0.931
-"Bacteroides intestinalis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.087,0.592,-0.147,0.883,0.966
-"Bacteroides ovatus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.367,0.56,-0.656,0.512,0.939
-"Bacteroides plebeius et rel.:bmi_groupoverweight:timepoint.within.group2",-0.248,0.511,-0.486,0.627,0.966
-"Bacteroides splachnicus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.357,0.482,-0.741,0.458,0.931
-"Bacteroides stercoris et rel.:bmi_groupoverweight:timepoint.within.group2",-0.123,0.516,-0.238,0.812,0.966
-"Bacteroides uniformis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.466,0.71,-0.656,0.512,0.939
-"Bacteroides vulgatus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.512,0.643,-0.796,0.426,0.931
-"Bifidobacterium:bmi_groupoverweight:timepoint.within.group2",0.302,0.522,0.578,0.563,0.948
-"Bilophila et rel.:bmi_groupoverweight:timepoint.within.group2",-0.006,0.462,-0.013,0.99,0.997
-"Bryantella formatexigens et rel.:bmi_groupoverweight:timepoint.within.group2",-0.505,0.504,-1.001,0.317,0.931
-"Bulleidia moorei et rel.:bmi_groupoverweight:timepoint.within.group2",-0.23,0.473,-0.486,0.627,0.966
-"Burkholderia:bmi_groupoverweight:timepoint.within.group2",0.551,0.628,0.877,0.38,0.931
-"Butyrivibrio crossotus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.101,0.5,-0.202,0.84,0.966
-"Campylobacter:bmi_groupoverweight:timepoint.within.group2",0.067,0.443,0.151,0.88,0.966
-"Catenibacterium mitsuokai et rel.:bmi_groupoverweight:timepoint.within.group2",0.287,0.589,0.487,0.626,0.966
-"Clostridium (sensu stricto):bmi_groupoverweight:timepoint.within.group2",0.175,0.468,0.373,0.709,0.966
-"Clostridium cellulosi et rel.:bmi_groupoverweight:timepoint.within.group2",0.075,0.66,0.114,0.909,0.974
-"Clostridium colinum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.324,0.529,-0.611,0.541,0.94
-"Clostridium difficile et rel.:bmi_groupoverweight:timepoint.within.group2",0.03,0.5,0.059,0.953,0.991
-"Clostridium leptum et rel.:bmi_groupoverweight:timepoint.within.group2",0.021,0.518,0.041,0.968,0.997
-"Clostridium nexile et rel.:bmi_groupoverweight:timepoint.within.group2",-0.411,0.523,-0.785,0.432,0.931
-"Clostridium orbiscindens et rel.:bmi_groupoverweight:timepoint.within.group2",-0.456,0.495,-0.921,0.357,0.931
-"Clostridium ramosum et rel.:bmi_groupoverweight:timepoint.within.group2",0.044,0.445,0.1,0.92,0.981
-"Clostridium sphenoides et rel.:bmi_groupoverweight:timepoint.within.group2",-0.284,0.479,-0.594,0.553,0.948
-"Clostridium stercorarium et rel.:bmi_groupoverweight:timepoint.within.group2",0.106,0.51,0.208,0.835,0.966
-"Clostridium symbiosum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.303,0.489,-0.619,0.536,0.939
-"Collinsella:bmi_groupoverweight:timepoint.within.group2",-0.302,0.514,-0.587,0.558,0.948
-"Coprobacillus catenaformis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.02,0.46,-0.044,0.965,0.997
-"Coprococcus eutactus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.544,0.523,-1.041,0.298,0.931
-"Corynebacterium:bmi_groupoverweight:timepoint.within.group2",0.065,0.442,0.148,0.883,0.966
-"Desulfovibrio et rel.:bmi_groupoverweight:timepoint.within.group2",-0.159,0.478,-0.333,0.739,0.966
-"Dialister:bmi_groupoverweight:timepoint.within.group2",0.047,0.699,0.068,0.946,0.991
-"Dorea formicigenerans et rel.:bmi_groupoverweight:timepoint.within.group2",-0.489,0.498,-0.982,0.326,0.931
-"Eggerthella lenta et rel.:bmi_groupoverweight:timepoint.within.group2",-0.092,0.445,-0.206,0.837,0.966
-"Enterobacter aerogenes et rel.:bmi_groupoverweight:timepoint.within.group2",-0.153,0.491,-0.312,0.755,0.966
-"Enterococcus:bmi_groupoverweight:timepoint.within.group2",0.244,0.521,0.468,0.64,0.966
-"Escherichia coli et rel.:bmi_groupoverweight:timepoint.within.group2",-0.231,0.626,-0.37,0.712,0.966
-"Eubacterium biforme et rel.:bmi_groupoverweight:timepoint.within.group2",-0.462,0.584,-0.791,0.429,0.931
-"Eubacterium cylindroides et rel.:bmi_groupoverweight:timepoint.within.group2",-0.054,0.455,-0.118,0.906,0.974
-"Eubacterium hallii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.447,0.507,-0.882,0.378,0.931
-"Eubacterium limosum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.101,0.454,-0.223,0.824,0.966
-"Eubacterium rectale et rel.:bmi_groupoverweight:timepoint.within.group2",-0.354,0.508,-0.696,0.486,0.931
-"Eubacterium siraeum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.009,0.474,-0.019,0.985,0.997
-"Eubacterium ventriosum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.188,0.481,-0.392,0.695,0.966
-"Faecalibacterium prausnitzii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.246,0.535,-0.461,0.645,0.966
-"Fusobacteria:bmi_groupoverweight:timepoint.within.group2",-0.038,0.448,-0.086,0.931,0.987
-"Haemophilus:bmi_groupoverweight:timepoint.within.group2",-0.133,0.591,-0.225,0.822,0.966
-"Helicobacter:bmi_groupoverweight:timepoint.within.group2",0.084,0.443,0.19,0.849,0.966
-"Klebisiella pneumoniae et rel.:bmi_groupoverweight:timepoint.within.group2",-0.175,0.5,-0.35,0.726,0.966
-"Lachnobacillus bovis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.32,0.517,-0.62,0.535,0.939
-"Lachnospira pectinoschiza et rel.:bmi_groupoverweight:timepoint.within.group2",0.047,0.489,0.097,0.923,0.982
-"Lactobacillus catenaformis et rel.:bmi_groupoverweight:timepoint.within.group2",0.297,0.563,0.527,0.598,0.963
-"Lactobacillus gasseri et rel.:bmi_groupoverweight:timepoint.within.group2",0.057,0.444,0.129,0.897,0.968
-"Lactobacillus plantarum et rel.:bmi_groupoverweight:timepoint.within.group2",0.11,0.451,0.245,0.806,0.966
-"Lactobacillus salivarius et rel.:bmi_groupoverweight:timepoint.within.group2",0.198,0.487,0.406,0.685,0.966
-"Lactococcus:bmi_groupoverweight:timepoint.within.group2",0.075,0.455,0.165,0.869,0.966
-"Leminorella:bmi_groupoverweight:timepoint.within.group2",0.28,0.549,0.509,0.611,0.966
-"Megamonas hypermegale et rel.:bmi_groupoverweight:timepoint.within.group2",0.109,0.443,0.245,0.806,0.966
-"Megasphaera elsdenii et rel.:bmi_groupoverweight:timepoint.within.group2",0.563,0.648,0.869,0.385,0.931
-"Mitsuokella multiacida et rel.:bmi_groupoverweight:timepoint.within.group2",0.276,0.838,0.329,0.742,0.966
-"Moraxellaceae:bmi_groupoverweight:timepoint.within.group2",0.398,0.571,0.698,0.485,0.931
-"Oceanospirillum:bmi_groupoverweight:timepoint.within.group2",-0.115,0.46,-0.25,0.803,0.966
-"Oscillospira guillermondii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.405,0.548,-0.739,0.46,0.931
-"Outgrouping clostridium cluster XIVa:bmi_groupoverweight:timepoint.within.group2",-0.164,0.491,-0.335,0.737,0.966
-"Oxalobacter formigenes et rel.:bmi_groupoverweight:timepoint.within.group2",-0.24,0.544,-0.442,0.658,0.966
-"Papillibacter cinnamivorans et rel.:bmi_groupoverweight:timepoint.within.group2",-0.358,0.48,-0.746,0.455,0.931
-"Parabacteroides distasonis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.396,0.552,-0.717,0.474,0.931
-"Peptococcus niger et rel.:bmi_groupoverweight:timepoint.within.group2",-0.103,0.472,-0.219,0.827,0.966
-"Peptostreptococcus micros et rel.:bmi_groupoverweight:timepoint.within.group2",0.19,0.444,0.427,0.669,0.966
-"Phascolarctobacterium faecium et rel.:bmi_groupoverweight:timepoint.within.group2",0.093,0.547,0.171,0.865,0.966
-"Prevotella melaninogenica et rel.:bmi_groupoverweight:timepoint.within.group2",0.458,0.815,0.561,0.575,0.948
-"Prevotella oralis et rel.:bmi_groupoverweight:timepoint.within.group2",0.159,0.68,0.233,0.816,0.966
-"Prevotella ruminicola et rel.:bmi_groupoverweight:timepoint.within.group2",-0.086,0.5,-0.172,0.863,0.966
-"Prevotella tannerae et rel.:bmi_groupoverweight:timepoint.within.group2",-0.468,0.538,-0.87,0.384,0.931
-"Propionibacterium:bmi_groupoverweight:timepoint.within.group2",0.063,0.448,0.14,0.889,0.967
-"Proteus et rel.:bmi_groupoverweight:timepoint.within.group2",0.105,0.449,0.234,0.815,0.966
-"Roseburia intestinalis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.286,0.499,-0.573,0.566,0.948
-"Ruminococcus bromii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.174,0.58,-0.301,0.764,0.966
-"Ruminococcus callidus et rel.:bmi_groupoverweight:timepoint.within.group2",0.033,0.523,0.062,0.95,0.991
-"Ruminococcus gnavus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.414,0.484,-0.855,0.393,0.931
-"Ruminococcus lactaris et rel.:bmi_groupoverweight:timepoint.within.group2",-0.461,0.534,-0.863,0.388,0.931
-"Ruminococcus obeum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.328,0.488,-0.672,0.502,0.939
-"Serratia:bmi_groupoverweight:timepoint.within.group2",-0.078,0.578,-0.136,0.892,0.967
-"Sporobacter termitidis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.099,0.523,-0.189,0.85,0.966
-"Streptococcus bovis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.003,0.577,-0.005,0.996,0.997
-"Streptococcus intermedius et rel.:bmi_groupoverweight:timepoint.within.group2",0.158,0.509,0.31,0.756,0.966
-"Streptococcus mitis et rel.:bmi_groupoverweight:timepoint.within.group2",0.305,0.558,0.546,0.585,0.951
-"Subdoligranulum variable at rel.:bmi_groupoverweight:timepoint.within.group2",-0.144,0.502,-0.287,0.774,0.966
-"Sutterella wadsworthia et rel.:bmi_groupoverweight:timepoint.within.group2",-0.231,0.519,-0.445,0.656,0.966
-"Tannerella et rel.:bmi_groupoverweight:timepoint.within.group2",-0.208,0.473,-0.44,0.66,0.966
-"Uncultured Bacteroidetes:bmi_groupoverweight:timepoint.within.group2",0.252,0.531,0.476,0.634,0.966
-"Uncultured Clostridiales I:bmi_groupoverweight:timepoint.within.group2",-0.557,0.56,-0.994,0.32,0.931
-"Uncultured Clostridiales II:bmi_groupoverweight:timepoint.within.group2",-0.149,0.52,-0.287,0.774,0.966
-"Uncultured Mollicutes:bmi_groupoverweight:timepoint.within.group2",-0.514,0.576,-0.893,0.372,0.931
-"Uncultured Selenomonadaceae:bmi_groupoverweight:timepoint.within.group2",0.204,0.503,0.406,0.685,0.966
-"Veillonella:bmi_groupoverweight:timepoint.within.group2",0.348,0.524,0.663,0.507,0.939
-"Vibrio:bmi_groupoverweight:timepoint.within.group2",0.013,0.448,0.03,0.976,0.997
-"Weissella et rel.:bmi_groupoverweight:timepoint.within.group2",0.487,0.532,0.915,0.36,0.931
-"Xanthomonadaceae:bmi_groupoverweight:timepoint.within.group2",0.53,0.58,0.913,0.361,0.931
-"Yersinia et rel.:bmi_groupoverweight:timepoint.within.group2",-0.138,0.452,-0.306,0.759,0.966
-"Alcaligenes faecalis et rel.:bmi_groupobese:timepoint.within.group2",0.019,0.576,0.033,0.974,0.997
-"Allistipes et rel.:bmi_groupobese:timepoint.within.group2",-0.036,0.594,-0.061,0.952,0.991
-"Anaerostipes caccae et rel.:bmi_groupobese:timepoint.within.group2",-0.331,0.58,-0.571,0.568,0.948
-"Anaerotruncus colihominis et rel.:bmi_groupobese:timepoint.within.group2",-0.303,0.557,-0.544,0.586,0.951
-"Anaerovorax odorimutans et rel.:bmi_groupobese:timepoint.within.group2",-0.232,0.509,-0.455,0.649,0.966
-"Aquabacterium:bmi_groupobese:timepoint.within.group2",-0.295,0.508,-0.58,0.562,0.948
-"Atopobium:bmi_groupobese:timepoint.within.group2",0.042,0.613,0.068,0.946,0.991
-"Bacillus:bmi_groupobese:timepoint.within.group2",0.003,0.481,0.006,0.995,0.997
-"Bacteroides fragilis et rel.:bmi_groupobese:timepoint.within.group2",-0.428,0.633,-0.677,0.499,0.938
-"Bacteroides intestinalis et rel.:bmi_groupobese:timepoint.within.group2",0.372,0.564,0.659,0.51,0.939
-"Bacteroides ovatus et rel.:bmi_groupobese:timepoint.within.group2",-0.153,0.614,-0.25,0.803,0.966
-"Bacteroides plebeius et rel.:bmi_groupobese:timepoint.within.group2",-0.097,0.565,-0.172,0.864,0.966
-"Bacteroides splachnicus et rel.:bmi_groupobese:timepoint.within.group2",-0.218,0.543,-0.401,0.688,0.966
-"Bacteroides stercoris et rel.:bmi_groupobese:timepoint.within.group2",-0.186,0.515,-0.36,0.719,0.966
-"Bacteroides uniformis et rel.:bmi_groupobese:timepoint.within.group2",-0.54,0.726,-0.744,0.457,0.931
-"Bacteroides vulgatus et rel.:bmi_groupobese:timepoint.within.group2",-0.417,0.676,-0.617,0.537,0.939
-"Bifidobacterium:bmi_groupobese:timepoint.within.group2",0.102,0.57,0.178,0.858,0.966
-"Bilophila et rel.:bmi_groupobese:timepoint.within.group2",0.083,0.495,0.168,0.866,0.966
-"Bryantella formatexigens et rel.:bmi_groupobese:timepoint.within.group2",-0.464,0.556,-0.835,0.404,0.931
-"Bulleidia moorei et rel.:bmi_groupobese:timepoint.within.group2",-0.227,0.523,-0.434,0.664,0.966
-"Burkholderia:bmi_groupobese:timepoint.within.group2",0.544,0.678,0.802,0.422,0.931
-"Butyrivibrio crossotus et rel.:bmi_groupobese:timepoint.within.group2",-0.001,0.514,-0.002,0.998,0.998
-"Campylobacter:bmi_groupobese:timepoint.within.group2",-0.109,0.481,-0.226,0.821,0.966
-"Catenibacterium mitsuokai et rel.:bmi_groupobese:timepoint.within.group2",0.106,0.572,0.185,0.853,0.966
-"Clostridium (sensu stricto):bmi_groupobese:timepoint.within.group2",-0.107,0.501,-0.214,0.831,0.966
-"Clostridium cellulosi et rel.:bmi_groupobese:timepoint.within.group2",-0.266,0.612,-0.435,0.664,0.966
-"Clostridium colinum et rel.:bmi_groupobese:timepoint.within.group2",-0.326,0.555,-0.587,0.557,0.948
-"Clostridium difficile et rel.:bmi_groupobese:timepoint.within.group2",-0.237,0.538,-0.44,0.66,0.966
-"Clostridium leptum et rel.:bmi_groupobese:timepoint.within.group2",-0.102,0.548,-0.187,0.852,0.966
-"Clostridium nexile et rel.:bmi_groupobese:timepoint.within.group2",-0.437,0.591,-0.74,0.459,0.931
-"Clostridium orbiscindens et rel.:bmi_groupobese:timepoint.within.group2",-0.469,0.568,-0.826,0.409,0.931
-"Clostridium ramosum et rel.:bmi_groupobese:timepoint.within.group2",-0.172,0.481,-0.358,0.721,0.966
-"Clostridium sphenoides et rel.:bmi_groupobese:timepoint.within.group2",-0.452,0.509,-0.888,0.375,0.931
-"Clostridium stercorarium et rel.:bmi_groupobese:timepoint.within.group2",-0.331,0.567,-0.584,0.559,0.948
-"Clostridium symbiosum et rel.:bmi_groupobese:timepoint.within.group2",-0.465,0.519,-0.895,0.371,0.931
-"Collinsella:bmi_groupobese:timepoint.within.group2",-0.382,0.545,-0.701,0.484,0.931
-"Coprobacillus catenaformis et rel.:bmi_groupobese:timepoint.within.group2",-0.222,0.49,-0.453,0.65,0.966
-"Coprococcus eutactus et rel.:bmi_groupobese:timepoint.within.group2",-0.136,0.575,-0.237,0.812,0.966
-"Corynebacterium:bmi_groupobese:timepoint.within.group2",-0.098,0.48,-0.204,0.838,0.966
-"Desulfovibrio et rel.:bmi_groupobese:timepoint.within.group2",-0.276,0.491,-0.561,0.575,0.948
-"Dialister:bmi_groupobese:timepoint.within.group2",-0.649,0.652,-0.996,0.319,0.931
-"Dorea formicigenerans et rel.:bmi_groupobese:timepoint.within.group2",-0.444,0.538,-0.824,0.41,0.931
-"Eggerthella lenta et rel.:bmi_groupobese:timepoint.within.group2",-0.244,0.485,-0.504,0.614,0.966
-"Enterobacter aerogenes et rel.:bmi_groupobese:timepoint.within.group2",-0.442,0.533,-0.829,0.407,0.931
-"Enterococcus:bmi_groupobese:timepoint.within.group2",0.076,0.538,0.142,0.887,0.967
-"Escherichia coli et rel.:bmi_groupobese:timepoint.within.group2",-0.401,0.563,-0.712,0.476,0.931
-"Eubacterium biforme et rel.:bmi_groupobese:timepoint.within.group2",-0.3,0.609,-0.492,0.623,0.966
-"Eubacterium cylindroides et rel.:bmi_groupobese:timepoint.within.group2",-0.12,0.485,-0.248,0.804,0.966
-"Eubacterium hallii et rel.:bmi_groupobese:timepoint.within.group2",-0.244,0.532,-0.458,0.647,0.966
-"Eubacterium limosum et rel.:bmi_groupobese:timepoint.within.group2",-0.09,0.482,-0.187,0.852,0.966
-"Eubacterium rectale et rel.:bmi_groupobese:timepoint.within.group2",-0.386,0.526,-0.734,0.463,0.931
-"Eubacterium siraeum et rel.:bmi_groupobese:timepoint.within.group2",-0.26,0.5,-0.521,0.603,0.966
-"Eubacterium ventriosum et rel.:bmi_groupobese:timepoint.within.group2",-0.117,0.515,-0.227,0.82,0.966
-"Faecalibacterium prausnitzii et rel.:bmi_groupobese:timepoint.within.group2",0.222,0.603,0.368,0.713,0.966
-"Fusobacteria:bmi_groupobese:timepoint.within.group2",-0.172,0.49,-0.35,0.726,0.966
-"Haemophilus:bmi_groupobese:timepoint.within.group2",-0.015,0.66,-0.022,0.982,0.997
-"Helicobacter:bmi_groupobese:timepoint.within.group2",-0.076,0.481,-0.159,0.874,0.966
-"Klebisiella pneumoniae et rel.:bmi_groupobese:timepoint.within.group2",-0.427,0.538,-0.795,0.427,0.931
-"Lachnobacillus bovis et rel.:bmi_groupobese:timepoint.within.group2",-0.578,0.528,-1.093,0.274,0.887
-"Lachnospira pectinoschiza et rel.:bmi_groupobese:timepoint.within.group2",-0.406,0.509,-0.798,0.425,0.931
-"Lactobacillus catenaformis et rel.:bmi_groupobese:timepoint.within.group2",0.215,0.589,0.365,0.715,0.966
-"Lactobacillus gasseri et rel.:bmi_groupobese:timepoint.within.group2",-0.104,0.481,-0.217,0.828,0.966
-"Lactobacillus plantarum et rel.:bmi_groupobese:timepoint.within.group2",-0.084,0.489,-0.172,0.864,0.966
-"Lactobacillus salivarius et rel.:bmi_groupobese:timepoint.within.group2",-0.006,0.517,-0.011,0.991,0.997
-"Lactococcus:bmi_groupobese:timepoint.within.group2",-0.193,0.494,-0.391,0.696,0.966
-"Leminorella:bmi_groupobese:timepoint.within.group2",-0.031,0.537,-0.058,0.954,0.991
-"Megamonas hypermegale et rel.:bmi_groupobese:timepoint.within.group2",-0.098,0.48,-0.204,0.838,0.966
-"Megasphaera elsdenii et rel.:bmi_groupobese:timepoint.within.group2",0.004,0.619,0.007,0.994,0.997
-"Mitsuokella multiacida et rel.:bmi_groupobese:timepoint.within.group2",-0.351,0.773,-0.454,0.65,0.966
-"Moraxellaceae:bmi_groupobese:timepoint.within.group2",0.169,0.574,0.294,0.768,0.966
-"Oceanospirillum:bmi_groupobese:timepoint.within.group2",-0.192,0.508,-0.378,0.705,0.966
-"Oscillospira guillermondii et rel.:bmi_groupobese:timepoint.within.group2",-0.567,0.548,-1.035,0.301,0.931
-"Outgrouping clostridium cluster XIVa:bmi_groupobese:timepoint.within.group2",-0.413,0.52,-0.794,0.427,0.931
-"Oxalobacter formigenes et rel.:bmi_groupobese:timepoint.within.group2",-0.228,0.6,-0.38,0.704,0.966
-"Papillibacter cinnamivorans et rel.:bmi_groupobese:timepoint.within.group2",0.168,0.51,0.33,0.742,0.966
-"Parabacteroides distasonis et rel.:bmi_groupobese:timepoint.within.group2",-0.162,0.586,-0.276,0.782,0.966
-"Peptococcus niger et rel.:bmi_groupobese:timepoint.within.group2",-0.203,0.503,-0.403,0.687,0.966
-"Peptostreptococcus micros et rel.:bmi_groupobese:timepoint.within.group2",0.024,0.482,0.05,0.96,0.995
-"Phascolarctobacterium faecium et rel.:bmi_groupobese:timepoint.within.group2",-0.228,0.521,-0.437,0.662,0.966
-"Prevotella melaninogenica et rel.:bmi_groupobese:timepoint.within.group2",0.531,0.835,0.637,0.524,0.939
-"Prevotella oralis et rel.:bmi_groupobese:timepoint.within.group2",0.531,0.767,0.693,0.489,0.932
-"Prevotella ruminicola et rel.:bmi_groupobese:timepoint.within.group2",-0.07,0.527,-0.132,0.895,0.968
-"Prevotella tannerae et rel.:bmi_groupobese:timepoint.within.group2",-0.377,0.587,-0.643,0.521,0.939
-"Propionibacterium:bmi_groupobese:timepoint.within.group2",-0.082,0.483,-0.169,0.866,0.966
-"Proteus et rel.:bmi_groupobese:timepoint.within.group2",-0.128,0.487,-0.262,0.793,0.966
-"Roseburia intestinalis et rel.:bmi_groupobese:timepoint.within.group2",-0.364,0.518,-0.702,0.483,0.931
-"Ruminococcus bromii et rel.:bmi_groupobese:timepoint.within.group2",-0.022,0.6,-0.036,0.971,0.997
-"Ruminococcus callidus et rel.:bmi_groupobese:timepoint.within.group2",-0.185,0.535,-0.346,0.73,0.966
-"Ruminococcus gnavus et rel.:bmi_groupobese:timepoint.within.group2",-0.35,0.503,-0.696,0.487,0.931
-"Ruminococcus lactaris et rel.:bmi_groupobese:timepoint.within.group2",-0.551,0.553,-0.996,0.319,0.931
-"Ruminococcus obeum et rel.:bmi_groupobese:timepoint.within.group2",-0.164,0.522,-0.313,0.754,0.966
-"Serratia:bmi_groupobese:timepoint.within.group2",-0.221,0.676,-0.327,0.744,0.966
-"Sporobacter termitidis et rel.:bmi_groupobese:timepoint.within.group2",-0.114,0.534,-0.213,0.831,0.966
-"Streptococcus bovis et rel.:bmi_groupobese:timepoint.within.group2",0.233,0.602,0.386,0.699,0.966
-"Streptococcus intermedius et rel.:bmi_groupobese:timepoint.within.group2",0.133,0.532,0.25,0.802,0.966
-"Streptococcus mitis et rel.:bmi_groupobese:timepoint.within.group2",0.208,0.58,0.358,0.72,0.966
-"Subdoligranulum variable at rel.:bmi_groupobese:timepoint.within.group2",-0.395,0.553,-0.714,0.475,0.931
-"Sutterella wadsworthia et rel.:bmi_groupobese:timepoint.within.group2",-0.077,0.537,-0.144,0.885,0.967
-"Tannerella et rel.:bmi_groupobese:timepoint.within.group2",-0.107,0.533,-0.2,0.841,0.966
-"Uncultured Bacteroidetes:bmi_groupobese:timepoint.within.group2",0.286,0.597,0.479,0.632,0.966
-"Uncultured Clostridiales I:bmi_groupobese:timepoint.within.group2",-0.457,0.561,-0.815,0.415,0.931
-"Uncultured Clostridiales II:bmi_groupobese:timepoint.within.group2",-0.252,0.531,-0.475,0.635,0.966
-"Uncultured Mollicutes:bmi_groupobese:timepoint.within.group2",-0.696,0.587,-1.186,0.236,0.853
-"Uncultured Selenomonadaceae:bmi_groupobese:timepoint.within.group2",0.31,0.557,0.556,0.578,0.949
-"Veillonella:bmi_groupobese:timepoint.within.group2",0.114,0.549,0.207,0.836,0.966
-"Vibrio:bmi_groupobese:timepoint.within.group2",-0.251,0.484,-0.518,0.605,0.966
-"Weissella et rel.:bmi_groupobese:timepoint.within.group2",0.305,0.562,0.542,0.588,0.951
-"Xanthomonadaceae:bmi_groupobese:timepoint.within.group2",0.346,0.692,0.5,0.617,0.966
-"Yersinia et rel.:bmi_groupobese:timepoint.within.group2",-0.447,0.497,-0.899,0.369,0.931
+"Akkermansia",1.152,0.227,5.065,0,0
+"Alcaligenes faecalis et rel.",-1.24,0.128,-9.725,0,0
+"Allistipes et rel.",1.681,0.176,9.566,0,0
+"Anaerostipes caccae et rel.",0.787,0.158,4.996,0,0
+"Anaerotruncus colihominis et rel.",1.133,0.168,6.754,0,0
+"Anaerovorax odorimutans et rel.",0.032,0.083,0.38,0.704,0.975
+"Aquabacterium",-2.437,0.094,-25.789,0,0
+"Atopobium",-2.504,0.052,-48.065,0,0
+"Bacillus",-1.841,0.049,-37.265,0,0
+"Bacteroides fragilis et rel.",1.474,0.23,6.407,0,0
+"Bacteroides intestinalis et rel.",-1.421,0.134,-10.62,0,0
+"Bacteroides ovatus et rel.",0.914,0.159,5.754,0,0
+"Bacteroides plebeius et rel.",0.314,0.134,2.341,0.019,0.119
+"Bacteroides splachnicus et rel.",0.798,0.093,8.563,0,0
+"Bacteroides stercoris et rel.",-0.335,0.084,-3.987,0,0.001
+"Bacteroides uniformis et rel.",0.168,0.286,0.589,0.556,0.943
+"Bacteroides vulgatus et rel.",2.517,0.223,11.304,0,0
+"Bifidobacterium",0.965,0.14,6.88,0,0
+"Bilophila et rel.",-1.779,0.068,-26.318,0,0
+"Bryantella formatexigens et rel.",1.277,0.111,11.477,0,0
+"Bulleidia moorei et rel.",-1.205,0.059,-20.35,0,0
+"Burkholderia",-2.251,0.062,-36.31,0,0
+"Butyrivibrio crossotus et rel.",2.069,0.108,19.068,0,0
+"Campylobacter",-0.986,0.054,-18.254,0,0
+"Catenibacterium mitsuokai et rel.",-1.43,0.151,-9.448,0,0
+"Clostridium (sensu stricto)",0.652,0.104,6.265,0,0
+"Clostridium cellulosi et rel.",2.88,0.218,13.236,0,0
+"Clostridium colinum et rel.",0.396,0.159,2.496,0.013,0.081
+"Clostridium difficile et rel.",0.566,0.151,3.739,0,0.001
+"Clostridium leptum et rel.",1.507,0.147,10.236,0,0
+"Clostridium nexile et rel.",0.864,0.136,6.348,0,0
+"Clostridium orbiscindens et rel.",2.574,0.142,18.181,0,0
+"Clostridium ramosum et rel.",-1.393,0.045,-30.876,0,0
+"Clostridium sphenoides et rel.",1.498,0.099,15.098,0,0
+"Clostridium stercorarium et rel.",-0.802,0.079,-10.103,0,0
+"Clostridium symbiosum et rel.",2.37,0.132,17.97,0,0
+"Collinsella",-0.452,0.129,-3.504,0,0.004
+"Coprobacillus catenaformis et rel.",-1.18,0.068,-17.477,0,0
+"Coprococcus eutactus et rel.",1.431,0.174,8.243,0,0
+"Corynebacterium",-1.883,0.046,-41.38,0,0
+"Desulfovibrio et rel.",-1.042,0.063,-16.541,0,0
+"Dialister",-0.22,0.237,-0.927,0.354,0.926
+"Dorea formicigenerans et rel.",1.68,0.133,12.663,0,0
+"Eggerthella lenta et rel.",-0.939,0.049,-19.232,0,0
+"Enterobacter aerogenes et rel.",-0.079,0.13,-0.608,0.543,0.942
+"Enterococcus",-0.59,0.214,-2.763,0.006,0.038
+"Escherichia coli et rel.",0.331,0.132,2.5,0.012,0.08
+"Eubacterium biforme et rel.",0.555,0.188,2.949,0.003,0.022
+"Eubacterium cylindroides et rel.",-1.38,0.065,-21.262,0,0
+"Eubacterium hallii et rel.",0.166,0.134,1.238,0.216,0.849
+"Eubacterium limosum et rel.",-1.869,0.052,-36.287,0,0
+"Eubacterium rectale et rel.",0.896,0.128,6.991,0,0
+"Eubacterium siraeum et rel.",-1.305,0.074,-17.758,0,0
+"Eubacterium ventriosum et rel.",0.102,0.118,0.863,0.388,0.926
+"Faecalibacterium prausnitzii et rel.",3.064,0.164,18.718,0,0
+"Fusobacteria",-0.812,0.057,-14.355,0,0
+"Haemophilus",-2.015,0.112,-17.914,0,0
+"Helicobacter",-1.467,0.049,-29.704,0,0
+"Klebisiella pneumoniae et rel.",-0.522,0.128,-4.078,0,0
+"Lachnobacillus bovis et rel.",0.729,0.132,5.523,0,0
+"Lachnospira pectinoschiza et rel.",1.128,0.091,12.37,0,0
+"Lactobacillus catenaformis et rel.",-2.419,0.072,-33.827,0,0
+"Lactobacillus gasseri et rel.",-0.411,0.053,-7.773,0,0
+"Lactobacillus plantarum et rel.",0.001,0.076,0.009,0.992,0.995
+"Lactobacillus salivarius et rel.",-1.631,0.097,-16.867,0,0
+"Lactococcus",-1.752,0.066,-26.418,0,0
+"Leminorella",-2.258,0.11,-20.454,0,0
+"Megamonas hypermegale et rel.",-1.883,0.046,-41.38,0,0
+"Megasphaera elsdenii et rel.",0.398,0.244,1.632,0.103,0.506
+"Mitsuokella multiacida et rel.",-0.21,0.325,-0.648,0.517,0.94
+"Moraxellaceae",-2.339,0.102,-22.821,0,0
+"Oceanospirillum",-1.697,0.059,-28.576,0,0
+"Oscillospira guillermondii et rel.",4.25,0.184,23.101,0,0
+"Outgrouping clostridium cluster XIVa",1.014,0.126,8.055,0,0
+"Oxalobacter formigenes et rel.",0.475,0.172,2.767,0.006,0.038
+"Papillibacter cinnamivorans et rel.",0.637,0.114,5.571,0,0
+"Parabacteroides distasonis et rel.",1.044,0.151,6.899,0,0
+"Peptococcus niger et rel.",-1.064,0.074,-14.377,0,0
+"Peptostreptococcus micros et rel.",-1.412,0.048,-29.12,0,0
+"Phascolarctobacterium faecium et rel.",-0.049,0.111,-0.443,0.658,0.963
+"Prevotella melaninogenica et rel.",5.152,0.336,15.333,0,0
+"Prevotella oralis et rel.",3.452,0.265,13.035,0,0
+"Prevotella ruminicola et rel.",-1.448,0.094,-15.373,0,0
+"Prevotella tannerae et rel.",0.425,0.146,2.915,0.004,0.025
+"Propionibacterium",-1.855,0.053,-34.734,0,0
+"Proteus et rel.",-0.868,0.06,-14.415,0,0
+"Roseburia intestinalis et rel.",-0.091,0.113,-0.807,0.42,0.926
+"Ruminococcus bromii et rel.",1.012,0.199,5.09,0,0
+"Ruminococcus callidus et rel.",1.059,0.134,7.901,0,0
+"Ruminococcus gnavus et rel.",0.434,0.104,4.19,0,0
+"Ruminococcus lactaris et rel.",-0.515,0.124,-4.143,0,0
+"Ruminococcus obeum et rel.",2.5,0.116,21.554,0,0
+"Serratia",-1.895,0.147,-12.929,0,0
+"Sporobacter termitidis et rel.",2.588,0.133,19.503,0,0
+"Streptococcus bovis et rel.",0.847,0.204,4.149,0,0
+"Streptococcus intermedius et rel.",-0.948,0.125,-7.572,0,0
+"Streptococcus mitis et rel.",0.5,0.192,2.607,0.009,0.061
+"Subdoligranulum variable at rel.",2.164,0.138,15.658,0,0
+"Sutterella wadsworthia et rel.",0.443,0.142,3.118,0.002,0.013
+"Tannerella et rel.",0.475,0.087,5.439,0,0
+"Uncultured Bacteroidetes",-1.749,0.126,-13.872,0,0
+"Uncultured Clostridiales I",1.338,0.154,8.707,0,0
+"Uncultured Clostridiales II",1.457,0.142,10.282,0,0
+"Uncultured Mollicutes",0.725,0.172,4.207,0,0
+"Uncultured Selenomonadaceae",-2.417,0.105,-23.086,0,0
+"Veillonella",-0.806,0.137,-5.891,0,0
+"Vibrio",-1.254,0.057,-22.039,0,0
+"Weissella et rel.",-1.276,0.221,-5.769,0,0
+"Xanthomonadaceae",-1.972,0.084,-23.482,0,0
+"Yersinia et rel.",-1.46,0.069,-21.218,0,0
+"bmi_groupoverweight",0.055,0.287,0.192,0.848,0.982
+"bmi_groupobese",-0.374,0.331,-1.128,0.259,0.916
+"timepoint.within.group2",0.168,0.315,0.532,0.595,0.95
+"Alcaligenes faecalis et rel.:bmi_groupoverweight",-0.022,0.346,-0.064,0.949,0.989
+"Allistipes et rel.:bmi_groupoverweight",0.668,0.378,1.766,0.077,0.418
+"Anaerostipes caccae et rel.:bmi_groupoverweight",0.31,0.352,0.881,0.378,0.926
+"Anaerotruncus colihominis et rel.:bmi_groupoverweight",-0.289,0.37,-0.783,0.434,0.926
+"Anaerovorax odorimutans et rel.:bmi_groupoverweight",-0.276,0.306,-0.9,0.368,0.926
+"Aquabacterium:bmi_groupoverweight",-0.188,0.308,-0.608,0.543,0.942
+"Atopobium:bmi_groupoverweight",-0.168,0.296,-0.57,0.569,0.943
+"Bacillus:bmi_groupoverweight",-0.236,0.293,-0.805,0.421,0.926
+"Bacteroides fragilis et rel.:bmi_groupoverweight",0.699,0.403,1.733,0.083,0.435
+"Bacteroides intestinalis et rel.:bmi_groupoverweight",1.211,0.377,3.213,0.001,0.009
+"Bacteroides ovatus et rel.:bmi_groupoverweight",0.843,0.368,2.29,0.022,0.133
+"Bacteroides plebeius et rel.:bmi_groupoverweight",0.67,0.339,1.977,0.048,0.268
+"Bacteroides splachnicus et rel.:bmi_groupoverweight",0.182,0.319,0.571,0.568,0.943
+"Bacteroides stercoris et rel.:bmi_groupoverweight",0.827,0.339,2.441,0.015,0.093
+"Bacteroides uniformis et rel.:bmi_groupoverweight",1.371,0.476,2.879,0.004,0.027
+"Bacteroides vulgatus et rel.:bmi_groupoverweight",1.394,0.429,3.249,0.001,0.009
+"Bifidobacterium:bmi_groupoverweight",0.1,0.357,0.28,0.779,0.977
+"Bilophila et rel.:bmi_groupoverweight",-0.101,0.298,-0.339,0.734,0.977
+"Bryantella formatexigens et rel.:bmi_groupoverweight",0.239,0.338,0.707,0.48,0.926
+"Bulleidia moorei et rel.:bmi_groupoverweight",-0.284,0.299,-0.949,0.342,0.926
+"Burkholderia:bmi_groupoverweight",-0.016,0.301,-0.054,0.957,0.989
+"Butyrivibrio crossotus et rel.:bmi_groupoverweight",0.013,0.334,0.039,0.969,0.989
+"Campylobacter:bmi_groupoverweight",-0.172,0.294,-0.586,0.558,0.943
+"Catenibacterium mitsuokai et rel.:bmi_groupoverweight",-0.469,0.349,-1.343,0.179,0.785
+"Clostridium (sensu stricto):bmi_groupoverweight",-0.444,0.31,-1.429,0.153,0.696
+"Clostridium cellulosi et rel.:bmi_groupoverweight",-0.073,0.438,-0.166,0.868,0.985
+"Clostridium colinum et rel.:bmi_groupoverweight",-0.263,0.359,-0.732,0.464,0.926
+"Clostridium difficile et rel.:bmi_groupoverweight",-0.584,0.335,-1.743,0.081,0.433
+"Clostridium leptum et rel.:bmi_groupoverweight",-0.234,0.34,-0.688,0.491,0.926
+"Clostridium nexile et rel.:bmi_groupoverweight",-0.033,0.339,-0.098,0.922,0.989
+"Clostridium orbiscindens et rel.:bmi_groupoverweight",0.091,0.334,0.273,0.785,0.977
+"Clostridium ramosum et rel.:bmi_groupoverweight",-0.205,0.293,-0.699,0.485,0.926
+"Clostridium sphenoides et rel.:bmi_groupoverweight",0.076,0.32,0.239,0.811,0.977
+"Clostridium stercorarium et rel.:bmi_groupoverweight",0.127,0.33,0.384,0.701,0.975
+"Clostridium symbiosum et rel.:bmi_groupoverweight",0.42,0.335,1.252,0.21,0.845
+"Collinsella:bmi_groupoverweight",-0.019,0.336,-0.057,0.955,0.989
+"Coprobacillus catenaformis et rel.:bmi_groupoverweight",-0.285,0.302,-0.942,0.346,0.926
+"Coprococcus eutactus et rel.:bmi_groupoverweight",-0.05,0.369,-0.136,0.891,0.989
+"Corynebacterium:bmi_groupoverweight",-0.194,0.292,-0.663,0.507,0.935
+"Desulfovibrio et rel.:bmi_groupoverweight",-0.055,0.309,-0.177,0.859,0.985
+"Dialister:bmi_groupoverweight",0.115,0.451,0.256,0.798,0.977
+"Dorea formicigenerans et rel.:bmi_groupoverweight",0.126,0.331,0.382,0.703,0.975
+"Eggerthella lenta et rel.:bmi_groupoverweight",-0.176,0.293,-0.6,0.548,0.942
+"Enterobacter aerogenes et rel.:bmi_groupoverweight",-0.469,0.322,-1.457,0.145,0.67
+"Enterococcus:bmi_groupoverweight",-0.413,0.37,-1.115,0.265,0.924
+"Escherichia coli et rel.:bmi_groupoverweight",0.142,0.387,0.365,0.715,0.975
+"Eubacterium biforme et rel.:bmi_groupoverweight",-0.756,0.386,-1.958,0.05,0.279
+"Eubacterium cylindroides et rel.:bmi_groupoverweight",-0.07,0.299,-0.234,0.815,0.977
+"Eubacterium hallii et rel.:bmi_groupoverweight",0.069,0.336,0.206,0.837,0.98
+"Eubacterium limosum et rel.:bmi_groupoverweight",-0.031,0.296,-0.105,0.916,0.989
+"Eubacterium rectale et rel.:bmi_groupoverweight",0.156,0.348,0.447,0.655,0.963
+"Eubacterium siraeum et rel.:bmi_groupoverweight",0.032,0.304,0.105,0.916,0.989
+"Eubacterium ventriosum et rel.:bmi_groupoverweight",0.021,0.326,0.065,0.949,0.989
+"Faecalibacterium prausnitzii et rel.:bmi_groupoverweight",0.185,0.353,0.523,0.601,0.951
+"Fusobacteria:bmi_groupoverweight",-0.176,0.294,-0.598,0.55,0.942
+"Haemophilus:bmi_groupoverweight",-0.344,0.33,-1.044,0.297,0.926
+"Helicobacter:bmi_groupoverweight",-0.165,0.293,-0.563,0.574,0.943
+"Klebisiella pneumoniae et rel.:bmi_groupoverweight",-0.486,0.324,-1.502,0.133,0.623
+"Lachnobacillus bovis et rel.:bmi_groupoverweight",0.062,0.337,0.185,0.853,0.984
+"Lachnospira pectinoschiza et rel.:bmi_groupoverweight",-0.023,0.316,-0.072,0.943,0.989
+"Lactobacillus catenaformis et rel.:bmi_groupoverweight",-0.314,0.298,-1.053,0.292,0.926
+"Lactobacillus gasseri et rel.:bmi_groupoverweight",-0.214,0.296,-0.721,0.471,0.926
+"Lactobacillus plantarum et rel.:bmi_groupoverweight",-0.243,0.299,-0.814,0.415,0.926
+"Lactobacillus salivarius et rel.:bmi_groupoverweight",-0.238,0.321,-0.741,0.459,0.926
+"Lactococcus:bmi_groupoverweight",-0.233,0.3,-0.778,0.437,0.926
+"Leminorella:bmi_groupoverweight",-0.239,0.315,-0.757,0.449,0.926
+"Megamonas hypermegale et rel.:bmi_groupoverweight",-0.175,0.293,-0.598,0.55,0.942
+"Megasphaera elsdenii et rel.:bmi_groupoverweight",-0.473,0.418,-1.133,0.257,0.913
+"Mitsuokella multiacida et rel.:bmi_groupoverweight",-0.596,0.504,-1.183,0.237,0.877
+"Moraxellaceae:bmi_groupoverweight",-0.298,0.31,-0.96,0.337,0.926
+"Oceanospirillum:bmi_groupoverweight",-0.128,0.297,-0.43,0.667,0.968
+"Oscillospira guillermondii et rel.:bmi_groupoverweight",-0.304,0.371,-0.817,0.414,0.926
+"Outgrouping clostridium cluster XIVa:bmi_groupoverweight",-0.16,0.332,-0.481,0.63,0.953
+"Oxalobacter formigenes et rel.:bmi_groupoverweight",-0.091,0.361,-0.251,0.802,0.977
+"Papillibacter cinnamivorans et rel.:bmi_groupoverweight",-0.096,0.33,-0.291,0.771,0.977
+"Parabacteroides distasonis et rel.:bmi_groupoverweight",0.881,0.366,2.407,0.016,0.1
+"Peptococcus niger et rel.:bmi_groupoverweight",-0.224,0.307,-0.728,0.467,0.926
+"Peptostreptococcus micros et rel.:bmi_groupoverweight",-0.236,0.293,-0.805,0.421,0.926
+"Phascolarctobacterium faecium et rel.:bmi_groupoverweight",0.272,0.357,0.763,0.446,0.926
+"Prevotella melaninogenica et rel.:bmi_groupoverweight",-1.966,0.592,-3.321,0.001,0.007
+"Prevotella oralis et rel.:bmi_groupoverweight",-1.233,0.486,-2.536,0.011,0.073
+"Prevotella ruminicola et rel.:bmi_groupoverweight",0.011,0.318,0.033,0.973,0.989
+"Prevotella tannerae et rel.:bmi_groupoverweight",0.639,0.358,1.785,0.074,0.405
+"Propionibacterium:bmi_groupoverweight",-0.167,0.294,-0.568,0.57,0.943
+"Proteus et rel.:bmi_groupoverweight",-0.257,0.295,-0.871,0.384,0.926
+"Roseburia intestinalis et rel.:bmi_groupoverweight",0.434,0.333,1.304,0.192,0.803
+"Ruminococcus bromii et rel.:bmi_groupoverweight",-0.27,0.384,-0.703,0.482,0.926
+"Ruminococcus callidus et rel.:bmi_groupoverweight",-0.227,0.336,-0.675,0.5,0.926
+"Ruminococcus gnavus et rel.:bmi_groupoverweight",0.271,0.325,0.835,0.404,0.926
+"Ruminococcus lactaris et rel.:bmi_groupoverweight",-0.359,0.329,-1.09,0.276,0.926
+"Ruminococcus obeum et rel.:bmi_groupoverweight",0.189,0.332,0.571,0.568,0.943
+"Serratia:bmi_groupoverweight",-0.316,0.361,-0.876,0.381,0.926
+"Sporobacter termitidis et rel.:bmi_groupoverweight",-0.285,0.351,-0.812,0.417,0.926
+"Streptococcus bovis et rel.:bmi_groupoverweight",0.304,0.401,0.757,0.449,0.926
+"Streptococcus intermedius et rel.:bmi_groupoverweight",0.022,0.336,0.066,0.948,0.989
+"Streptococcus mitis et rel.:bmi_groupoverweight",0.232,0.378,0.614,0.539,0.942
+"Subdoligranulum variable at rel.:bmi_groupoverweight",0.265,0.342,0.775,0.438,0.926
+"Sutterella wadsworthia et rel.:bmi_groupoverweight",0.285,0.352,0.809,0.418,0.926
+"Tannerella et rel.:bmi_groupoverweight",0.365,0.311,1.174,0.241,0.877
+"Uncultured Bacteroidetes:bmi_groupoverweight",0.022,0.322,0.069,0.945,0.989
+"Uncultured Clostridiales I:bmi_groupoverweight",-0.4,0.375,-1.066,0.286,0.926
+"Uncultured Clostridiales II:bmi_groupoverweight",-0.602,0.343,-1.754,0.079,0.426
+"Uncultured Mollicutes:bmi_groupoverweight",-0.636,0.374,-1.701,0.089,0.452
+"Uncultured Selenomonadaceae:bmi_groupoverweight",0.154,0.334,0.459,0.646,0.963
+"Veillonella:bmi_groupoverweight",-0.408,0.335,-1.22,0.222,0.857
+"Vibrio:bmi_groupoverweight",-0.297,0.294,-1.01,0.313,0.926
+"Weissella et rel.:bmi_groupoverweight",-0.627,0.369,-1.7,0.089,0.452
+"Xanthomonadaceae:bmi_groupoverweight",-0.229,0.308,-0.742,0.458,0.926
+"Yersinia et rel.:bmi_groupoverweight",-0.234,0.297,-0.789,0.43,0.926
+"Alcaligenes faecalis et rel.:bmi_groupobese",0.084,0.385,0.218,0.827,0.977
+"Allistipes et rel.:bmi_groupobese",0.717,0.434,1.653,0.098,0.492
+"Anaerostipes caccae et rel.:bmi_groupobese",0.925,0.413,2.239,0.025,0.148
+"Anaerotruncus colihominis et rel.:bmi_groupobese",0.076,0.384,0.197,0.844,0.98
+"Anaerovorax odorimutans et rel.:bmi_groupobese",0.36,0.361,0.997,0.319,0.926
+"Aquabacterium:bmi_groupobese",0.212,0.347,0.61,0.542,0.942
+"Atopobium:bmi_groupobese",0.368,0.338,1.087,0.277,0.926
+"Bacillus:bmi_groupobese",0.273,0.337,0.81,0.418,0.926
+"Bacteroides fragilis et rel.:bmi_groupobese",0.35,0.466,0.752,0.452,0.926
+"Bacteroides intestinalis et rel.:bmi_groupobese",0.769,0.384,2.004,0.045,0.254
+"Bacteroides ovatus et rel.:bmi_groupobese",0.571,0.442,1.292,0.196,0.816
+"Bacteroides plebeius et rel.:bmi_groupobese",0.603,0.403,1.495,0.135,0.627
+"Bacteroides splachnicus et rel.:bmi_groupobese",0.476,0.383,1.243,0.214,0.849
+"Bacteroides stercoris et rel.:bmi_groupobese",0.805,0.363,2.217,0.027,0.154
+"Bacteroides uniformis et rel.:bmi_groupobese",0.631,0.52,1.214,0.225,0.857
+"Bacteroides vulgatus et rel.:bmi_groupobese",1.139,0.496,2.298,0.022,0.131
+"Bifidobacterium:bmi_groupobese",0.587,0.411,1.429,0.153,0.696
+"Bilophila et rel.:bmi_groupobese",0.261,0.342,0.764,0.445,0.926
+"Bryantella formatexigens et rel.:bmi_groupobese",0.633,0.396,1.598,0.11,0.538
+"Bulleidia moorei et rel.:bmi_groupobese",0.309,0.348,0.888,0.374,0.926
+"Burkholderia:bmi_groupobese",0.657,0.346,1.897,0.058,0.318
+"Butyrivibrio crossotus et rel.:bmi_groupobese",0.462,0.362,1.273,0.203,0.832
+"Campylobacter:bmi_groupobese",0.32,0.338,0.947,0.344,0.926
+"Catenibacterium mitsuokai et rel.:bmi_groupobese",-0.059,0.373,-0.159,0.874,0.985
+"Clostridium (sensu stricto):bmi_groupobese",0.194,0.355,0.548,0.584,0.943
+"Clostridium cellulosi et rel.:bmi_groupobese",0.569,0.432,1.317,0.188,0.803
+"Clostridium colinum et rel.:bmi_groupobese",0.48,0.391,1.229,0.219,0.855
+"Clostridium difficile et rel.:bmi_groupobese",0.166,0.386,0.43,0.667,0.968
+"Clostridium leptum et rel.:bmi_groupobese",0.137,0.383,0.357,0.721,0.976
+"Clostridium nexile et rel.:bmi_groupobese",0.686,0.408,1.68,0.093,0.469
+"Clostridium orbiscindens et rel.:bmi_groupobese",0.331,0.405,0.816,0.414,0.926
+"Clostridium ramosum et rel.:bmi_groupobese",0.314,0.337,0.934,0.35,0.926
+"Clostridium sphenoides et rel.:bmi_groupobese",0.549,0.359,1.531,0.126,0.597
+"Clostridium stercorarium et rel.:bmi_groupobese",0.602,0.387,1.556,0.12,0.576
+"Clostridium symbiosum et rel.:bmi_groupobese",0.8,0.37,2.161,0.031,0.175
+"Collinsella:bmi_groupobese",0.435,0.382,1.139,0.255,0.909
+"Coprobacillus catenaformis et rel.:bmi_groupobese",0.303,0.341,0.889,0.374,0.926
+"Coprococcus eutactus et rel.:bmi_groupobese",0.321,0.415,0.773,0.44,0.926
+"Corynebacterium:bmi_groupobese",0.306,0.336,0.911,0.362,0.926
+"Desulfovibrio et rel.:bmi_groupobese",0.209,0.34,0.614,0.539,0.942
+"Dialister:bmi_groupobese",0.728,0.465,1.567,0.117,0.569
+"Dorea formicigenerans et rel.:bmi_groupobese",0.528,0.377,1.4,0.162,0.73
+"Eggerthella lenta et rel.:bmi_groupobese",0.367,0.338,1.086,0.277,0.926
+"Enterobacter aerogenes et rel.:bmi_groupobese",0.482,0.378,1.276,0.202,0.832
+"Enterococcus:bmi_groupobese",0.016,0.399,0.041,0.968,0.989
+"Escherichia coli et rel.:bmi_groupobese",0.293,0.375,0.783,0.434,0.926
+"Eubacterium biforme et rel.:bmi_groupobese",-0.296,0.428,-0.692,0.489,0.926
+"Eubacterium cylindroides et rel.:bmi_groupobese",0.242,0.34,0.713,0.476,0.926
+"Eubacterium hallii et rel.:bmi_groupobese",0.46,0.372,1.237,0.216,0.849
+"Eubacterium limosum et rel.:bmi_groupobese",0.305,0.337,0.904,0.366,0.926
+"Eubacterium rectale et rel.:bmi_groupobese",0.853,0.371,2.3,0.021,0.131
+"Eubacterium siraeum et rel.:bmi_groupobese",0.45,0.343,1.31,0.19,0.803
+"Eubacterium ventriosum et rel.:bmi_groupobese",0.6,0.364,1.646,0.1,0.495
+"Faecalibacterium prausnitzii et rel.:bmi_groupobese",0.586,0.431,1.36,0.174,0.775
+"Fusobacteria:bmi_groupobese",0.453,0.342,1.324,0.186,0.8
+"Haemophilus:bmi_groupobese",0.415,0.374,1.111,0.267,0.926
+"Helicobacter:bmi_groupobese",0.318,0.337,0.944,0.345,0.926
+"Klebisiella pneumoniae et rel.:bmi_groupobese",0.337,0.377,0.894,0.371,0.926
+"Lachnobacillus bovis et rel.:bmi_groupobese",0.809,0.368,2.201,0.028,0.16
+"Lachnospira pectinoschiza et rel.:bmi_groupobese",0.861,0.357,2.413,0.016,0.099
+"Lactobacillus catenaformis et rel.:bmi_groupobese",0.29,0.342,0.848,0.396,0.926
+"Lactobacillus gasseri et rel.:bmi_groupobese",0.327,0.338,0.966,0.334,0.926
+"Lactobacillus plantarum et rel.:bmi_groupobese",0.323,0.349,0.924,0.356,0.926
+"Lactobacillus salivarius et rel.:bmi_groupobese",0.448,0.355,1.262,0.207,0.843
+"Lactococcus:bmi_groupobese",0.353,0.347,1.016,0.309,0.926
+"Leminorella:bmi_groupobese",0.191,0.354,0.54,0.589,0.946
+"Megamonas hypermegale et rel.:bmi_groupobese",0.316,0.337,0.939,0.348,0.926
+"Megasphaera elsdenii et rel.:bmi_groupobese",-0.052,0.437,-0.119,0.905,0.989
+"Mitsuokella multiacida et rel.:bmi_groupobese",0.254,0.508,0.499,0.618,0.953
+"Moraxellaceae:bmi_groupobese",0.24,0.352,0.682,0.495,0.926
+"Oceanospirillum:bmi_groupobese",0.466,0.346,1.347,0.178,0.785
+"Oscillospira guillermondii et rel.:bmi_groupobese",0.464,0.403,1.151,0.25,0.898
+"Outgrouping clostridium cluster XIVa:bmi_groupobese",0.636,0.368,1.729,0.084,0.435
+"Oxalobacter formigenes et rel.:bmi_groupobese",-0.018,0.419,-0.044,0.965,0.989
+"Papillibacter cinnamivorans et rel.:bmi_groupobese",0.257,0.365,0.705,0.481,0.926
+"Parabacteroides distasonis et rel.:bmi_groupobese",0.538,0.411,1.31,0.19,0.803
+"Peptococcus niger et rel.:bmi_groupobese",0.268,0.345,0.777,0.437,0.926
+"Peptostreptococcus micros et rel.:bmi_groupobese",0.325,0.337,0.965,0.335,0.926
+"Phascolarctobacterium faecium et rel.:bmi_groupobese",0.476,0.365,1.305,0.192,0.803
+"Prevotella melaninogenica et rel.:bmi_groupobese",-0.625,0.613,-1.019,0.308,0.926
+"Prevotella oralis et rel.:bmi_groupobese",-0.592,0.567,-1.045,0.296,0.926
+"Prevotella ruminicola et rel.:bmi_groupobese",0.431,0.358,1.203,0.229,0.866
+"Prevotella tannerae et rel.:bmi_groupobese",0.712,0.416,1.714,0.086,0.446
+"Propionibacterium:bmi_groupobese",0.332,0.338,0.984,0.325,0.926
+"Proteus et rel.:bmi_groupobese",0.317,0.341,0.93,0.353,0.926
+"Roseburia intestinalis et rel.:bmi_groupobese",0.81,0.362,2.236,0.025,0.148
+"Ruminococcus bromii et rel.:bmi_groupobese",-0.015,0.422,-0.036,0.971,0.989
+"Ruminococcus callidus et rel.:bmi_groupobese",0.297,0.373,0.795,0.426,0.926
+"Ruminococcus gnavus et rel.:bmi_groupobese",0.478,0.356,1.342,0.18,0.785
+"Ruminococcus lactaris et rel.:bmi_groupobese",0.196,0.365,0.536,0.592,0.949
+"Ruminococcus obeum et rel.:bmi_groupobese",0.371,0.374,0.992,0.321,0.926
+"Serratia:bmi_groupobese",0.403,0.405,0.995,0.32,0.926
+"Sporobacter termitidis et rel.:bmi_groupobese",0.323,0.384,0.841,0.4,0.926
+"Streptococcus bovis et rel.:bmi_groupobese",0.182,0.429,0.424,0.671,0.971
+"Streptococcus intermedius et rel.:bmi_groupobese",0.249,0.367,0.679,0.497,0.926
+"Streptococcus mitis et rel.:bmi_groupobese",0.326,0.408,0.798,0.425,0.926
+"Subdoligranulum variable at rel.:bmi_groupobese",0.905,0.398,2.276,0.023,0.136
+"Sutterella wadsworthia et rel.:bmi_groupobese",0.586,0.384,1.526,0.127,0.6
+"Tannerella et rel.:bmi_groupobese",0.433,0.377,1.149,0.25,0.898
+"Uncultured Bacteroidetes:bmi_groupobese",0.34,0.391,0.87,0.384,0.926
+"Uncultured Clostridiales I:bmi_groupobese",0.02,0.381,0.053,0.958,0.989
+"Uncultured Clostridiales II:bmi_groupobese",-0.053,0.371,-0.142,0.887,0.987
+"Uncultured Mollicutes:bmi_groupobese",-0.044,0.397,-0.111,0.912,0.989
+"Uncultured Selenomonadaceae:bmi_groupobese",0.517,0.372,1.388,0.165,0.741
+"Veillonella:bmi_groupobese",0.278,0.376,0.739,0.46,0.926
+"Vibrio:bmi_groupobese",0.233,0.338,0.691,0.49,0.926
+"Weissella et rel.:bmi_groupobese",-0.015,0.406,-0.038,0.97,0.989
+"Xanthomonadaceae:bmi_groupobese",0.447,0.356,1.256,0.209,0.845
+"Yersinia et rel.:bmi_groupobese",0.432,0.346,1.25,0.211,0.845
+"Alcaligenes faecalis et rel.:timepoint.within.group2",-0.149,0.358,-0.415,0.678,0.971
+"Allistipes et rel.:timepoint.within.group2",-0.113,0.395,-0.285,0.776,0.977
+"Anaerostipes caccae et rel.:timepoint.within.group2",-0.24,0.379,-0.634,0.526,0.942
+"Anaerotruncus colihominis et rel.:timepoint.within.group2",0.143,0.404,0.354,0.723,0.976
+"Anaerovorax odorimutans et rel.:timepoint.within.group2",-0.227,0.33,-0.688,0.491,0.926
+"Aquabacterium:timepoint.within.group2",-0.079,0.358,-0.221,0.825,0.977
+"Atopobium:timepoint.within.group2",-0.27,0.323,-0.836,0.403,0.926
+"Bacillus:timepoint.within.group2",-0.291,0.322,-0.904,0.366,0.926
+"Bacteroides fragilis et rel.:timepoint.within.group2",0.251,0.44,0.57,0.569,0.943
+"Bacteroides intestinalis et rel.:timepoint.within.group2",-0.075,0.366,-0.205,0.838,0.98
+"Bacteroides ovatus et rel.:timepoint.within.group2",0.028,0.392,0.071,0.944,0.989
+"Bacteroides plebeius et rel.:timepoint.within.group2",-0.086,0.368,-0.234,0.815,0.977
+"Bacteroides splachnicus et rel.:timepoint.within.group2",0.112,0.345,0.324,0.746,0.977
+"Bacteroides stercoris et rel.:timepoint.within.group2",-0.211,0.34,-0.622,0.534,0.942
+"Bacteroides uniformis et rel.:timepoint.within.group2",0.182,0.496,0.366,0.714,0.975
+"Bacteroides vulgatus et rel.:timepoint.within.group2",0.226,0.455,0.495,0.62,0.953
+"Bifidobacterium:timepoint.within.group2",-0.57,0.372,-1.535,0.125,0.597
+"Bilophila et rel.:timepoint.within.group2",-0.227,0.326,-0.695,0.487,0.926
+"Bryantella formatexigens et rel.:timepoint.within.group2",-0.142,0.36,-0.395,0.693,0.975
+"Bulleidia moorei et rel.:timepoint.within.group2",-0.055,0.341,-0.161,0.872,0.985
+"Burkholderia:timepoint.within.group2",-0.123,0.329,-0.372,0.71,0.975
+"Butyrivibrio crossotus et rel.:timepoint.within.group2",-0.077,0.35,-0.221,0.825,0.977
+"Campylobacter:timepoint.within.group2",-0.232,0.323,-0.717,0.473,0.926
+"Catenibacterium mitsuokai et rel.:timepoint.within.group2",0.013,0.397,0.032,0.974,0.989
+"Clostridium (sensu stricto):timepoint.within.group2",-0.27,0.343,-0.788,0.43,0.926
+"Clostridium cellulosi et rel.:timepoint.within.group2",-0.037,0.464,-0.079,0.937,0.989
+"Clostridium colinum et rel.:timepoint.within.group2",-0.171,0.379,-0.452,0.651,0.963
+"Clostridium difficile et rel.:timepoint.within.group2",-0.207,0.372,-0.557,0.577,0.943
+"Clostridium leptum et rel.:timepoint.within.group2",-0.191,0.39,-0.489,0.625,0.953
+"Clostridium nexile et rel.:timepoint.within.group2",-0.258,0.392,-0.658,0.51,0.936
+"Clostridium orbiscindens et rel.:timepoint.within.group2",-0.085,0.372,-0.228,0.82,0.977
+"Clostridium ramosum et rel.:timepoint.within.group2",-0.206,0.322,-0.642,0.521,0.942
+"Clostridium sphenoides et rel.:timepoint.within.group2",-0.237,0.34,-0.697,0.486,0.926
+"Clostridium stercorarium et rel.:timepoint.within.group2",-0.321,0.332,-0.967,0.334,0.926
+"Clostridium symbiosum et rel.:timepoint.within.group2",-0.218,0.353,-0.618,0.537,0.942
+"Collinsella:timepoint.within.group2",-0.181,0.368,-0.49,0.624,0.953
+"Coprobacillus catenaformis et rel.:timepoint.within.group2",-0.239,0.328,-0.729,0.466,0.926
+"Coprococcus eutactus et rel.:timepoint.within.group2",-0.323,0.389,-0.829,0.407,0.926
+"Corynebacterium:timepoint.within.group2",-0.25,0.322,-0.775,0.438,0.926
+"Desulfovibrio et rel.:timepoint.within.group2",-0.081,0.33,-0.245,0.807,0.977
+"Dialister:timepoint.within.group2",-0.154,0.476,-0.324,0.746,0.977
+"Dorea formicigenerans et rel.:timepoint.within.group2",-0.154,0.373,-0.411,0.681,0.971
+"Eggerthella lenta et rel.:timepoint.within.group2",-0.166,0.324,-0.514,0.607,0.953
+"Enterobacter aerogenes et rel.:timepoint.within.group2",-0.091,0.366,-0.249,0.804,0.977
+"Enterococcus:timepoint.within.group2",-0.519,0.39,-1.33,0.183,0.796
+"Escherichia coli et rel.:timepoint.within.group2",0.058,0.407,0.142,0.887,0.987
+"Eubacterium biforme et rel.:timepoint.within.group2",-0.081,0.413,-0.196,0.845,0.98
+"Eubacterium cylindroides et rel.:timepoint.within.group2",-0.228,0.327,-0.697,0.486,0.926
+"Eubacterium hallii et rel.:timepoint.within.group2",-0.313,0.37,-0.847,0.397,0.926
+"Eubacterium limosum et rel.:timepoint.within.group2",-0.248,0.323,-0.769,0.442,0.926
+"Eubacterium rectale et rel.:timepoint.within.group2",-0.391,0.357,-1.096,0.273,0.926
+"Eubacterium siraeum et rel.:timepoint.within.group2",-0.127,0.332,-0.383,0.702,0.975
+"Eubacterium ventriosum et rel.:timepoint.within.group2",-0.376,0.346,-1.089,0.276,0.926
+"Faecalibacterium prausnitzii et rel.:timepoint.within.group2",-0.48,0.394,-1.216,0.224,0.857
+"Fusobacteria:timepoint.within.group2",-0.165,0.327,-0.505,0.613,0.953
+"Haemophilus:timepoint.within.group2",-0.211,0.364,-0.579,0.563,0.943
+"Helicobacter:timepoint.within.group2",-0.249,0.323,-0.771,0.441,0.926
+"Klebisiella pneumoniae et rel.:timepoint.within.group2",-0.042,0.369,-0.114,0.909,0.989
+"Lachnobacillus bovis et rel.:timepoint.within.group2",0.028,0.37,0.077,0.939,0.989
+"Lachnospira pectinoschiza et rel.:timepoint.within.group2",-0.327,0.343,-0.952,0.341,0.926
+"Lactobacillus catenaformis et rel.:timepoint.within.group2",0.018,0.358,0.049,0.961,0.989
+"Lactobacillus gasseri et rel.:timepoint.within.group2",-0.279,0.322,-0.868,0.386,0.926
+"Lactobacillus plantarum et rel.:timepoint.within.group2",-0.325,0.327,-0.992,0.321,0.926
+"Lactobacillus salivarius et rel.:timepoint.within.group2",-0.399,0.334,-1.193,0.233,0.873
+"Lactococcus:timepoint.within.group2",-0.295,0.324,-0.909,0.363,0.926
+"Leminorella:timepoint.within.group2",-0.204,0.358,-0.569,0.569,0.943
+"Megamonas hypermegale et rel.:timepoint.within.group2",-0.25,0.322,-0.775,0.438,0.926
+"Megasphaera elsdenii et rel.:timepoint.within.group2",-0.36,0.464,-0.775,0.438,0.926
+"Mitsuokella multiacida et rel.:timepoint.within.group2",-0.041,0.568,-0.072,0.942,0.989
+"Moraxellaceae:timepoint.within.group2",-0.046,0.357,-0.127,0.899,0.989
+"Oceanospirillum:timepoint.within.group2",-0.172,0.327,-0.526,0.599,0.95
+"Oscillospira guillermondii et rel.:timepoint.within.group2",0.24,0.39,0.615,0.539,0.942
+"Outgrouping clostridium cluster XIVa:timepoint.within.group2",-0.243,0.356,-0.682,0.495,0.926
+"Oxalobacter formigenes et rel.:timepoint.within.group2",0.121,0.401,0.303,0.762,0.977
+"Papillibacter cinnamivorans et rel.:timepoint.within.group2",-0.382,0.348,-1.1,0.272,0.926
+"Parabacteroides distasonis et rel.:timepoint.within.group2",0.066,0.396,0.166,0.868,0.985
+"Peptococcus niger et rel.:timepoint.within.group2",-0.24,0.335,-0.716,0.474,0.926
+"Peptostreptococcus micros et rel.:timepoint.within.group2",-0.304,0.322,-0.942,0.346,0.926
+"Phascolarctobacterium faecium et rel.:timepoint.within.group2",-0.052,0.359,-0.144,0.885,0.987
+"Prevotella melaninogenica et rel.:timepoint.within.group2",-0.411,0.563,-0.73,0.465,0.926
+"Prevotella oralis et rel.:timepoint.within.group2",-0.343,0.482,-0.712,0.476,0.926
+"Prevotella ruminicola et rel.:timepoint.within.group2",-0.134,0.343,-0.392,0.695,0.975
+"Prevotella tannerae et rel.:timepoint.within.group2",0.089,0.383,0.233,0.816,0.977
+"Propionibacterium:timepoint.within.group2",-0.237,0.323,-0.732,0.464,0.926
+"Proteus et rel.:timepoint.within.group2",-0.229,0.328,-0.697,0.486,0.926
+"Roseburia intestinalis et rel.:timepoint.within.group2",-0.29,0.348,-0.834,0.404,0.926
+"Ruminococcus bromii et rel.:timepoint.within.group2",-0.247,0.426,-0.579,0.562,0.943
+"Ruminococcus callidus et rel.:timepoint.within.group2",-0.142,0.381,-0.374,0.709,0.975
+"Ruminococcus gnavus et rel.:timepoint.within.group2",-0.305,0.346,-0.88,0.379,0.926
+"Ruminococcus lactaris et rel.:timepoint.within.group2",0.051,0.394,0.128,0.898,0.989
+"Ruminococcus obeum et rel.:timepoint.within.group2",-0.333,0.355,-0.939,0.348,0.926
+"Serratia:timepoint.within.group2",-0.07,0.392,-0.179,0.858,0.985
+"Sporobacter termitidis et rel.:timepoint.within.group2",-0.012,0.364,-0.033,0.974,0.989
+"Streptococcus bovis et rel.:timepoint.within.group2",-0.501,0.417,-1.201,0.23,0.866
+"Streptococcus intermedius et rel.:timepoint.within.group2",-0.345,0.354,-0.974,0.33,0.926
+"Streptococcus mitis et rel.:timepoint.within.group2",-0.498,0.409,-1.217,0.224,0.857
+"Subdoligranulum variable at rel.:timepoint.within.group2",-0.257,0.37,-0.693,0.488,0.926
+"Sutterella wadsworthia et rel.:timepoint.within.group2",-0.141,0.366,-0.386,0.7,0.975
+"Tannerella et rel.:timepoint.within.group2",-0.079,0.341,-0.232,0.816,0.977
+"Uncultured Bacteroidetes:timepoint.within.group2",0.165,0.359,0.46,0.645,0.963
+"Uncultured Clostridiales I:timepoint.within.group2",0.144,0.412,0.35,0.726,0.977
+"Uncultured Clostridiales II:timepoint.within.group2",0.083,0.382,0.216,0.829,0.977
+"Uncultured Mollicutes:timepoint.within.group2",0.081,0.437,0.186,0.853,0.984
+"Uncultured Selenomonadaceae:timepoint.within.group2",-0.159,0.363,-0.439,0.661,0.963
+"Veillonella:timepoint.within.group2",-0.392,0.37,-1.059,0.289,0.926
+"Vibrio:timepoint.within.group2",-0.155,0.324,-0.477,0.633,0.953
+"Weissella et rel.:timepoint.within.group2",-0.677,0.391,-1.731,0.084,0.435
+"Xanthomonadaceae:timepoint.within.group2",-0.085,0.332,-0.255,0.799,0.977
+"Yersinia et rel.:timepoint.within.group2",-0.146,0.328,-0.447,0.655,0.963
+"bmi_groupoverweight:timepoint.within.group2",0.114,0.422,0.271,0.787,0.977
+"bmi_groupobese:timepoint.within.group2",0.261,0.547,0.476,0.634,0.953
+"Alcaligenes faecalis et rel.:bmi_groupoverweight:timepoint.within.group2",0.013,0.496,0.025,0.98,0.99
+"Allistipes et rel.:bmi_groupoverweight:timepoint.within.group2",-0.27,0.54,-0.499,0.618,0.953
+"Anaerostipes caccae et rel.:bmi_groupoverweight:timepoint.within.group2",-0.317,0.499,-0.636,0.525,0.942
+"Anaerotruncus colihominis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.246,0.548,-0.448,0.654,0.963
+"Anaerovorax odorimutans et rel.:bmi_groupoverweight:timepoint.within.group2",0.001,0.444,0.003,0.998,0.999
+"Aquabacterium:bmi_groupoverweight:timepoint.within.group2",-0.148,0.462,-0.32,0.749,0.977
+"Atopobium:bmi_groupoverweight:timepoint.within.group2",0.116,0.433,0.269,0.788,0.977
+"Bacillus:bmi_groupoverweight:timepoint.within.group2",0.097,0.43,0.225,0.822,0.977
+"Bacteroides fragilis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.445,0.578,-0.769,0.442,0.926
+"Bacteroides intestinalis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.31,0.55,-0.564,0.572,0.943
+"Bacteroides ovatus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.363,0.548,-0.663,0.507,0.935
+"Bacteroides plebeius et rel.:bmi_groupoverweight:timepoint.within.group2",-0.24,0.496,-0.484,0.628,0.953
+"Bacteroides splachnicus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.355,0.47,-0.756,0.45,0.926
+"Bacteroides stercoris et rel.:bmi_groupoverweight:timepoint.within.group2",-0.119,0.499,-0.238,0.812,0.977
+"Bacteroides uniformis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.407,0.675,-0.603,0.546,0.942
+"Bacteroides vulgatus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.518,0.634,-0.817,0.414,0.926
+"Bifidobacterium:bmi_groupoverweight:timepoint.within.group2",0.281,0.511,0.549,0.583,0.943
+"Bilophila et rel.:bmi_groupoverweight:timepoint.within.group2",0.027,0.436,0.062,0.95,0.989
+"Bryantella formatexigens et rel.:bmi_groupoverweight:timepoint.within.group2",-0.506,0.493,-1.026,0.305,0.926
+"Bulleidia moorei et rel.:bmi_groupoverweight:timepoint.within.group2",-0.18,0.45,-0.399,0.69,0.975
+"Burkholderia:bmi_groupoverweight:timepoint.within.group2",-0.126,0.445,-0.284,0.777,0.977
+"Butyrivibrio crossotus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.111,0.489,-0.227,0.821,0.977
+"Campylobacter:bmi_groupoverweight:timepoint.within.group2",0.058,0.43,0.134,0.894,0.989
+"Catenibacterium mitsuokai et rel.:bmi_groupoverweight:timepoint.within.group2",-0.216,0.529,-0.408,0.684,0.971
+"Clostridium (sensu stricto):bmi_groupoverweight:timepoint.within.group2",0.163,0.454,0.359,0.72,0.976
+"Clostridium cellulosi et rel.:bmi_groupoverweight:timepoint.within.group2",0.062,0.649,0.096,0.923,0.989
+"Clostridium colinum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.303,0.511,-0.592,0.554,0.943
+"Clostridium difficile et rel.:bmi_groupoverweight:timepoint.within.group2",0.025,0.486,0.051,0.959,0.989
+"Clostridium leptum et rel.:bmi_groupoverweight:timepoint.within.group2",0.01,0.506,0.02,0.984,0.992
+"Clostridium nexile et rel.:bmi_groupoverweight:timepoint.within.group2",-0.405,0.509,-0.797,0.426,0.926
+"Clostridium orbiscindens et rel.:bmi_groupoverweight:timepoint.within.group2",-0.462,0.485,-0.953,0.341,0.926
+"Clostridium ramosum et rel.:bmi_groupoverweight:timepoint.within.group2",0.04,0.43,0.092,0.926,0.989
+"Clostridium sphenoides et rel.:bmi_groupoverweight:timepoint.within.group2",-0.287,0.468,-0.612,0.54,0.942
+"Clostridium stercorarium et rel.:bmi_groupoverweight:timepoint.within.group2",0.095,0.486,0.195,0.845,0.98
+"Clostridium symbiosum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.311,0.48,-0.648,0.517,0.94
+"Collinsella:bmi_groupoverweight:timepoint.within.group2",-0.273,0.489,-0.558,0.577,0.943
+"Coprobacillus catenaformis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.007,0.44,-0.015,0.988,0.993
+"Coprococcus eutactus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.542,0.511,-1.06,0.289,0.926
+"Corynebacterium:bmi_groupoverweight:timepoint.within.group2",0.055,0.43,0.128,0.898,0.989
+"Desulfovibrio et rel.:bmi_groupoverweight:timepoint.within.group2",-0.131,0.456,-0.288,0.773,0.977
+"Dialister:bmi_groupoverweight:timepoint.within.group2",0.051,0.669,0.076,0.94,0.989
+"Dorea formicigenerans et rel.:bmi_groupoverweight:timepoint.within.group2",-0.492,0.487,-1.011,0.312,0.926
+"Eggerthella lenta et rel.:bmi_groupoverweight:timepoint.within.group2",-0.075,0.431,-0.173,0.862,0.985
+"Enterobacter aerogenes et rel.:bmi_groupoverweight:timepoint.within.group2",-0.142,0.472,-0.302,0.763,0.977
+"Enterococcus:bmi_groupoverweight:timepoint.within.group2",0.244,0.499,0.488,0.626,0.953
+"Escherichia coli et rel.:bmi_groupoverweight:timepoint.within.group2",-0.225,0.605,-0.371,0.71,0.975
+"Eubacterium biforme et rel.:bmi_groupoverweight:timepoint.within.group2",-0.427,0.554,-0.77,0.441,0.926
+"Eubacterium cylindroides et rel.:bmi_groupoverweight:timepoint.within.group2",-0.033,0.437,-0.076,0.939,0.989
+"Eubacterium hallii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.416,0.486,-0.856,0.392,0.926
+"Eubacterium limosum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.044,0.434,-0.102,0.919,0.989
+"Eubacterium rectale et rel.:bmi_groupoverweight:timepoint.within.group2",-0.35,0.495,-0.708,0.479,0.926
+"Eubacterium siraeum et rel.:bmi_groupoverweight:timepoint.within.group2",0.016,0.448,0.036,0.971,0.989
+"Eubacterium ventriosum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.175,0.465,-0.376,0.707,0.975
+"Faecalibacterium prausnitzii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.255,0.526,-0.485,0.627,0.953
+"Fusobacteria:bmi_groupoverweight:timepoint.within.group2",-0.034,0.433,-0.079,0.937,0.989
+"Haemophilus:bmi_groupoverweight:timepoint.within.group2",0.029,0.488,0.06,0.952,0.989
+"Helicobacter:bmi_groupoverweight:timepoint.within.group2",0.068,0.43,0.159,0.874,0.985
+"Klebisiella pneumoniae et rel.:bmi_groupoverweight:timepoint.within.group2",-0.162,0.477,-0.34,0.734,0.977
+"Lachnobacillus bovis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.316,0.501,-0.629,0.529,0.942
+"Lachnospira pectinoschiza et rel.:bmi_groupoverweight:timepoint.within.group2",0.042,0.478,0.087,0.931,0.989
+"Lactobacillus catenaformis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.097,0.468,-0.206,0.837,0.98
+"Lactobacillus gasseri et rel.:bmi_groupoverweight:timepoint.within.group2",0.049,0.431,0.113,0.91,0.989
+"Lactobacillus plantarum et rel.:bmi_groupoverweight:timepoint.within.group2",0.102,0.437,0.233,0.816,0.977
+"Lactobacillus salivarius et rel.:bmi_groupoverweight:timepoint.within.group2",0.133,0.454,0.293,0.77,0.977
+"Lactococcus:bmi_groupoverweight:timepoint.within.group2",0.066,0.435,0.152,0.879,0.987
+"Leminorella:bmi_groupoverweight:timepoint.within.group2",-0.104,0.463,-0.225,0.822,0.977
+"Megamonas hypermegale et rel.:bmi_groupoverweight:timepoint.within.group2",0.079,0.43,0.184,0.854,0.984
+"Megasphaera elsdenii et rel.:bmi_groupoverweight:timepoint.within.group2",0.539,0.617,0.873,0.383,0.926
+"Mitsuokella multiacida et rel.:bmi_groupoverweight:timepoint.within.group2",0.253,0.748,0.339,0.735,0.977
+"Moraxellaceae:bmi_groupoverweight:timepoint.within.group2",-0.18,0.461,-0.391,0.696,0.975
+"Oceanospirillum:bmi_groupoverweight:timepoint.within.group2",-0.056,0.436,-0.129,0.897,0.989
+"Oscillospira guillermondii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.413,0.539,-0.767,0.443,0.926
+"Outgrouping clostridium cluster XIVa:bmi_groupoverweight:timepoint.within.group2",-0.165,0.478,-0.344,0.731,0.977
+"Oxalobacter formigenes et rel.:bmi_groupoverweight:timepoint.within.group2",-0.238,0.523,-0.455,0.649,0.963
+"Papillibacter cinnamivorans et rel.:bmi_groupoverweight:timepoint.within.group2",-0.348,0.465,-0.748,0.454,0.926
+"Parabacteroides distasonis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.398,0.539,-0.738,0.461,0.926
+"Peptococcus niger et rel.:bmi_groupoverweight:timepoint.within.group2",-0.101,0.447,-0.227,0.821,0.977
+"Peptostreptococcus micros et rel.:bmi_groupoverweight:timepoint.within.group2",0.145,0.43,0.337,0.736,0.977
+"Phascolarctobacterium faecium et rel.:bmi_groupoverweight:timepoint.within.group2",0.084,0.526,0.159,0.874,0.985
+"Prevotella melaninogenica et rel.:bmi_groupoverweight:timepoint.within.group2",0.446,0.804,0.555,0.579,0.943
+"Prevotella oralis et rel.:bmi_groupoverweight:timepoint.within.group2",0.146,0.667,0.219,0.826,0.977
+"Prevotella ruminicola et rel.:bmi_groupoverweight:timepoint.within.group2",-0.073,0.461,-0.158,0.875,0.985
+"Prevotella tannerae et rel.:bmi_groupoverweight:timepoint.within.group2",-0.453,0.521,-0.871,0.384,0.926
+"Propionibacterium:bmi_groupoverweight:timepoint.within.group2",0.052,0.431,0.119,0.905,0.989
+"Proteus et rel.:bmi_groupoverweight:timepoint.within.group2",0.086,0.434,0.199,0.843,0.98
+"Roseburia intestinalis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.267,0.483,-0.554,0.58,0.943
+"Ruminococcus bromii et rel.:bmi_groupoverweight:timepoint.within.group2",-0.176,0.558,-0.315,0.752,0.977
+"Ruminococcus callidus et rel.:bmi_groupoverweight:timepoint.within.group2",0.025,0.512,0.049,0.961,0.989
+"Ruminococcus gnavus et rel.:bmi_groupoverweight:timepoint.within.group2",-0.4,0.47,-0.852,0.394,0.926
+"Ruminococcus lactaris et rel.:bmi_groupoverweight:timepoint.within.group2",-0.411,0.506,-0.812,0.417,0.926
+"Ruminococcus obeum et rel.:bmi_groupoverweight:timepoint.within.group2",-0.337,0.477,-0.706,0.48,0.926
+"Serratia:bmi_groupoverweight:timepoint.within.group2",-0.218,0.529,-0.413,0.68,0.971
+"Sporobacter termitidis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.107,0.513,-0.208,0.835,0.98
+"Streptococcus bovis et rel.:bmi_groupoverweight:timepoint.within.group2",-0.014,0.563,-0.026,0.98,0.99
+"Streptococcus intermedius et rel.:bmi_groupoverweight:timepoint.within.group2",0.141,0.48,0.293,0.769,0.977
+"Streptococcus mitis et rel.:bmi_groupoverweight:timepoint.within.group2",0.284,0.538,0.527,0.598,0.95
+"Subdoligranulum variable at rel.:bmi_groupoverweight:timepoint.within.group2",-0.155,0.493,-0.315,0.753,0.977
+"Sutterella wadsworthia et rel.:bmi_groupoverweight:timepoint.within.group2",-0.223,0.502,-0.445,0.656,0.963
+"Tannerella et rel.:bmi_groupoverweight:timepoint.within.group2",-0.207,0.458,-0.451,0.652,0.963
+"Uncultured Bacteroidetes:bmi_groupoverweight:timepoint.within.group2",-0.308,0.471,-0.654,0.513,0.938
+"Uncultured Clostridiales I:bmi_groupoverweight:timepoint.within.group2",-0.561,0.547,-1.024,0.306,0.926
+"Uncultured Clostridiales II:bmi_groupoverweight:timepoint.within.group2",-0.156,0.508,-0.307,0.759,0.977
+"Uncultured Mollicutes:bmi_groupoverweight:timepoint.within.group2",-0.51,0.558,-0.914,0.361,0.926
+"Uncultured Selenomonadaceae:bmi_groupoverweight:timepoint.within.group2",0.115,0.51,0.226,0.822,0.977
+"Veillonella:bmi_groupoverweight:timepoint.within.group2",0.297,0.492,0.603,0.546,0.942
+"Vibrio:bmi_groupoverweight:timepoint.within.group2",0.019,0.432,0.045,0.964,0.989
+"Weissella et rel.:bmi_groupoverweight:timepoint.within.group2",0.434,0.49,0.885,0.376,0.926
+"Xanthomonadaceae:bmi_groupoverweight:timepoint.within.group2",-0.06,0.45,-0.133,0.894,0.989
+"Yersinia et rel.:bmi_groupoverweight:timepoint.within.group2",-0.071,0.434,-0.164,0.87,0.985
+"Alcaligenes faecalis et rel.:bmi_groupobese:timepoint.within.group2",0.236,0.641,0.368,0.713,0.975
+"Allistipes et rel.:bmi_groupobese:timepoint.within.group2",0.034,0.676,0.05,0.96,0.989
+"Anaerostipes caccae et rel.:bmi_groupobese:timepoint.within.group2",-0.486,0.669,-0.727,0.467,0.926
+"Anaerotruncus colihominis et rel.:bmi_groupobese:timepoint.within.group2",-0.44,0.619,-0.711,0.477,0.926
+"Anaerovorax odorimutans et rel.:bmi_groupobese:timepoint.within.group2",-0.363,0.589,-0.616,0.538,0.942
+"Aquabacterium:bmi_groupobese:timepoint.within.group2",-0.304,0.575,-0.528,0.598,0.95
+"Atopobium:bmi_groupobese:timepoint.within.group2",-0.211,0.556,-0.378,0.705,0.975
+"Bacillus:bmi_groupobese:timepoint.within.group2",-0.083,0.553,-0.15,0.881,0.987
+"Bacteroides fragilis et rel.:bmi_groupobese:timepoint.within.group2",-0.364,0.729,-0.5,0.617,0.953
+"Bacteroides intestinalis et rel.:bmi_groupobese:timepoint.within.group2",0.164,0.606,0.271,0.786,0.977
+"Bacteroides ovatus et rel.:bmi_groupobese:timepoint.within.group2",-0.105,0.732,-0.143,0.886,0.987
+"Bacteroides plebeius et rel.:bmi_groupobese:timepoint.within.group2",-0.073,0.657,-0.112,0.911,0.989
+"Bacteroides splachnicus et rel.:bmi_groupobese:timepoint.within.group2",-0.185,0.639,-0.289,0.772,0.977
+"Bacteroides stercoris et rel.:bmi_groupobese:timepoint.within.group2",-0.211,0.588,-0.359,0.72,0.976
+"Bacteroides uniformis et rel.:bmi_groupobese:timepoint.within.group2",-0.505,0.789,-0.64,0.522,0.942
+"Bacteroides vulgatus et rel.:bmi_groupobese:timepoint.within.group2",-0.318,0.779,-0.408,0.683,0.971
+"Bifidobacterium:bmi_groupobese:timepoint.within.group2",-0.01,0.665,-0.015,0.988,0.993
+"Bilophila et rel.:bmi_groupobese:timepoint.within.group2",0,0.56,0,1,1
+"Bryantella formatexigens et rel.:bmi_groupobese:timepoint.within.group2",-0.636,0.658,-0.966,0.334,0.926
+"Bulleidia moorei et rel.:bmi_groupobese:timepoint.within.group2",-0.325,0.58,-0.561,0.575,0.943
+"Burkholderia:bmi_groupobese:timepoint.within.group2",-0.383,0.562,-0.682,0.495,0.926
+"Butyrivibrio crossotus et rel.:bmi_groupobese:timepoint.within.group2",-0.016,0.592,-0.027,0.978,0.99
+"Campylobacter:bmi_groupobese:timepoint.within.group2",-0.147,0.554,-0.266,0.79,0.977
+"Catenibacterium mitsuokai et rel.:bmi_groupobese:timepoint.within.group2",-0.42,0.602,-0.698,0.485,0.926
+"Clostridium (sensu stricto):bmi_groupobese:timepoint.within.group2",-0.171,0.572,-0.299,0.765,0.977
+"Clostridium cellulosi et rel.:bmi_groupobese:timepoint.within.group2",-0.331,0.661,-0.501,0.616,0.953
+"Clostridium colinum et rel.:bmi_groupobese:timepoint.within.group2",-0.531,0.615,-0.864,0.388,0.926
+"Clostridium difficile et rel.:bmi_groupobese:timepoint.within.group2",-0.348,0.612,-0.569,0.569,0.943
+"Clostridium leptum et rel.:bmi_groupobese:timepoint.within.group2",-0.174,0.617,-0.281,0.778,0.977
+"Clostridium nexile et rel.:bmi_groupobese:timepoint.within.group2",-0.645,0.684,-0.944,0.345,0.926
+"Clostridium orbiscindens et rel.:bmi_groupobese:timepoint.within.group2",-0.695,0.662,-1.049,0.294,0.926
+"Clostridium ramosum et rel.:bmi_groupobese:timepoint.within.group2",-0.184,0.553,-0.333,0.739,0.977
+"Clostridium sphenoides et rel.:bmi_groupobese:timepoint.within.group2",-0.619,0.583,-1.062,0.288,0.926
+"Clostridium stercorarium et rel.:bmi_groupobese:timepoint.within.group2",-0.505,0.65,-0.778,0.437,0.926
+"Clostridium symbiosum et rel.:bmi_groupobese:timepoint.within.group2",-0.69,0.587,-1.175,0.24,0.877
+"Collinsella:bmi_groupobese:timepoint.within.group2",-0.502,0.61,-0.824,0.41,0.926
+"Coprobacillus catenaformis et rel.:bmi_groupobese:timepoint.within.group2",-0.223,0.556,-0.401,0.689,0.975
+"Coprococcus eutactus et rel.:bmi_groupobese:timepoint.within.group2",-0.203,0.666,-0.304,0.761,0.977
+"Corynebacterium:bmi_groupobese:timepoint.within.group2",-0.136,0.553,-0.246,0.806,0.977
+"Desulfovibrio et rel.:bmi_groupobese:timepoint.within.group2",-0.328,0.559,-0.586,0.558,0.943
+"Dialister:bmi_groupobese:timepoint.within.group2",-0.82,0.712,-1.151,0.25,0.898
+"Dorea formicigenerans et rel.:bmi_groupobese:timepoint.within.group2",-0.593,0.616,-0.962,0.336,0.926
+"Eggerthella lenta et rel.:bmi_groupobese:timepoint.within.group2",-0.304,0.556,-0.547,0.584,0.943
+"Enterobacter aerogenes et rel.:bmi_groupobese:timepoint.within.group2",-0.462,0.588,-0.786,0.432,0.926
+"Enterococcus:bmi_groupobese:timepoint.within.group2",0.057,0.596,0.095,0.924,0.989
+"Escherichia coli et rel.:bmi_groupobese:timepoint.within.group2",-0.486,0.613,-0.794,0.427,0.926
+"Eubacterium biforme et rel.:bmi_groupobese:timepoint.within.group2",-0.494,0.68,-0.728,0.467,0.926
+"Eubacterium cylindroides et rel.:bmi_groupobese:timepoint.within.group2",-0.152,0.556,-0.274,0.784,0.977
+"Eubacterium hallii et rel.:bmi_groupobese:timepoint.within.group2",-0.326,0.6,-0.543,0.587,0.945
+"Eubacterium limosum et rel.:bmi_groupobese:timepoint.within.group2",-0.133,0.554,-0.241,0.81,0.977
+"Eubacterium rectale et rel.:bmi_groupobese:timepoint.within.group2",-0.578,0.589,-0.981,0.326,0.926
+"Eubacterium siraeum et rel.:bmi_groupobese:timepoint.within.group2",-0.321,0.561,-0.572,0.567,0.943
+"Eubacterium ventriosum et rel.:bmi_groupobese:timepoint.within.group2",-0.281,0.586,-0.479,0.632,0.953
+"Faecalibacterium prausnitzii et rel.:bmi_groupobese:timepoint.within.group2",0.234,0.721,0.325,0.745,0.977
+"Fusobacteria:bmi_groupobese:timepoint.within.group2",-0.233,0.557,-0.418,0.676,0.971
+"Haemophilus:bmi_groupobese:timepoint.within.group2",-0.287,0.587,-0.489,0.625,0.953
+"Helicobacter:bmi_groupobese:timepoint.within.group2",-0.126,0.554,-0.228,0.82,0.977
+"Klebisiella pneumoniae et rel.:bmi_groupobese:timepoint.within.group2",-0.438,0.587,-0.746,0.456,0.926
+"Lachnobacillus bovis et rel.:bmi_groupobese:timepoint.within.group2",-0.694,0.588,-1.18,0.238,0.877
+"Lachnospira pectinoschiza et rel.:bmi_groupobese:timepoint.within.group2",-0.582,0.581,-1.002,0.316,0.926
+"Lactobacillus catenaformis et rel.:bmi_groupobese:timepoint.within.group2",-0.389,0.575,-0.677,0.498,0.926
+"Lactobacillus gasseri et rel.:bmi_groupobese:timepoint.within.group2",-0.16,0.552,-0.289,0.772,0.977
+"Lactobacillus plantarum et rel.:bmi_groupobese:timepoint.within.group2",-0.123,0.557,-0.221,0.825,0.977
+"Lactobacillus salivarius et rel.:bmi_groupobese:timepoint.within.group2",-0.094,0.566,-0.167,0.867,0.985
+"Lactococcus:bmi_groupobese:timepoint.within.group2",-0.199,0.559,-0.356,0.722,0.976
+"Leminorella:bmi_groupobese:timepoint.within.group2",-0.227,0.576,-0.393,0.694,0.975
+"Megamonas hypermegale et rel.:bmi_groupobese:timepoint.within.group2",-0.136,0.553,-0.246,0.806,0.977
+"Megasphaera elsdenii et rel.:bmi_groupobese:timepoint.within.group2",-0.082,0.655,-0.125,0.9,0.989
+"Mitsuokella multiacida et rel.:bmi_groupobese:timepoint.within.group2",-0.331,0.742,-0.446,0.655,0.963
+"Moraxellaceae:bmi_groupobese:timepoint.within.group2",-0.346,0.575,-0.602,0.547,0.942
+"Oceanospirillum:bmi_groupobese:timepoint.within.group2",-0.192,0.56,-0.342,0.732,0.977
+"Oscillospira guillermondii et rel.:bmi_groupobese:timepoint.within.group2",-0.722,0.608,-1.186,0.235,0.877
+"Outgrouping clostridium cluster XIVa:bmi_groupobese:timepoint.within.group2",-0.59,0.587,-1.005,0.315,0.926
+"Oxalobacter formigenes et rel.:bmi_groupobese:timepoint.within.group2",-0.229,0.679,-0.338,0.736,0.977
+"Papillibacter cinnamivorans et rel.:bmi_groupobese:timepoint.within.group2",0.083,0.581,0.142,0.887,0.987
+"Parabacteroides distasonis et rel.:bmi_groupobese:timepoint.within.group2",-0.107,0.67,-0.159,0.873,0.985
+"Peptococcus niger et rel.:bmi_groupobese:timepoint.within.group2",-0.251,0.562,-0.446,0.655,0.963
+"Peptostreptococcus micros et rel.:bmi_groupobese:timepoint.within.group2",-0.058,0.554,-0.104,0.917,0.989
+"Phascolarctobacterium faecium et rel.:bmi_groupobese:timepoint.within.group2",-0.286,0.58,-0.493,0.622,0.953
+"Prevotella melaninogenica et rel.:bmi_groupobese:timepoint.within.group2",0.483,0.952,0.507,0.612,0.953
+"Prevotella oralis et rel.:bmi_groupobese:timepoint.within.group2",0.594,0.903,0.658,0.51,0.936
+"Prevotella ruminicola et rel.:bmi_groupobese:timepoint.within.group2",-0.184,0.575,-0.319,0.749,0.977
+"Prevotella tannerae et rel.:bmi_groupobese:timepoint.within.group2",-0.277,0.68,-0.407,0.684,0.971
+"Propionibacterium:bmi_groupobese:timepoint.within.group2",-0.135,0.554,-0.244,0.808,0.977
+"Proteus et rel.:bmi_groupobese:timepoint.within.group2",-0.162,0.557,-0.292,0.77,0.977
+"Roseburia intestinalis et rel.:bmi_groupobese:timepoint.within.group2",-0.521,0.583,-0.893,0.372,0.926
+"Ruminococcus bromii et rel.:bmi_groupobese:timepoint.within.group2",-0.196,0.67,-0.293,0.77,0.977
+"Ruminococcus callidus et rel.:bmi_groupobese:timepoint.within.group2",-0.254,0.605,-0.42,0.675,0.971
+"Ruminococcus gnavus et rel.:bmi_groupobese:timepoint.within.group2",-0.454,0.57,-0.796,0.426,0.926
+"Ruminococcus lactaris et rel.:bmi_groupobese:timepoint.within.group2",-0.628,0.609,-1.032,0.302,0.926
+"Ruminococcus obeum et rel.:bmi_groupobese:timepoint.within.group2",-0.265,0.602,-0.44,0.66,0.963
+"Serratia:bmi_groupobese:timepoint.within.group2",-0.38,0.635,-0.599,0.549,0.942
+"Sporobacter termitidis et rel.:bmi_groupobese:timepoint.within.group2",-0.156,0.61,-0.256,0.798,0.977
+"Streptococcus bovis et rel.:bmi_groupobese:timepoint.within.group2",0.199,0.681,0.291,0.771,0.977
+"Streptococcus intermedius et rel.:bmi_groupobese:timepoint.within.group2",0.014,0.59,0.024,0.981,0.99
+"Streptococcus mitis et rel.:bmi_groupobese:timepoint.within.group2",0.131,0.645,0.202,0.84,0.98
+"Subdoligranulum variable at rel.:bmi_groupobese:timepoint.within.group2",-0.577,0.641,-0.9,0.368,0.926
+"Sutterella wadsworthia et rel.:bmi_groupobese:timepoint.within.group2",-0.022,0.594,-0.037,0.971,0.989
+"Tannerella et rel.:bmi_groupobese:timepoint.within.group2",-0.06,0.624,-0.096,0.924,0.989
+"Uncultured Bacteroidetes:bmi_groupobese:timepoint.within.group2",-0.208,0.659,-0.316,0.752,0.977
+"Uncultured Clostridiales I:bmi_groupobese:timepoint.within.group2",-0.5,0.624,-0.802,0.423,0.926
+"Uncultured Clostridiales II:bmi_groupobese:timepoint.within.group2",-0.285,0.597,-0.477,0.633,0.953
+"Uncultured Mollicutes:bmi_groupobese:timepoint.within.group2",-0.716,0.641,-1.117,0.264,0.924
+"Uncultured Selenomonadaceae:bmi_groupobese:timepoint.within.group2",-0.582,0.602,-0.967,0.334,0.926
+"Veillonella:bmi_groupobese:timepoint.within.group2",0.053,0.605,0.088,0.93,0.989
+"Vibrio:bmi_groupobese:timepoint.within.group2",-0.264,0.554,-0.476,0.634,0.953
+"Weissella et rel.:bmi_groupobese:timepoint.within.group2",0.253,0.599,0.423,0.672,0.971
+"Xanthomonadaceae:bmi_groupobese:timepoint.within.group2",-0.286,0.577,-0.496,0.62,0.953
+"Yersinia et rel.:bmi_groupobese:timepoint.within.group2",-0.386,0.558,-0.692,0.489,0.926

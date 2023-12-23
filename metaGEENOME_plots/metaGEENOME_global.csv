@@ -1,112 +1,112 @@
 "","chi2","df","pval","AdjPvalue"
-"Alcaligenes faecalis et rel.",0.59,3,0.899,0.924
-"Allistipes et rel.",7.99,3,0.046,0.231
-"Anaerostipes caccae et rel.",10.22,3,0.017,0.186
-"Anaerotruncus colihominis et rel.",1.64,3,0.651,0.715
-"Anaerovorax odorimutans et rel.",4.65,3,0.199,0.368
-"Aquabacterium",5.35,3,0.148,0.34
-"Atopobium",0.72,3,0.869,0.91
-"Bacillus",4.96,3,0.175,0.344
-"Bacteroides fragilis et rel.",3.18,3,0.365,0.466
-"Bacteroides intestinalis et rel.",18.01,3,0,0.044
-"Bacteroides ovatus et rel.",7.53,3,0.057,0.245
-"Bacteroides plebeius et rel.",8.01,3,0.046,0.231
-"Bacteroides splachnicus et rel.",2.3,3,0.512,0.59
-"Bacteroides stercoris et rel.",16.17,3,0.001,0.056
-"Bacteroides uniformis et rel.",10.8,3,0.013,0.179
-"Bacteroides vulgatus et rel.",14.65,3,0.002,0.078
-"Bifidobacterium",9.63,3,0.022,0.188
-"Bilophila et rel.",2.28,3,0.516,0.59
-"Bryantella formatexigens et rel.",4.42,3,0.22,0.369
-"Bulleidia moorei et rel.",3.57,3,0.311,0.437
-"Burkholderia",2.05,3,0.562,0.63
-"Butyrivibrio crossotus et rel.",3.8,3,0.284,0.42
-"Campylobacter",4.4,3,0.221,0.369
-"Catenibacterium mitsuokai et rel.",4.2,3,0.241,0.382
-"Clostridium (sensu stricto)",5.67,3,0.129,0.331
-"Clostridium cellulosi et rel.",3.28,3,0.351,0.46
-"Clostridium colinum et rel.",4.39,3,0.223,0.369
-"Clostridium difficile et rel.",6.53,3,0.088,0.322
-"Clostridium leptum et rel.",1.54,3,0.673,0.732
-"Clostridium nexile et rel.",5.97,3,0.113,0.331
-"Clostridium orbiscindens et rel.",0.8,3,0.849,0.898
-"Clostridium ramosum et rel.",4.53,3,0.21,0.369
-"Clostridium sphenoides et rel.",5.31,3,0.15,0.34
-"Clostridium stercorarium et rel.",6.29,3,0.098,0.322
-"Clostridium symbiosum et rel.",9.4,3,0.024,0.193
-"Collinsella",2.58,3,0.462,0.545
-"Coprobacillus catenaformis et rel.",5.47,3,0.14,0.331
-"Coprococcus eutactus et rel.",2.96,3,0.397,0.49
-"Corynebacterium",4.62,3,0.202,0.368
-"Desulfovibrio et rel.",0.55,3,0.909,0.925
-"Dialister",3.81,3,0.283,0.42
-"Dorea formicigenerans et rel.",3.63,3,0.304,0.437
-"Eggerthella lenta et rel.",4.26,3,0.235,0.378
-"Enterobacter aerogenes et rel.",10.02,3,0.018,0.186
-"Enterococcus",4.01,3,0.261,0.406
-"Escherichia coli et rel.",0.47,3,0.926,0.935
-"Eubacterium biforme et rel.",5.56,3,0.135,0.331
-"Eubacterium cylindroides et rel.",2.08,3,0.557,0.63
-"Eubacterium hallii et rel.",5.02,3,0.17,0.344
-"Eubacterium limosum et rel.",3.24,3,0.356,0.46
-"Eubacterium rectale et rel.",12.84,3,0.005,0.111
-"Eubacterium siraeum et rel.",3.26,3,0.353,0.46
-"Eubacterium ventriosum et rel.",8.68,3,0.034,0.231
-"Faecalibacterium prausnitzii et rel.",8.37,3,0.039,0.231
-"Fusobacteria",5.76,3,0.124,0.331
-"Haemophilus",5.68,3,0.128,0.331
-"Helicobacter",4.42,3,0.22,0.369
-"Klebisiella pneumoniae et rel.",7.82,3,0.05,0.231
-"Lachnobacillus bovis et rel.",7.89,3,0.048,0.231
-"Lachnospira pectinoschiza et rel.",13.92,3,0.003,0.083
-"Lactobacillus catenaformis et rel.",6.53,3,0.089,0.322
-"Lactobacillus gasseri et rel.",5.23,3,0.156,0.34
-"Lactobacillus plantarum et rel.",5.56,3,0.135,0.331
-"Lactobacillus salivarius et rel.",9.73,3,0.021,0.188
-"Lactococcus",5.79,3,0.122,0.331
-"Leminorella",4.62,3,0.202,0.368
-"Megamonas hypermegale et rel.",4.58,3,0.205,0.368
-"Megasphaera elsdenii et rel.",1.77,3,0.621,0.689
-"Mitsuokella multiacida et rel.",3.59,3,0.309,0.437
-"Moraxellaceae",8.25,3,0.041,0.231
-"Oceanospirillum",5.1,3,0.165,0.344
-"Oscillospira guillermondii et rel.",4.95,3,0.175,0.344
-"Outgrouping clostridium cluster XIVa",7.97,3,0.047,0.231
-"Oxalobacter formigenes et rel.",0.42,3,0.936,0.936
-"Papillibacter cinnamivorans et rel.",3.67,3,0.299,0.437
-"Parabacteroides distasonis et rel.",7.51,3,0.057,0.245
-"Peptococcus niger et rel.",3.25,3,0.355,0.46
-"Peptostreptococcus micros et rel.",6.17,3,0.104,0.329
-"Phascolarctobacterium faecium et rel.",2.73,3,0.435,0.52
-"Prevotella melaninogenica et rel.",12.11,3,0.007,0.111
-"Prevotella oralis et rel.",6.97,3,0.073,0.299
-"Prevotella ruminicola et rel.",3.11,3,0.375,0.473
-"Prevotella tannerae et rel.",6.47,3,0.091,0.322
-"Propionibacterium",4.61,3,0.203,0.368
-"Proteus et rel.",5.27,3,0.153,0.34
-"Roseburia intestinalis et rel.",12.37,3,0.006,0.111
-"Ruminococcus bromii et rel.",0.64,3,0.886,0.92
-"Ruminococcus callidus et rel.",2.99,3,0.394,0.49
-"Ruminococcus gnavus et rel.",6,3,0.112,0.331
-"Ruminococcus lactaris et rel.",3.33,3,0.343,0.46
-"Ruminococcus obeum et rel.",4.28,3,0.233,0.378
-"Serratia",8.93,3,0.03,0.224
-"Sporobacter termitidis et rel.",3.35,3,0.341,0.46
-"Streptococcus bovis et rel.",4.93,3,0.177,0.344
-"Streptococcus intermedius et rel.",2.88,3,0.41,0.501
-"Streptococcus mitis et rel.",5.71,3,0.127,0.331
-"Subdoligranulum variable at rel.",10.1,3,0.018,0.186
-"Sutterella wadsworthia et rel.",5.48,3,0.14,0.331
-"Tannerella et rel.",3.91,3,0.272,0.413
-"Uncultured Bacteroidetes",2.77,3,0.428,0.517
-"Uncultured Clostridiales I",2.42,3,0.49,0.572
-"Uncultured Clostridiales II",5.61,3,0.132,0.331
-"Uncultured Mollicutes",5.02,3,0.171,0.344
-"Uncultured Selenomonadaceae",3.55,3,0.315,0.437
-"Veillonella",6.65,3,0.084,0.322
-"Vibrio",3.98,3,0.263,0.406
-"Weissella et rel.",7.94,3,0.047,0.231
-"Xanthomonadaceae",6.38,3,0.095,0.322
-"Yersinia et rel.",6.29,3,0.098,0.322
-"_group2",0.04,1,0.848,0.898
-"_group3",0.11,1,0.745,0.803
+"Alcaligenes faecalis et rel.",0.41,3,0.938,0.947
+"Allistipes et rel.",7.28,3,0.064,0.357
+"Anaerostipes caccae et rel.",9.24,3,0.026,0.265
+"Anaerotruncus colihominis et rel.",1.72,3,0.633,0.697
+"Anaerovorax odorimutans et rel.",4.32,3,0.229,0.462
+"Aquabacterium",1.74,3,0.628,0.697
+"Atopobium",4.34,3,0.227,0.462
+"Bacillus",3.85,3,0.279,0.485
+"Bacteroides fragilis et rel.",3.33,3,0.344,0.485
+"Bacteroides intestinalis et rel.",16.49,3,0.001,0.1
+"Bacteroides ovatus et rel.",7.46,3,0.059,0.357
+"Bacteroides plebeius et rel.",7.57,3,0.056,0.357
+"Bacteroides splachnicus et rel.",1.63,3,0.653,0.711
+"Bacteroides stercoris et rel.",14.53,3,0.002,0.104
+"Bacteroides uniformis et rel.",10.63,3,0.014,0.193
+"Bacteroides vulgatus et rel.",14.11,3,0.003,0.104
+"Bifidobacterium",8.58,3,0.035,0.302
+"Bilophila et rel.",2.33,3,0.507,0.593
+"Bryantella formatexigens et rel.",4.32,3,0.229,0.462
+"Bulleidia moorei et rel.",3.6,3,0.309,0.485
+"Burkholderia",6.32,3,0.097,0.415
+"Butyrivibrio crossotus et rel.",2.75,3,0.431,0.53
+"Campylobacter",3.48,3,0.323,0.485
+"Catenibacterium mitsuokai et rel.",2.87,3,0.412,0.524
+"Clostridium (sensu stricto)",4.92,3,0.177,0.462
+"Clostridium cellulosi et rel.",3.05,3,0.384,0.514
+"Clostridium colinum et rel.",4.78,3,0.188,0.462
+"Clostridium difficile et rel.",6.14,3,0.105,0.419
+"Clostridium leptum et rel.",1.43,3,0.699,0.753
+"Clostridium nexile et rel.",5.52,3,0.138,0.462
+"Clostridium orbiscindens et rel.",1.17,3,0.76,0.811
+"Clostridium ramosum et rel.",3.5,3,0.321,0.485
+"Clostridium sphenoides et rel.",5.24,3,0.155,0.462
+"Clostridium stercorarium et rel.",6.12,3,0.106,0.419
+"Clostridium symbiosum et rel.",9.97,3,0.019,0.232
+"Collinsella",2.83,3,0.418,0.524
+"Coprobacillus catenaformis et rel.",4.22,3,0.238,0.462
+"Coprococcus eutactus et rel.",2.61,3,0.456,0.547
+"Corynebacterium",3.6,3,0.307,0.485
+"Desulfovibrio et rel.",0.92,3,0.821,0.851
+"Dialister",4.07,3,0.254,0.47
+"Dorea formicigenerans et rel.",3.56,3,0.313,0.485
+"Eggerthella lenta et rel.",3.67,3,0.299,0.485
+"Enterobacter aerogenes et rel.",8.58,3,0.035,0.302
+"Enterococcus",3.7,3,0.295,0.485
+"Escherichia coli et rel.",0.67,3,0.879,0.896
+"Eubacterium biforme et rel.",4.93,3,0.177,0.462
+"Eubacterium cylindroides et rel.",2.08,3,0.557,0.637
+"Eubacterium hallii et rel.",4.47,3,0.215,0.462
+"Eubacterium limosum et rel.",2.82,3,0.42,0.524
+"Eubacterium rectale et rel.",12.36,3,0.006,0.126
+"Eubacterium siraeum et rel.",3.24,3,0.357,0.495
+"Eubacterium ventriosum et rel.",7.92,3,0.048,0.357
+"Faecalibacterium prausnitzii et rel.",6.74,3,0.08,0.357
+"Fusobacteria",4.78,3,0.189,0.462
+"Haemophilus",5.18,3,0.159,0.462
+"Helicobacter",3.53,3,0.317,0.485
+"Klebisiella pneumoniae et rel.",6.77,3,0.08,0.357
+"Lachnobacillus bovis et rel.",7.04,3,0.071,0.357
+"Lachnospira pectinoschiza et rel.",12.31,3,0.006,0.126
+"Lactobacillus catenaformis et rel.",4.19,3,0.241,0.462
+"Lactobacillus gasseri et rel.",4.23,3,0.238,0.462
+"Lactobacillus plantarum et rel.",4.6,3,0.204,0.462
+"Lactobacillus salivarius et rel.",7,3,0.072,0.357
+"Lactococcus",4.65,3,0.199,0.462
+"Leminorella",2.23,3,0.526,0.608
+"Megamonas hypermegale et rel.",3.58,3,0.311,0.485
+"Megasphaera elsdenii et rel.",1.95,3,0.582,0.659
+"Mitsuokella multiacida et rel.",3.85,3,0.278,0.485
+"Moraxellaceae",3.17,3,0.366,0.502
+"Oceanospirillum",4.43,3,0.218,0.462
+"Oscillospira guillermondii et rel.",5.18,3,0.159,0.462
+"Outgrouping clostridium cluster XIVa",7.53,3,0.057,0.357
+"Oxalobacter formigenes et rel.",0.35,3,0.95,0.95
+"Papillibacter cinnamivorans et rel.",3.39,3,0.335,0.485
+"Parabacteroides distasonis et rel.",7.61,3,0.055,0.357
+"Peptococcus niger et rel.",3.09,3,0.378,0.511
+"Peptostreptococcus micros et rel.",4.63,3,0.201,0.462
+"Phascolarctobacterium faecium et rel.",2.73,3,0.435,0.53
+"Prevotella melaninogenica et rel.",12.17,3,0.007,0.126
+"Prevotella oralis et rel.",6.95,3,0.074,0.357
+"Prevotella ruminicola et rel.",2.82,3,0.42,0.524
+"Prevotella tannerae et rel.",5.43,3,0.143,0.462
+"Propionibacterium",3.63,3,0.305,0.485
+"Proteus et rel.",4.11,3,0.25,0.47
+"Roseburia intestinalis et rel.",11.56,3,0.009,0.144
+"Ruminococcus bromii et rel.",0.81,3,0.846,0.869
+"Ruminococcus callidus et rel.",2.59,3,0.458,0.547
+"Ruminococcus gnavus et rel.",5.89,3,0.117,0.449
+"Ruminococcus lactaris et rel.",3.32,3,0.345,0.485
+"Ruminococcus obeum et rel.",4.26,3,0.234,0.462
+"Serratia",3.53,3,0.317,0.485
+"Sporobacter termitidis et rel.",2.82,3,0.42,0.524
+"Streptococcus bovis et rel.",4.85,3,0.183,0.462
+"Streptococcus intermedius et rel.",2.94,3,0.4,0.524
+"Streptococcus mitis et rel.",5.41,3,0.144,0.462
+"Subdoligranulum variable at rel.",9.48,3,0.024,0.262
+"Sutterella wadsworthia et rel.",4.5,3,0.212,0.462
+"Tannerella et rel.",3.41,3,0.332,0.485
+"Uncultured Bacteroidetes",1.06,3,0.787,0.824
+"Uncultured Clostridiales I",2.33,3,0.508,0.593
+"Uncultured Clostridiales II",5.47,3,0.141,0.462
+"Uncultured Mollicutes",4.78,3,0.189,0.462
+"Uncultured Selenomonadaceae",3.46,3,0.326,0.485
+"Veillonella",5.35,3,0.148,0.462
+"Vibrio",3.35,3,0.34,0.485
+"Weissella et rel.",6.77,3,0.08,0.357
+"Xanthomonadaceae",4.5,3,0.212,0.462
+"Yersinia et rel.",4.97,3,0.174,0.462
+"_group2",0.07,1,0.787,0.824
+"_group3",0.23,1,0.634,0.697
