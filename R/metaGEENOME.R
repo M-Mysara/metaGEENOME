@@ -511,10 +511,30 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
     
     BiocManager::install("RCM")
     # Load the package after installation
+    print("RCM")
     library(RCM)
+    print(packageVersion("RCM"))
   } else {
     # If already installed, just load the package
+    print("RCM")
     library(RCM)
+    print(packageVersion("RCM"))
+  }
+  if (!require(edgeR, quietly = TRUE)) {
+    # If not installed, install it
+    if (!require("BiocManager", quietly = TRUE))
+      install.packages("BiocManager")
+    
+    BiocManager::install("edgeR")
+    # Load the package after installation
+    print("edgeR")
+    library(edgeR)
+    print(packageVersion("edgeR"))
+  } else {
+    # If already installed, just load the package
+    print("edgeR")
+    library(edgeR)
+    print(packageVersion("edgeR"))
   }
 	  # The required package list:
 	list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
