@@ -538,7 +538,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
   }
 	  # The required package list:
 	list.of.packages <- c("dplyr","nlme","ggplot2","compositions","plyr", "tidyverse", "gsubfn", "zCompositions",
-		              "compositions", "grid", "gridExtra", "optiscale", "propr", "webshot", "ftExtra",
+		              "compositions", "grid", "gridExtra", "optiscale", "webshot", "ftExtra", # "propr",
 		              "flextable", "caret", "stringr", "DT", "htmlwidgets", "geepack","ggpubr","vegan","scales",
 		              "phyloseq","data.table","microbiome","heatmaply","permute")
 	new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
@@ -755,7 +755,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
       sub_dist[[group]][!lower.tri(sub_dist[[group]])] <- NA
     }
 
-    Distancegroups<- melt(sub_dist)
+    Distancegroups<- reshape2::melt(sub_dist)
     df.Distance <- Distancegroups[complete.cases(Distancegroups), ]
     df.Distance$L1 <- factor(df.Distance$L1, levels=names(sub_dist))
 
@@ -768,7 +768,7 @@ metaGEENOME <- function(physeq, variables, id, sample_var, group_var, out_cut, z
     print(plot4)
     # Create a heatmap
     # convert data to long format
-    melted_data <- melt(physeq_Distance)
+    melted_data <- reshape2::melt(physeq_Distance)
     attach(melted_data)
     plot5 <- ggplot(melted_data, aes(x = Var1, y = Var2, fill = value)) +
       geom_tile() +
