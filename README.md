@@ -6,7 +6,7 @@
 *metaGEENOME* is a 16S rRNA metagenomic analysis tool encompassing nearly all downstream analysis steps. These steps include preprocessing to filter zero-inflated and low-abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. As mentioned earlier, the results of all the steps are compiled into a single, detailed PDF file with a well-organized folder structure.
 
 ## Publication
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18914.svg)]()
+
 
 
 ## Manual for *metaGEENOME*
@@ -108,4 +108,4 @@ res <- metaGEENOME(physeq, variables, id, sample_var, group_var, out_cut, zero_c
 ```
 =======
 metaGEENOME is a 16S rRNA metagenomic analysis tool that encompasses nearly all steps of downstream analysis. These steps include preprocessing to filter zero-inflated and low abundance data, exploring the dataset through various plots, calculating alpha and beta diversity, generating ordination plots, testing null hypotheses, and applying a novel differential expression method using generalized estimating equations. The results of all the aforementioned steps are compiled into a single, detailed PDF file within a well-organized folder structure.
->>>>>>> 3b5f752 (Initial commit)
+
