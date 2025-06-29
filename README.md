@@ -7,6 +7,10 @@
 
 ## Publication
 
+## 📺 Demo Video
+You can find a demo video showcasing the input and output data of this package at the following link:
+
+👉 https://youtu.be/_k0jSq2Zhy8?si=iAPH4fXDWccZDmHx
 
 
 ## Manual for *metaGEENOME*
